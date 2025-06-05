@@ -1,0 +1,9482 @@
+{
+  "nodes": [
+    {
+      "id": "前面",
+      "label": "前面",
+      "size": 5
+    },
+    {
+      "id": "几个",
+      "label": "几个",
+      "size": 4
+    },
+    {
+      "id": "hello",
+      "label": "hello",
+      "size": 105
+    },
+    {
+      "id": "平身",
+      "label": "平身",
+      "size": 1
+    },
+    {
+      "id": "Free",
+      "label": "Free",
+      "size": 1
+    },
+    {
+      "id": "NewJeans",
+      "label": "NewJeans",
+      "size": 2
+    },
+    {
+      "id": "We",
+      "label": "We",
+      "size": 1
+    },
+    {
+      "id": "are",
+      "label": "are",
+      "size": 1
+    },
+    {
+      "id": "NJZ",
+      "label": "NJZ",
+      "size": 8
+    },
+    {
+      "id": "now",
+      "label": "now",
+      "size": 1
+    },
+    {
+      "id": "这个",
+      "label": "这个",
+      "size": 9
+    },
+    {
+      "id": "haerin",
+      "label": "haerin",
+      "size": 4
+    },
+    {
+      "id": "想萌",
+      "label": "想萌",
+      "size": 1
+    },
+    {
+      "id": "姜海粼爽",
+      "label": "姜海粼爽",
+      "size": 1
+    },
+    {
+      "id": "那个",
+      "label": "那个",
+      "size": 1
+    },
+    {
+      "id": "翻拍",
+      "label": "翻拍",
+      "size": 1
+    },
+    {
+      "id": "可口可乐",
+      "label": "可口可乐",
+      "size": 1
+    },
+    {
+      "id": "广告",
+      "label": "广告",
+      "size": 1
+    },
+    {
+      "id": "怎么",
+      "label": "怎么",
+      "size": 6
+    },
+    {
+      "id": "没搬",
+      "label": "没搬",
+      "size": 1
+    },
+    {
+      "id": "ador",
+      "label": "ador",
+      "size": 1
+    },
+    {
+      "id": "感谢",
+      "label": "感谢",
+      "size": 1
+    },
+    {
+      "id": "各位",
+      "label": "各位",
+      "size": 1
+    },
+    {
+      "id": "我们",
+      "label": "我们",
+      "size": 4
+    },
+    {
+      "id": "古驰",
+      "label": "古驰",
+      "size": 1
+    },
+    {
+      "id": "公主",
+      "label": "公主",
+      "size": 1
+    },
+    {
+      "id": "Hanni",
+      "label": "Hanni",
+      "size": 2
+    },
+    {
+      "id": "打招呼",
+      "label": "打招呼",
+      "size": 12
+    },
+    {
+      "id": "欢迎",
+      "label": "欢迎",
+      "size": 1
+    },
+    {
+      "id": "收看",
+      "label": "收看",
+      "size": 1
+    },
+    {
+      "id": "飞奔",
+      "label": "飞奔",
+      "size": 1
+    },
+    {
+      "id": "minji",
+      "label": "minji",
+      "size": 35
+    },
+    {
+      "id": "那些",
+      "label": "那些",
+      "size": 3
+    },
+    {
+      "id": "什么",
+      "label": "什么",
+      "size": 3
+    },
+    {
+      "id": "滚回去",
+      "label": "滚回去",
+      "size": 1
+    },
+    {
+      "id": "看自担",
+      "label": "看自担",
+      "size": 1
+    },
+    {
+      "id": "行不行",
+      "label": "行不行",
+      "size": 1
+    },
+    {
+      "id": "sj",
+      "label": "sj",
+      "size": 1
+    },
+    {
+      "id": "休息日",
+      "label": "休息日",
+      "size": 1
+    },
+    {
+      "id": "十个",
+      "label": "十个",
+      "size": 3
+    },
+    {
+      "id": "小时",
+      "label": "小时",
+      "size": 8
+    },
+    {
+      "id": "yxh",
+      "label": "yxh",
+      "size": 1
+    },
+    {
+      "id": "看多",
+      "label": "看多",
+      "size": 1
+    },
+    {
+      "id": "要是",
+      "label": "要是",
+      "size": 1
+    },
+    {
+      "id": "每天",
+      "label": "每天",
+      "size": 3
+    },
+    {
+      "id": "这么",
+      "label": "这么",
+      "size": 3
+    },
+    {
+      "id": "nb",
+      "label": "nb",
+      "size": 1
+    },
+    {
+      "id": "不是",
+      "label": "不是",
+      "size": 1
+    },
+    {
+      "id": "一种",
+      "label": "一种",
+      "size": 1
+    },
+    {
+      "id": "赞扬",
+      "label": "赞扬",
+      "size": 1
+    },
+    {
+      "id": "你们",
+      "label": "你们",
+      "size": 19
+    },
+    {
+      "id": "五个",
+      "label": "五个",
+      "size": 4
+    },
+    {
+      "id": "这样",
+      "label": "这样",
+      "size": 4
+    },
+    {
+      "id": "过去",
+      "label": "过去",
+      "size": 1
+    },
+    {
+      "id": "顺便",
+      "label": "顺便",
+      "size": 1
+    },
+    {
+      "id": "快递",
+      "label": "快递",
+      "size": 2
+    },
+    {
+      "id": "谢谢",
+      "label": "谢谢",
+      "size": 2
+    },
+    {
+      "id": "宝宝",
+      "label": "宝宝",
+      "size": 5
+    },
+    {
+      "id": "1499",
+      "label": "1499",
+      "size": 2
+    },
+    {
+      "id": "妹妹",
+      "label": "妹妹",
+      "size": 2
+    },
+    {
+      "id": "还是",
+      "label": "还是",
+      "size": 2
+    },
+    {
+      "id": "回家吧",
+      "label": "回家吧",
+      "size": 7
+    },
+    {
+      "id": "上学",
+      "label": "上学",
+      "size": 2
+    },
+    {
+      "id": "下面",
+      "label": "下面",
+      "size": 1
+    },
+    {
+      "id": "观众",
+      "label": "观众",
+      "size": 1
+    },
+    {
+      "id": "小熊",
+      "label": "小熊",
+      "size": 1
+    },
+    {
+      "id": "开麦",
+      "label": "开麦",
+      "size": 3
+    },
+    {
+      "id": "进步",
+      "label": "进步",
+      "size": 3
+    },
+    {
+      "id": "太大",
+      "label": "太大",
+      "size": 3
+    },
+    {
+      "id": "多想",
+      "label": "多想",
+      "size": 1
+    },
+    {
+      "id": "你担",
+      "label": "你担",
+      "size": 1
+    },
+    {
+      "id": "没有",
+      "label": "没有",
+      "size": 1
+    },
+    {
+      "id": "njz",
+      "label": "njz",
+      "size": 769
+    },
+    {
+      "id": "待遇",
+      "label": "待遇",
+      "size": 2
+    },
+    {
+      "id": "不想",
+      "label": "不想",
+      "size": 1
+    },
+    {
+      "id": "贴脸",
+      "label": "贴脸",
+      "size": 6
+    },
+    {
+      "id": "显得",
+      "label": "显得",
+      "size": 1
+    },
+    {
+      "id": "所有人",
+      "label": "所有人",
+      "size": 1
+    },
+    {
+      "id": "必须",
+      "label": "必须",
+      "size": 1
+    },
+    {
+      "id": "全开",
+      "label": "全开",
+      "size": 4
+    },
+    {
+      "id": "麦鲸舞",
+      "label": "麦鲸舞",
+      "size": 1
+    },
+    {
+      "id": "难度",
+      "label": "难度",
+      "size": 1
+    },
+    {
+      "id": "这四小",
+      "label": "这四小",
+      "size": 1
+    },
+    {
+      "id": "转晕",
+      "label": "转晕",
+      "size": 1
+    },
+    {
+      "id": "小手",
+      "label": "小手",
+      "size": 1
+    },
+    {
+      "id": "惠仁",
+      "label": "惠仁",
+      "size": 3
+    },
+    {
+      "id": "挑眉",
+      "label": "挑眉",
+      "size": 1
+    },
+    {
+      "id": "啊啊啊",
+      "label": "啊啊啊",
+      "size": 10
+    },
+    {
+      "id": "猫猫",
+      "label": "猫猫",
+      "size": 6
+    },
+    {
+      "id": "真的",
+      "label": "真的",
+      "size": 4
+    },
+    {
+      "id": "很大",
+      "label": "很大",
+      "size": 1
+    },
+    {
+      "id": "黑粉",
+      "label": "黑粉",
+      "size": 2
+    },
+    {
+      "id": "贡献",
+      "label": "贡献",
+      "size": 1
+    },
+    {
+      "id": "播放",
+      "label": "播放",
+      "size": 1
+    },
+    {
+      "id": "氛围",
+      "label": "氛围",
+      "size": 1
+    },
+    {
+      "id": "大家",
+      "label": "大家",
+      "size": 4
+    },
+    {
+      "id": "赶紧",
+      "label": "赶紧",
+      "size": 1
+    },
+    {
+      "id": "接收",
+      "label": "接收",
+      "size": 1
+    },
+    {
+      "id": "爱心",
+      "label": "爱心",
+      "size": 1
+    },
+    {
+      "id": "hype",
+      "label": "hype",
+      "size": 1
+    },
+    {
+      "id": "boy",
+      "label": "boy",
+      "size": 1
+    },
+    {
+      "id": "一响",
+      "label": "一响",
+      "size": 1
+    },
+    {
+      "id": "全场",
+      "label": "全场",
+      "size": 1
+    },
+    {
+      "id": "沸腾",
+      "label": "沸腾",
+      "size": 1
+    },
+    {
+      "id": "kkk",
+      "label": "kkk",
+      "size": 1
+    },
+    {
+      "id": "场面",
+      "label": "场面",
+      "size": 2
+    },
+    {
+      "id": "珠们",
+      "label": "珠们",
+      "size": 1
+    },
+    {
+      "id": "个事",
+      "label": "个事",
+      "size": 1
+    },
+    {
+      "id": "弹幕",
+      "label": "弹幕",
+      "size": 2
+    },
+    {
+      "id": "浮木",
+      "label": "浮木",
+      "size": 2
+    },
+    {
+      "id": "怎么办",
+      "label": "怎么办",
+      "size": 1
+    },
+    {
+      "id": "简直",
+      "label": "简直",
+      "size": 1
+    },
+    {
+      "id": "剪得",
+      "label": "剪得",
+      "size": 1
+    },
+    {
+      "id": "没边",
+      "label": "没边",
+      "size": 1
+    },
+    {
+      "id": "劝架",
+      "label": "劝架",
+      "size": 1
+    },
+    {
+      "id": "太会",
+      "label": "太会",
+      "size": 1
+    },
+    {
+      "id": "好听",
+      "label": "好听",
+      "size": 2
+    },
+    {
+      "id": "两句",
+      "label": "两句",
+      "size": 1
+    },
+    {
+      "id": "基本上",
+      "label": "基本上",
+      "size": 1
+    },
+    {
+      "id": "未成年",
+      "label": "未成年",
+      "size": 1
+    },
+    {
+      "id": "好好",
+      "label": "好好",
+      "size": 4
+    },
+    {
+      "id": "太萌",
+      "label": "太萌",
+      "size": 2
+    },
+    {
+      "id": "dani",
+      "label": "dani",
+      "size": 1
+    },
+    {
+      "id": "丸子",
+      "label": "丸子",
+      "size": 1
+    },
+    {
+      "id": "亲亲",
+      "label": "亲亲",
+      "size": 1
+    },
+    {
+      "id": "newjeans",
+      "label": "newjeans",
+      "size": 4
+    },
+    {
+      "id": "never",
+      "label": "never",
+      "size": 3
+    },
+    {
+      "id": "die",
+      "label": "die",
+      "size": 3
+    },
+    {
+      "id": "小猫",
+      "label": "小猫",
+      "size": 2
+    },
+    {
+      "id": "害羞",
+      "label": "害羞",
+      "size": 3
+    },
+    {
+      "id": "救命",
+      "label": "救命",
+      "size": 1
+    },
+    {
+      "id": "喜欢",
+      "label": "喜欢",
+      "size": 5
+    },
+    {
+      "id": "她们",
+      "label": "她们",
+      "size": 2
+    },
+    {
+      "id": "这次",
+      "label": "这次",
+      "size": 1
+    },
+    {
+      "id": "舞台",
+      "label": "舞台",
+      "size": 2
+    },
+    {
+      "id": "版本",
+      "label": "版本",
+      "size": 1
+    },
+    {
+      "id": "haohaot",
+      "label": "haohaot",
+      "size": 1
+    },
+    {
+      "id": "举报",
+      "label": "举报",
+      "size": 1
+    },
+    {
+      "id": "存在",
+      "label": "存在",
+      "size": 1
+    },
+    {
+      "id": "这场",
+      "label": "这场",
+      "size": 1
+    },
+    {
+      "id": "幸福",
+      "label": "幸福",
+      "size": 2
+    },
+    {
+      "id": "司马",
+      "label": "司马",
+      "size": 1
+    },
+    {
+      "id": "事实",
+      "label": "事实",
+      "size": 2
+    },
+    {
+      "id": "论据",
+      "label": "论据",
+      "size": 1
+    },
+    {
+      "id": "上天",
+      "label": "上天",
+      "size": 1
+    },
+    {
+      "id": "敬礼",
+      "label": "敬礼",
+      "size": 1
+    },
+    {
+      "id": "dont",
+      "label": "dont",
+      "size": 1
+    },
+    {
+      "id": "care",
+      "label": "care",
+      "size": 1
+    },
+    {
+      "id": "人家",
+      "label": "人家",
+      "size": 1
+    },
+    {
+      "id": "10",
+      "label": "10",
+      "size": 3
+    },
+    {
+      "id": "耽误",
+      "label": "耽误",
+      "size": 1
+    },
+    {
+      "id": "工作",
+      "label": "工作",
+      "size": 1
+    },
+    {
+      "id": "小池",
+      "label": "小池",
+      "size": 7
+    },
+    {
+      "id": "大声",
+      "label": "大声",
+      "size": 4
+    },
+    {
+      "id": "妈妈",
+      "label": "妈妈",
+      "size": 2
+    },
+    {
+      "id": "伟大",
+      "label": "伟大",
+      "size": 1
+    },
+    {
+      "id": "ditto",
+      "label": "ditto",
+      "size": 3
+    },
+    {
+      "id": "1299",
+      "label": "1299",
+      "size": 1
+    },
+    {
+      "id": "爱死",
+      "label": "爱死",
+      "size": 1
+    },
+    {
+      "id": "这五小",
+      "label": "这五小",
+      "size": 1
+    },
+    {
+      "id": "美晕",
+      "label": "美晕",
+      "size": 1
+    },
+    {
+      "id": "好怀念",
+      "label": "好怀念",
+      "size": 1
+    },
+    {
+      "id": "我担",
+      "label": "我担",
+      "size": 1
+    },
+    {
+      "id": "可以",
+      "label": "可以",
+      "size": 3
+    },
+    {
+      "id": "拥有",
+      "label": "拥有",
+      "size": 1
+    },
+    {
+      "id": "十小时",
+      "label": "十小时",
+      "size": 1
+    },
+    {
+      "id": "爱豆",
+      "label": "爱豆",
+      "size": 3
+    },
+    {
+      "id": "五条",
+      "label": "五条",
+      "size": 3
+    },
+    {
+      "id": "裤裤",
+      "label": "裤裤",
+      "size": 1
+    },
+    {
+      "id": "万岁",
+      "label": "万岁",
+      "size": 2
+    },
+    {
+      "id": "kpop",
+      "label": "kpop",
+      "size": 1
+    },
+    {
+      "id": "无视",
+      "label": "无视",
+      "size": 2
+    },
+    {
+      "id": "建议",
+      "label": "建议",
+      "size": 1
+    },
+    {
+      "id": "bnz",
+      "label": "bnz",
+      "size": 1
+    },
+    {
+      "id": "回复",
+      "label": "回复",
+      "size": 1
+    },
+    {
+      "id": "顺带",
+      "label": "顺带",
+      "size": 1
+    },
+    {
+      "id": "澄清",
+      "label": "澄清",
+      "size": 1
+    },
+    {
+      "id": "一直",
+      "label": "一直",
+      "size": 3
+    },
+    {
+      "id": "人机",
+      "label": "人机",
+      "size": 1
+    },
+    {
+      "id": "好好笑",
+      "label": "好好笑",
+      "size": 1
+    },
+    {
+      "id": "别来",
+      "label": "别来",
+      "size": 1
+    },
+    {
+      "id": "贩间",
+      "label": "贩间",
+      "size": 1
+    },
+    {
+      "id": "有点像",
+      "label": "有点像",
+      "size": 4
+    },
+    {
+      "id": "回归",
+      "label": "回归",
+      "size": 3
+    },
+    {
+      "id": "休息时间",
+      "label": "休息时间",
+      "size": 1
+    },
+    {
+      "id": "hanni",
+      "label": "hanni",
+      "size": 13
+    },
+    {
+      "id": "中国",
+      "label": "中国",
+      "size": 1
+    },
+    {
+      "id": "同胞",
+      "label": "同胞",
+      "size": 1
+    },
+    {
+      "id": "遇难",
+      "label": "遇难",
+      "size": 1
+    },
+    {
+      "id": "老板",
+      "label": "老板",
+      "size": 1
+    },
+    {
+      "id": "合影",
+      "label": "合影",
+      "size": 1
+    },
+    {
+      "id": "法庭",
+      "label": "法庭",
+      "size": 1
+    },
+    {
+      "id": "结果",
+      "label": "结果",
+      "size": 1
+    },
+    {
+      "id": "证据",
+      "label": "证据",
+      "size": 1
+    },
+    {
+      "id": "光速",
+      "label": "光速",
+      "size": 1
+    },
+    {
+      "id": "打脸",
+      "label": "打脸",
+      "size": 2
+    },
+    {
+      "id": "私连",
+      "label": "私连",
+      "size": 1
+    },
+    {
+      "id": "大粉",
+      "label": "大粉",
+      "size": 1
+    },
+    {
+      "id": "不行",
+      "label": "不行",
+      "size": 1
+    },
+    {
+      "id": "把手",
+      "label": "把手",
+      "size": 1
+    },
+    {
+      "id": "肩上",
+      "label": "肩上",
+      "size": 1
+    },
+    {
+      "id": "好想哭",
+      "label": "好想哭",
+      "size": 2
+    },
+    {
+      "id": "美的",
+      "label": "美的",
+      "size": 2
+    },
+    {
+      "id": "只有",
+      "label": "只有",
+      "size": 1
+    },
+    {
+      "id": "四个",
+      "label": "四个",
+      "size": 1
+    },
+    {
+      "id": "马尾",
+      "label": "马尾",
+      "size": 3
+    },
+    {
+      "id": "美有",
+      "label": "美有",
+      "size": 1
+    },
+    {
+      "id": "关系",
+      "label": "关系",
+      "size": 1
+    },
+    {
+      "id": "小妹",
+      "label": "小妹",
+      "size": 2
+    },
+    {
+      "id": "体力",
+      "label": "体力",
+      "size": 1
+    },
+    {
+      "id": "一首",
+      "label": "一首",
+      "size": 2
+    },
+    {
+      "id": "不带",
+      "label": "不带",
+      "size": 1
+    },
+    {
+      "id": "李惠仁",
+      "label": "李惠仁",
+      "size": 1
+    },
+    {
+      "id": "火力",
+      "label": "火力",
+      "size": 2
+    },
+    {
+      "id": "heyin",
+      "label": "heyin",
+      "size": 1
+    },
+    {
+      "id": "澳洲",
+      "label": "澳洲",
+      "size": 4
+    },
+    {
+      "id": "line",
+      "label": "line",
+      "size": 2
+    },
+    {
+      "id": "活泼",
+      "label": "活泼",
+      "size": 1
+    },
+    {
+      "id": "就是",
+      "label": "就是",
+      "size": 2
+    },
+    {
+      "id": "可爱",
+      "label": "可爱",
+      "size": 9
+    },
+    {
+      "id": "后天",
+      "label": "后天",
+      "size": 1
+    },
+    {
+      "id": "终于",
+      "label": "终于",
+      "size": 2
+    },
+    {
+      "id": "见到",
+      "label": "见到",
+      "size": 3
+    },
+    {
+      "id": "原声",
+      "label": "原声",
+      "size": 1
+    },
+    {
+      "id": "还有",
+      "label": "还有",
+      "size": 1
+    },
+    {
+      "id": "少年",
+      "label": "少年",
+      "size": 1
+    },
+    {
+      "id": "转身",
+      "label": "转身",
+      "size": 1
+    },
+    {
+      "id": "帅死",
+      "label": "帅死",
+      "size": 1
+    },
+    {
+      "id": "欧尼",
+      "label": "欧尼",
+      "size": 1
+    },
+    {
+      "id": "金玟",
+      "label": "金玟",
+      "size": 1
+    },
+    {
+      "id": "池走",
+      "label": "池走",
+      "size": 1
+    },
+    {
+      "id": "心里",
+      "label": "心里",
+      "size": 1
+    },
+    {
+      "id": "走路",
+      "label": "走路",
+      "size": 1
+    },
+    {
+      "id": "嘻嘻",
+      "label": "嘻嘻",
+      "size": 2
+    },
+    {
+      "id": "设计",
+      "label": "设计",
+      "size": 1
+    },
+    {
+      "id": "为什么",
+      "label": "为什么",
+      "size": 2
+    },
+    {
+      "id": "不能",
+      "label": "不能",
+      "size": 2
+    },
+    {
+      "id": "再说",
+      "label": "再说",
+      "size": 1
+    },
+    {
+      "id": "当时",
+      "label": "当时",
+      "size": 1
+    },
+    {
+      "id": "是因为",
+      "label": "是因为",
+      "size": 1
+    },
+    {
+      "id": "期太累",
+      "label": "期太累",
+      "size": 1
+    },
+    {
+      "id": "休息",
+      "label": "休息",
+      "size": 1
+    },
+    {
+      "id": "一天",
+      "label": "一天",
+      "size": 1
+    },
+    {
+      "id": "直接",
+      "label": "直接",
+      "size": 2
+    },
+    {
+      "id": "十几个",
+      "label": "十几个",
+      "size": 1
+    },
+    {
+      "id": "已成",
+      "label": "已成",
+      "size": 1
+    },
+    {
+      "id": "牛腱",
+      "label": "牛腱",
+      "size": 1
+    },
+    {
+      "id": "走出",
+      "label": "走出",
+      "size": 1
+    },
+    {
+      "id": "六亲不认",
+      "label": "六亲不认",
+      "size": 1
+    },
+    {
+      "id": "步伐",
+      "label": "步伐",
+      "size": 1
+    },
+    {
+      "id": "小鲸",
+      "label": "小鲸",
+      "size": 1
+    },
+    {
+      "id": "棒极了",
+      "label": "棒极了",
+      "size": 1
+    },
+    {
+      "id": "首歌",
+      "label": "首歌",
+      "size": 1
+    },
+    {
+      "id": "挖苦",
+      "label": "挖苦",
+      "size": 2
+    },
+    {
+      "id": "得人心",
+      "label": "得人心",
+      "size": 1
+    },
+    {
+      "id": "我爱你",
+      "label": "我爱你",
+      "size": 2
+    },
+    {
+      "id": "forever",
+      "label": "forever",
+      "size": 1
+    },
+    {
+      "id": "小面包",
+      "label": "小面包",
+      "size": 3
+    },
+    {
+      "id": "衣服",
+      "label": "衣服",
+      "size": 1
+    },
+    {
+      "id": "萌得",
+      "label": "萌得",
+      "size": 1
+    },
+    {
+      "id": "晕倒",
+      "label": "晕倒",
+      "size": 1
+    },
+    {
+      "id": "跨步",
+      "label": "跨步",
+      "size": 1
+    },
+    {
+      "id": "人生",
+      "label": "人生",
+      "size": 2
+    },
+    {
+      "id": "镜头",
+      "label": "镜头",
+      "size": 1
+    },
+    {
+      "id": "之一",
+      "label": "之一",
+      "size": 1
+    },
+    {
+      "id": "有人",
+      "label": "有人",
+      "size": 1
+    },
+    {
+      "id": "一样",
+      "label": "一样",
+      "size": 1
+    },
+    {
+      "id": "刘海",
+      "label": "刘海",
+      "size": 1
+    },
+    {
+      "id": "吴晓梅",
+      "label": "吴晓梅",
+      "size": 2
+    },
+    {
+      "id": "NJ",
+      "label": "NJ",
+      "size": 1
+    },
+    {
+      "id": "大发",
+      "label": "大发",
+      "size": 1
+    },
+    {
+      "id": "所以",
+      "label": "所以",
+      "size": 2
+    },
+    {
+      "id": "刷屏",
+      "label": "刷屏",
+      "size": 1
+    },
+    {
+      "id": "希望",
+      "label": "希望",
+      "size": 1
+    },
+    {
+      "id": "看见",
+      "label": "看见",
+      "size": 2
+    },
+    {
+      "id": "自己",
+      "label": "自己",
+      "size": 1
+    },
+    {
+      "id": "苦哈哈",
+      "label": "苦哈哈",
+      "size": 1
+    },
+    {
+      "id": "理解",
+      "label": "理解",
+      "size": 1
+    },
+    {
+      "id": "美死",
+      "label": "美死",
+      "size": 2
+    },
+    {
+      "id": "驾到",
+      "label": "驾到",
+      "size": 1
+    },
+    {
+      "id": "跪下",
+      "label": "跪下",
+      "size": 2
+    },
+    {
+      "id": "真爱粉",
+      "label": "真爱粉",
+      "size": 1
+    },
+    {
+      "id": "永不",
+      "label": "永不",
+      "size": 1
+    },
+    {
+      "id": "引战",
+      "label": "引战",
+      "size": 1
+    },
+    {
+      "id": "仆人",
+      "label": "仆人",
+      "size": 1
+    },
+    {
+      "id": "抄袭",
+      "label": "抄袭",
+      "size": 3
+    },
+    {
+      "id": "策划",
+      "label": "策划",
+      "size": 1
+    },
+    {
+      "id": "欢乐",
+      "label": "欢乐",
+      "size": 1
+    },
+    {
+      "id": "HelloHelloHelloHello",
+      "label": "HelloHelloHelloHello",
+      "size": 1
+    },
+    {
+      "id": "thankuthankuthanku",
+      "label": "thankuthankuthanku",
+      "size": 1
+    },
+    {
+      "id": "也好",
+      "label": "也好",
+      "size": 1
+    },
+    {
+      "id": "快点",
+      "label": "快点",
+      "size": 1
+    },
+    {
+      "id": "回来",
+      "label": "回来",
+      "size": 2
+    },
+    {
+      "id": "永远",
+      "label": "永远",
+      "size": 4
+    },
+    {
+      "id": "怀念",
+      "label": "怀念",
+      "size": 2
+    },
+    {
+      "id": "菜鸟",
+      "label": "菜鸟",
+      "size": 1
+    },
+    {
+      "id": "驿站",
+      "label": "驿站",
+      "size": 1
+    },
+    {
+      "id": "取个",
+      "label": "取个",
+      "size": 1
+    },
+    {
+      "id": "是不是",
+      "label": "是不是",
+      "size": 1
+    },
+    {
+      "id": "自担",
+      "label": "自担",
+      "size": 1
+    },
+    {
+      "id": "不了",
+      "label": "不了",
+      "size": 2
+    },
+    {
+      "id": "哈哈哈",
+      "label": "哈哈哈",
+      "size": 6
+    },
+    {
+      "id": "好棒",
+      "label": "好棒",
+      "size": 3
+    },
+    {
+      "id": "美好",
+      "label": "美好",
+      "size": 1
+    },
+    {
+      "id": "官号",
+      "label": "官号",
+      "size": 2
+    },
+    {
+      "id": "底下",
+      "label": "底下",
+      "size": 1
+    },
+    {
+      "id": "无敌",
+      "label": "无敌",
+      "size": 1
+    },
+    {
+      "id": "为了",
+      "label": "为了",
+      "size": 1
+    },
+    {
+      "id": "打开",
+      "label": "打开",
+      "size": 1
+    },
+    {
+      "id": "这辈子",
+      "label": "这辈子",
+      "size": 1
+    },
+    {
+      "id": "帅帅帅",
+      "label": "帅帅帅",
+      "size": 1
+    },
+    {
+      "id": "minjiminjiminji",
+      "label": "minjiminjiminji",
+      "size": 1
+    },
+    {
+      "id": "TTTTTTTT",
+      "label": "TTTTTTTT",
+      "size": 1
+    },
+    {
+      "id": "生日快乐",
+      "label": "生日快乐",
+      "size": 1
+    },
+    {
+      "id": "miss",
+      "label": "miss",
+      "size": 1
+    },
+    {
+      "id": "美爆",
+      "label": "美爆",
+      "size": 1
+    },
+    {
+      "id": "粼儿",
+      "label": "粼儿",
+      "size": 1
+    },
+    {
+      "id": "回老家",
+      "label": "回老家",
+      "size": 1
+    },
+    {
+      "id": "滚下来",
+      "label": "滚下来",
+      "size": 1
+    },
+    {
+      "id": "说话",
+      "label": "说话",
+      "size": 1
+    },
+    {
+      "id": "但是",
+      "label": "但是",
+      "size": 1
+    },
+    {
+      "id": "海男",
+      "label": "海男",
+      "size": 1
+    },
+    {
+      "id": "其实",
+      "label": "其实",
+      "size": 1
+    },
+    {
+      "id": "不错",
+      "label": "不错",
+      "size": 1
+    },
+    {
+      "id": "好萌",
+      "label": "好萌",
+      "size": 3
+    },
+    {
+      "id": "转圈",
+      "label": "转圈",
+      "size": 1
+    },
+    {
+      "id": "那個",
+      "label": "那個",
+      "size": 1
+    },
+    {
+      "id": "被毀",
+      "label": "被毀",
+      "size": 1
+    },
+    {
+      "id": "還有家",
+      "label": "還有家",
+      "size": 1
+    },
+    {
+      "id": "低头",
+      "label": "低头",
+      "size": 2
+    },
+    {
+      "id": "aaa",
+      "label": "aaa",
+      "size": 1
+    },
+    {
+      "id": "有点",
+      "label": "有点",
+      "size": 1
+    },
+    {
+      "id": "好帅",
+      "label": "好帅",
+      "size": 1
+    },
+    {
+      "id": "他们",
+      "label": "他们",
+      "size": 1
+    },
+    {
+      "id": "睡衣",
+      "label": "睡衣",
+      "size": 1
+    },
+    {
+      "id": "小忍",
+      "label": "小忍",
+      "size": 2
+    },
+    {
+      "id": "感觉",
+      "label": "感觉",
+      "size": 1
+    },
+    {
+      "id": "舒服",
+      "label": "舒服",
+      "size": 1
+    },
+    {
+      "id": "看看",
+      "label": "看看",
+      "size": 1
+    },
+    {
+      "id": "新曲",
+      "label": "新曲",
+      "size": 1
+    },
+    {
+      "id": "舞蹈",
+      "label": "舞蹈",
+      "size": 1
+    },
+    {
+      "id": "虽然",
+      "label": "虽然",
+      "size": 1
+    },
+    {
+      "id": "觉得",
+      "label": "觉得",
+      "size": 1
+    },
+    {
+      "id": "公司",
+      "label": "公司",
+      "size": 2
+    },
+    {
+      "id": "针对",
+      "label": "针对",
+      "size": 1
+    },
+    {
+      "id": "改名",
+      "label": "改名",
+      "size": 1
+    },
+    {
+      "id": "攻击",
+      "label": "攻击",
+      "size": 1
+    },
+    {
+      "id": "太棒",
+      "label": "太棒",
+      "size": 1
+    },
+    {
+      "id": "hellohellohellohello",
+      "label": "hellohellohellohello",
+      "size": 1
+    },
+    {
+      "id": "无人",
+      "label": "无人",
+      "size": 1
+    },
+    {
+      "id": "五春一",
+      "label": "五春一",
+      "size": 1
+    },
+    {
+      "id": "danikiyo",
+      "label": "danikiyo",
+      "size": 1
+    },
+    {
+      "id": "庆祝",
+      "label": "庆祝",
+      "size": 1
+    },
+    {
+      "id": "春节",
+      "label": "春节",
+      "size": 1
+    },
+    {
+      "id": "女团",
+      "label": "女团",
+      "size": 2
+    },
+    {
+      "id": "Hello",
+      "label": "Hello",
+      "size": 1
+    },
+    {
+      "id": "呜呜",
+      "label": "呜呜",
+      "size": 1
+    },
+    {
+      "id": "耍帅",
+      "label": "耍帅",
+      "size": 2
+    },
+    {
+      "id": "ing",
+      "label": "ing",
+      "size": 2
+    },
+    {
+      "id": "njs4ever",
+      "label": "njs4ever",
+      "size": 1
+    },
+    {
+      "id": "明天",
+      "label": "明天",
+      "size": 1
+    },
+    {
+      "id": "孩子",
+      "label": "孩子",
+      "size": 2
+    },
+    {
+      "id": "打点",
+      "label": "打点",
+      "size": 1
+    },
+    {
+      "id": "死亡",
+      "label": "死亡",
+      "size": 1
+    },
+    {
+      "id": "凉透",
+      "label": "凉透",
+      "size": 2
+    },
+    {
+      "id": "18",
+      "label": "18",
+      "size": 1
+    },
+    {
+      "id": "深情",
+      "label": "深情",
+      "size": 1
+    },
+    {
+      "id": "1400",
+      "label": "1400",
+      "size": 1
+    },
+    {
+      "id": "招呼",
+      "label": "招呼",
+      "size": 1
+    },
+    {
+      "id": "HellO",
+      "label": "HellO",
+      "size": 1
+    },
+    {
+      "id": "犯贱",
+      "label": "犯贱",
+      "size": 2
+    },
+    {
+      "id": "担死",
+      "label": "担死",
+      "size": 1
+    },
+    {
+      "id": "担事",
+      "label": "担事",
+      "size": 1
+    },
+    {
+      "id": "nm",
+      "label": "nm",
+      "size": 1
+    },
+    {
+      "id": "姜海粼",
+      "label": "姜海粼",
+      "size": 1
+    },
+    {
+      "id": "newjesns",
+      "label": "newjesns",
+      "size": 1
+    },
+    {
+      "id": "嫁给",
+      "label": "嫁给",
+      "size": 1
+    },
+    {
+      "id": "方时赫",
+      "label": "方时赫",
+      "size": 1
+    },
+    {
+      "id": "sm",
+      "label": "sm",
+      "size": 1
+    },
+    {
+      "id": "缅怀",
+      "label": "缅怀",
+      "size": 1
+    },
+    {
+      "id": "2500",
+      "label": "2500",
+      "size": 1
+    },
+    {
+      "id": "每人",
+      "label": "每人",
+      "size": 1
+    },
+    {
+      "id": "500",
+      "label": "500",
+      "size": 1
+    },
+    {
+      "id": "每年",
+      "label": "每年",
+      "size": 1
+    },
+    {
+      "id": "工资总额",
+      "label": "工资总额",
+      "size": 1
+    },
+    {
+      "id": "那么",
+      "label": "那么",
+      "size": 1
+    },
+    {
+      "id": "水牛",
+      "label": "水牛",
+      "size": 1
+    },
+    {
+      "id": "封杀",
+      "label": "封杀",
+      "size": 1
+    },
+    {
+      "id": "百妹",
+      "label": "百妹",
+      "size": 1
+    },
+    {
+      "id": "20",
+      "label": "20",
+      "size": 1
+    },
+    {
+      "id": "有些",
+      "label": "有些",
+      "size": 1
+    },
+    {
+      "id": "人别",
+      "label": "人别",
+      "size": 1
+    },
+    {
+      "id": "这里",
+      "label": "这里",
+      "size": 2
+    },
+    {
+      "id": "发癫",
+      "label": "发癫",
+      "size": 1
+    },
+    {
+      "id": "正主",
+      "label": "正主",
+      "size": 1
+    },
+    {
+      "id": "狗叫",
+      "label": "狗叫",
+      "size": 1
+    },
+    {
+      "id": "mother",
+      "label": "mother",
+      "size": 1
+    },
+    {
+      "id": "蠢猪",
+      "label": "蠢猪",
+      "size": 1
+    },
+    {
+      "id": "女高风",
+      "label": "女高风",
+      "size": 1
+    },
+    {
+      "id": "刚好",
+      "label": "刚好",
+      "size": 1
+    },
+    {
+      "id": "三年",
+      "label": "三年",
+      "size": 1
+    },
+    {
+      "id": "裤裤们",
+      "label": "裤裤们",
+      "size": 1
+    },
+    {
+      "id": "毕业",
+      "label": "毕业",
+      "size": 1
+    },
+    {
+      "id": "快乐",
+      "label": "快乐",
+      "size": 1
+    },
+    {
+      "id": "ATTENTION",
+      "label": "ATTENTION",
+      "size": 1
+    },
+    {
+      "id": "出道",
+      "label": "出道",
+      "size": 1
+    },
+    {
+      "id": "人手",
+      "label": "人手",
+      "size": 1
+    },
+    {
+      "id": "高奢",
+      "label": "高奢",
+      "size": 1
+    },
+    {
+      "id": "面包",
+      "label": "面包",
+      "size": 1
+    },
+    {
+      "id": "自私",
+      "label": "自私",
+      "size": 1
+    },
+    {
+      "id": "私联",
+      "label": "私联",
+      "size": 1
+    },
+    {
+      "id": "毒唯",
+      "label": "毒唯",
+      "size": 1
+    },
+    {
+      "id": "任何人",
+      "label": "任何人",
+      "size": 1
+    },
+    {
+      "id": "资格",
+      "label": "资格",
+      "size": 1
+    },
+    {
+      "id": "直播",
+      "label": "直播",
+      "size": 1
+    },
+    {
+      "id": "HANNI",
+      "label": "HANNI",
+      "size": 1
+    },
+    {
+      "id": "不会",
+      "label": "不会",
+      "size": 1
+    },
+    {
+      "id": "单飞",
+      "label": "单飞",
+      "size": 1
+    },
+    {
+      "id": "连累",
+      "label": "连累",
+      "size": 1
+    },
+    {
+      "id": "队友",
+      "label": "队友",
+      "size": 1
+    },
+    {
+      "id": "Kpop",
+      "label": "Kpop",
+      "size": 1
+    },
+    {
+      "id": "奴隶",
+      "label": "奴隶",
+      "size": 1
+    },
+    {
+      "id": "产业",
+      "label": "产业",
+      "size": 1
+    },
+    {
+      "id": "惠仁高",
+      "label": "惠仁高",
+      "size": 1
+    },
+    {
+      "id": "好看",
+      "label": "好看",
+      "size": 1
+    },
+    {
+      "id": "所有",
+      "label": "所有",
+      "size": 1
+    },
+    {
+      "id": "ta",
+      "label": "ta",
+      "size": 1
+    },
+    {
+      "id": "一堆",
+      "label": "一堆",
+      "size": 1
+    },
+    {
+      "id": "改编",
+      "label": "改编",
+      "size": 1
+    },
+    {
+      "id": "听爽",
+      "label": "听爽",
+      "size": 1
+    },
+    {
+      "id": "我快",
+      "label": "我快",
+      "size": 1
+    },
+    {
+      "id": "萌死",
+      "label": "萌死",
+      "size": 1
+    },
+    {
+      "id": "才女",
+      "label": "才女",
+      "size": 1
+    },
+    {
+      "id": "两个",
+      "label": "两个",
+      "size": 2
+    },
+    {
+      "id": "韩国",
+      "label": "韩国",
+      "size": 2
+    },
+    {
+      "id": "道歉",
+      "label": "道歉",
+      "size": 3
+    },
+    {
+      "id": "别说",
+      "label": "别说",
+      "size": 1
+    },
+    {
+      "id": "鲸粉",
+      "label": "鲸粉",
+      "size": 1
+    },
+    {
+      "id": "违约金",
+      "label": "违约金",
+      "size": 1
+    },
+    {
+      "id": "一点",
+      "label": "一点",
+      "size": 1
+    },
+    {
+      "id": "真可笑",
+      "label": "真可笑",
+      "size": 1
+    },
+    {
+      "id": "法盲",
+      "label": "法盲",
+      "size": 1
+    },
+    {
+      "id": "全网",
+      "label": "全网",
+      "size": 1
+    },
+    {
+      "id": "粉丝",
+      "label": "粉丝",
+      "size": 1
+    },
+    {
+      "id": "根本",
+      "label": "根本",
+      "size": 1
+    },
+    {
+      "id": "认清",
+      "label": "认清",
+      "size": 1
+    },
+    {
+      "id": "丢人",
+      "label": "丢人",
+      "size": 1
+    },
+    {
+      "id": "告上",
+      "label": "告上",
+      "size": 1
+    },
+    {
+      "id": "国会",
+      "label": "国会",
+      "size": 1
+    },
+    {
+      "id": "别的",
+      "label": "别的",
+      "size": 1
+    },
+    {
+      "id": "南韩",
+      "label": "南韩",
+      "size": 10
+    },
+    {
+      "id": "李明德",
+      "label": "李明德",
+      "size": 10
+    },
+    {
+      "id": "五素",
+      "label": "五素",
+      "size": 1
+    },
+    {
+      "id": "池儿",
+      "label": "池儿",
+      "size": 1
+    },
+    {
+      "id": "身上",
+      "label": "身上",
+      "size": 1
+    },
+    {
+      "id": "欢快",
+      "label": "欢快",
+      "size": 1
+    },
+    {
+      "id": "liveband",
+      "label": "liveband",
+      "size": 1
+    },
+    {
+      "id": "真好",
+      "label": "真好",
+      "size": 1
+    },
+    {
+      "id": "韩令",
+      "label": "韩令",
+      "size": 1
+    },
+    {
+      "id": "不要",
+      "label": "不要",
+      "size": 1
+    },
+    {
+      "id": "自有办法",
+      "label": "自有办法",
+      "size": 1
+    },
+    {
+      "id": "New",
+      "label": "New",
+      "size": 1
+    },
+    {
+      "id": "Jeans",
+      "label": "Jeans",
+      "size": 1
+    },
+    {
+      "id": "Never",
+      "label": "Never",
+      "size": 1
+    },
+    {
+      "id": "Die",
+      "label": "Die",
+      "size": 1
+    },
+    {
+      "id": "女人",
+      "label": "女人",
+      "size": 1
+    },
+    {
+      "id": "好美",
+      "label": "好美",
+      "size": 1
+    },
+    {
+      "id": "哈哈哈哈",
+      "label": "哈哈哈哈",
+      "size": 3
+    },
+    {
+      "id": "匆忙",
+      "label": "匆忙",
+      "size": 1
+    },
+    {
+      "id": "哈尼",
+      "label": "哈尼",
+      "size": 1
+    },
+    {
+      "id": "太棒了",
+      "label": "太棒了",
+      "size": 1
+    },
+    {
+      "id": "太美",
+      "label": "太美",
+      "size": 1
+    },
+    {
+      "id": "家池",
+      "label": "家池",
+      "size": 1
+    },
+    {
+      "id": "忍忍",
+      "label": "忍忍",
+      "size": 1
+    },
+    {
+      "id": "丹尼",
+      "label": "丹尼",
+      "size": 1
+    },
+    {
+      "id": "迷死",
+      "label": "迷死",
+      "size": 1
+    },
+    {
+      "id": "大屏",
+      "label": "大屏",
+      "size": 1
+    },
+    {
+      "id": "姐好",
+      "label": "姐好",
+      "size": 1
+    },
+    {
+      "id": "媚粉",
+      "label": "媚粉",
+      "size": 1
+    },
+    {
+      "id": "haerinnnn",
+      "label": "haerinnnn",
+      "size": 1
+    },
+    {
+      "id": "hypeboyyy",
+      "label": "hypeboyyy",
+      "size": 1
+    },
+    {
+      "id": "你好",
+      "label": "你好",
+      "size": 1
+    },
+    {
+      "id": "整活",
+      "label": "整活",
+      "size": 1
+    },
+    {
+      "id": "侧脸",
+      "label": "侧脸",
+      "size": 1
+    },
+    {
+      "id": "欣欣",
+      "label": "欣欣",
+      "size": 1
+    },
+    {
+      "id": "捂脸",
+      "label": "捂脸",
+      "size": 1
+    },
+    {
+      "id": "姐美",
+      "label": "姐美",
+      "size": 1
+    },
+    {
+      "id": "一大跳",
+      "label": "一大跳",
+      "size": 1
+    },
+    {
+      "id": "不唱",
+      "label": "不唱",
+      "size": 1
+    },
+    {
+      "id": "11111",
+      "label": "11111",
+      "size": 1
+    }
+  ],
+  "edges": [
+    {
+      "id": "几个-前面",
+      "source": "几个",
+      "target": "前面",
+      "size": 2
+    },
+    {
+      "id": "hello-前面",
+      "source": "hello",
+      "target": "前面",
+      "size": 2
+    },
+    {
+      "id": "前面-平身",
+      "source": "前面",
+      "target": "平身",
+      "size": 1
+    },
+    {
+      "id": "hello-几个",
+      "source": "hello",
+      "target": "几个",
+      "size": 2
+    },
+    {
+      "id": "几个-平身",
+      "source": "几个",
+      "target": "平身",
+      "size": 1
+    },
+    {
+      "id": "hello-平身",
+      "source": "hello",
+      "target": "平身",
+      "size": 1
+    },
+    {
+      "id": "Free-NewJeans",
+      "source": "Free",
+      "target": "NewJeans",
+      "size": 1
+    },
+    {
+      "id": "Free-We",
+      "source": "Free",
+      "target": "We",
+      "size": 1
+    },
+    {
+      "id": "Free-are",
+      "source": "Free",
+      "target": "are",
+      "size": 1
+    },
+    {
+      "id": "Free-NJZ",
+      "source": "Free",
+      "target": "NJZ",
+      "size": 1
+    },
+    {
+      "id": "Free-now",
+      "source": "Free",
+      "target": "now",
+      "size": 1
+    },
+    {
+      "id": "NewJeans-We",
+      "source": "NewJeans",
+      "target": "We",
+      "size": 1
+    },
+    {
+      "id": "NewJeans-are",
+      "source": "NewJeans",
+      "target": "are",
+      "size": 1
+    },
+    {
+      "id": "NJZ-NewJeans",
+      "source": "NJZ",
+      "target": "NewJeans",
+      "size": 1
+    },
+    {
+      "id": "NewJeans-now",
+      "source": "NewJeans",
+      "target": "now",
+      "size": 1
+    },
+    {
+      "id": "We-are",
+      "source": "We",
+      "target": "are",
+      "size": 1
+    },
+    {
+      "id": "NJZ-We",
+      "source": "NJZ",
+      "target": "We",
+      "size": 1
+    },
+    {
+      "id": "We-now",
+      "source": "We",
+      "target": "now",
+      "size": 1
+    },
+    {
+      "id": "NJZ-are",
+      "source": "NJZ",
+      "target": "are",
+      "size": 1
+    },
+    {
+      "id": "are-now",
+      "source": "are",
+      "target": "now",
+      "size": 1
+    },
+    {
+      "id": "NJZ-now",
+      "source": "NJZ",
+      "target": "now",
+      "size": 1
+    },
+    {
+      "id": "haerin-这个",
+      "source": "haerin",
+      "target": "这个",
+      "size": 1
+    },
+    {
+      "id": "想萌-这个",
+      "source": "想萌",
+      "target": "这个",
+      "size": 1
+    },
+    {
+      "id": "haerin-想萌",
+      "source": "haerin",
+      "target": "想萌",
+      "size": 1
+    },
+    {
+      "id": "姜海粼爽-这个",
+      "source": "姜海粼爽",
+      "target": "这个",
+      "size": 1
+    },
+    {
+      "id": "翻拍-那个",
+      "source": "翻拍",
+      "target": "那个",
+      "size": 1
+    },
+    {
+      "id": "可口可乐-那个",
+      "source": "可口可乐",
+      "target": "那个",
+      "size": 1
+    },
+    {
+      "id": "广告-那个",
+      "source": "广告",
+      "target": "那个",
+      "size": 1
+    },
+    {
+      "id": "怎么-那个",
+      "source": "怎么",
+      "target": "那个",
+      "size": 1
+    },
+    {
+      "id": "没搬-那个",
+      "source": "没搬",
+      "target": "那个",
+      "size": 1
+    },
+    {
+      "id": "ador-那个",
+      "source": "ador",
+      "target": "那个",
+      "size": 1
+    },
+    {
+      "id": "可口可乐-翻拍",
+      "source": "可口可乐",
+      "target": "翻拍",
+      "size": 1
+    },
+    {
+      "id": "广告-翻拍",
+      "source": "广告",
+      "target": "翻拍",
+      "size": 1
+    },
+    {
+      "id": "怎么-翻拍",
+      "source": "怎么",
+      "target": "翻拍",
+      "size": 1
+    },
+    {
+      "id": "没搬-翻拍",
+      "source": "没搬",
+      "target": "翻拍",
+      "size": 1
+    },
+    {
+      "id": "ador-翻拍",
+      "source": "ador",
+      "target": "翻拍",
+      "size": 1
+    },
+    {
+      "id": "可口可乐-广告",
+      "source": "可口可乐",
+      "target": "广告",
+      "size": 1
+    },
+    {
+      "id": "可口可乐-怎么",
+      "source": "可口可乐",
+      "target": "怎么",
+      "size": 1
+    },
+    {
+      "id": "可口可乐-没搬",
+      "source": "可口可乐",
+      "target": "没搬",
+      "size": 1
+    },
+    {
+      "id": "ador-可口可乐",
+      "source": "ador",
+      "target": "可口可乐",
+      "size": 1
+    },
+    {
+      "id": "广告-怎么",
+      "source": "广告",
+      "target": "怎么",
+      "size": 1
+    },
+    {
+      "id": "广告-没搬",
+      "source": "广告",
+      "target": "没搬",
+      "size": 1
+    },
+    {
+      "id": "ador-广告",
+      "source": "ador",
+      "target": "广告",
+      "size": 1
+    },
+    {
+      "id": "怎么-没搬",
+      "source": "怎么",
+      "target": "没搬",
+      "size": 1
+    },
+    {
+      "id": "ador-怎么",
+      "source": "ador",
+      "target": "怎么",
+      "size": 1
+    },
+    {
+      "id": "ador-没搬",
+      "source": "ador",
+      "target": "没搬",
+      "size": 1
+    },
+    {
+      "id": "各位-感谢",
+      "source": "各位",
+      "target": "感谢",
+      "size": 1
+    },
+    {
+      "id": "感谢-我们",
+      "source": "感谢",
+      "target": "我们",
+      "size": 1
+    },
+    {
+      "id": "古驰-感谢",
+      "source": "古驰",
+      "target": "感谢",
+      "size": 1
+    },
+    {
+      "id": "公主-感谢",
+      "source": "公主",
+      "target": "感谢",
+      "size": 1
+    },
+    {
+      "id": "Hanni-感谢",
+      "source": "Hanni",
+      "target": "感谢",
+      "size": 1
+    },
+    {
+      "id": "感谢-打招呼",
+      "source": "感谢",
+      "target": "打招呼",
+      "size": 1
+    },
+    {
+      "id": "各位-我们",
+      "source": "各位",
+      "target": "我们",
+      "size": 1
+    },
+    {
+      "id": "古驰-各位",
+      "source": "古驰",
+      "target": "各位",
+      "size": 1
+    },
+    {
+      "id": "公主-各位",
+      "source": "公主",
+      "target": "各位",
+      "size": 1
+    },
+    {
+      "id": "Hanni-各位",
+      "source": "Hanni",
+      "target": "各位",
+      "size": 1
+    },
+    {
+      "id": "各位-打招呼",
+      "source": "各位",
+      "target": "打招呼",
+      "size": 1
+    },
+    {
+      "id": "古驰-我们",
+      "source": "古驰",
+      "target": "我们",
+      "size": 1
+    },
+    {
+      "id": "公主-我们",
+      "source": "公主",
+      "target": "我们",
+      "size": 1
+    },
+    {
+      "id": "Hanni-我们",
+      "source": "Hanni",
+      "target": "我们",
+      "size": 1
+    },
+    {
+      "id": "我们-打招呼",
+      "source": "我们",
+      "target": "打招呼",
+      "size": 2
+    },
+    {
+      "id": "公主-古驰",
+      "source": "公主",
+      "target": "古驰",
+      "size": 1
+    },
+    {
+      "id": "Hanni-古驰",
+      "source": "Hanni",
+      "target": "古驰",
+      "size": 1
+    },
+    {
+      "id": "古驰-打招呼",
+      "source": "古驰",
+      "target": "打招呼",
+      "size": 1
+    },
+    {
+      "id": "Hanni-公主",
+      "source": "Hanni",
+      "target": "公主",
+      "size": 1
+    },
+    {
+      "id": "公主-打招呼",
+      "source": "公主",
+      "target": "打招呼",
+      "size": 1
+    },
+    {
+      "id": "Hanni-打招呼",
+      "source": "Hanni",
+      "target": "打招呼",
+      "size": 1
+    },
+    {
+      "id": "收看-欢迎",
+      "source": "收看",
+      "target": "欢迎",
+      "size": 1
+    },
+    {
+      "id": "欢迎-飞奔",
+      "source": "欢迎",
+      "target": "飞奔",
+      "size": 1
+    },
+    {
+      "id": "minji-欢迎",
+      "source": "minji",
+      "target": "欢迎",
+      "size": 1
+    },
+    {
+      "id": "收看-飞奔",
+      "source": "收看",
+      "target": "飞奔",
+      "size": 1
+    },
+    {
+      "id": "minji-收看",
+      "source": "minji",
+      "target": "收看",
+      "size": 1
+    },
+    {
+      "id": "minji-飞奔",
+      "source": "minji",
+      "target": "飞奔",
+      "size": 1
+    },
+    {
+      "id": "什么-那些",
+      "source": "什么",
+      "target": "那些",
+      "size": 1
+    },
+    {
+      "id": "打招呼-那些",
+      "source": "打招呼",
+      "target": "那些",
+      "size": 1
+    },
+    {
+      "id": "滚回去-那些",
+      "source": "滚回去",
+      "target": "那些",
+      "size": 1
+    },
+    {
+      "id": "看自担-那些",
+      "source": "看自担",
+      "target": "那些",
+      "size": 1
+    },
+    {
+      "id": "行不行-那些",
+      "source": "行不行",
+      "target": "那些",
+      "size": 1
+    },
+    {
+      "id": "什么-打招呼",
+      "source": "什么",
+      "target": "打招呼",
+      "size": 1
+    },
+    {
+      "id": "什么-滚回去",
+      "source": "什么",
+      "target": "滚回去",
+      "size": 1
+    },
+    {
+      "id": "什么-看自担",
+      "source": "什么",
+      "target": "看自担",
+      "size": 1
+    },
+    {
+      "id": "什么-行不行",
+      "source": "什么",
+      "target": "行不行",
+      "size": 1
+    },
+    {
+      "id": "打招呼-滚回去",
+      "source": "打招呼",
+      "target": "滚回去",
+      "size": 1
+    },
+    {
+      "id": "打招呼-看自担",
+      "source": "打招呼",
+      "target": "看自担",
+      "size": 1
+    },
+    {
+      "id": "打招呼-行不行",
+      "source": "打招呼",
+      "target": "行不行",
+      "size": 1
+    },
+    {
+      "id": "滚回去-看自担",
+      "source": "滚回去",
+      "target": "看自担",
+      "size": 1
+    },
+    {
+      "id": "滚回去-行不行",
+      "source": "滚回去",
+      "target": "行不行",
+      "size": 1
+    },
+    {
+      "id": "看自担-行不行",
+      "source": "看自担",
+      "target": "行不行",
+      "size": 1
+    },
+    {
+      "id": "sj-休息日",
+      "source": "sj",
+      "target": "休息日",
+      "size": 1
+    },
+    {
+      "id": "sj-十个",
+      "source": "sj",
+      "target": "十个",
+      "size": 2
+    },
+    {
+      "id": "sj-小时",
+      "source": "sj",
+      "target": "小时",
+      "size": 2
+    },
+    {
+      "id": "sj-yxh",
+      "source": "sj",
+      "target": "yxh",
+      "size": 1
+    },
+    {
+      "id": "sj-看多",
+      "source": "sj",
+      "target": "看多",
+      "size": 1
+    },
+    {
+      "id": "sj-要是",
+      "source": "sj",
+      "target": "要是",
+      "size": 1
+    },
+    {
+      "id": "sj-每天",
+      "source": "sj",
+      "target": "每天",
+      "size": 1
+    },
+    {
+      "id": "sj-这么",
+      "source": "sj",
+      "target": "这么",
+      "size": 1
+    },
+    {
+      "id": "nb-sj",
+      "source": "nb",
+      "target": "sj",
+      "size": 1
+    },
+    {
+      "id": "sj-怎么",
+      "source": "sj",
+      "target": "怎么",
+      "size": 1
+    },
+    {
+      "id": "sj-不是",
+      "source": "sj",
+      "target": "不是",
+      "size": 1
+    },
+    {
+      "id": "sj-一种",
+      "source": "sj",
+      "target": "一种",
+      "size": 1
+    },
+    {
+      "id": "sj-赞扬",
+      "source": "sj",
+      "target": "赞扬",
+      "size": 1
+    },
+    {
+      "id": "休息日-十个",
+      "source": "休息日",
+      "target": "十个",
+      "size": 2
+    },
+    {
+      "id": "休息日-小时",
+      "source": "休息日",
+      "target": "小时",
+      "size": 2
+    },
+    {
+      "id": "yxh-休息日",
+      "source": "yxh",
+      "target": "休息日",
+      "size": 1
+    },
+    {
+      "id": "休息日-看多",
+      "source": "休息日",
+      "target": "看多",
+      "size": 1
+    },
+    {
+      "id": "休息日-要是",
+      "source": "休息日",
+      "target": "要是",
+      "size": 1
+    },
+    {
+      "id": "休息日-每天",
+      "source": "休息日",
+      "target": "每天",
+      "size": 1
+    },
+    {
+      "id": "休息日-这么",
+      "source": "休息日",
+      "target": "这么",
+      "size": 1
+    },
+    {
+      "id": "nb-休息日",
+      "source": "nb",
+      "target": "休息日",
+      "size": 1
+    },
+    {
+      "id": "休息日-怎么",
+      "source": "休息日",
+      "target": "怎么",
+      "size": 1
+    },
+    {
+      "id": "不是-休息日",
+      "source": "不是",
+      "target": "休息日",
+      "size": 1
+    },
+    {
+      "id": "一种-休息日",
+      "source": "一种",
+      "target": "休息日",
+      "size": 1
+    },
+    {
+      "id": "休息日-赞扬",
+      "source": "休息日",
+      "target": "赞扬",
+      "size": 1
+    },
+    {
+      "id": "十个-小时",
+      "source": "十个",
+      "target": "小时",
+      "size": 5
+    },
+    {
+      "id": "yxh-十个",
+      "source": "yxh",
+      "target": "十个",
+      "size": 2
+    },
+    {
+      "id": "十个-看多",
+      "source": "十个",
+      "target": "看多",
+      "size": 2
+    },
+    {
+      "id": "十个-要是",
+      "source": "十个",
+      "target": "要是",
+      "size": 2
+    },
+    {
+      "id": "十个-每天",
+      "source": "十个",
+      "target": "每天",
+      "size": 2
+    },
+    {
+      "id": "十个-这么",
+      "source": "十个",
+      "target": "这么",
+      "size": 2
+    },
+    {
+      "id": "nb-十个",
+      "source": "nb",
+      "target": "十个",
+      "size": 2
+    },
+    {
+      "id": "十个-怎么",
+      "source": "十个",
+      "target": "怎么",
+      "size": 2
+    },
+    {
+      "id": "不是-十个",
+      "source": "不是",
+      "target": "十个",
+      "size": 2
+    },
+    {
+      "id": "一种-十个",
+      "source": "一种",
+      "target": "十个",
+      "size": 2
+    },
+    {
+      "id": "十个-赞扬",
+      "source": "十个",
+      "target": "赞扬",
+      "size": 2
+    },
+    {
+      "id": "yxh-小时",
+      "source": "yxh",
+      "target": "小时",
+      "size": 2
+    },
+    {
+      "id": "小时-看多",
+      "source": "小时",
+      "target": "看多",
+      "size": 2
+    },
+    {
+      "id": "小时-要是",
+      "source": "小时",
+      "target": "要是",
+      "size": 2
+    },
+    {
+      "id": "小时-每天",
+      "source": "小时",
+      "target": "每天",
+      "size": 3
+    },
+    {
+      "id": "小时-这么",
+      "source": "小时",
+      "target": "这么",
+      "size": 2
+    },
+    {
+      "id": "nb-小时",
+      "source": "nb",
+      "target": "小时",
+      "size": 2
+    },
+    {
+      "id": "小时-怎么",
+      "source": "小时",
+      "target": "怎么",
+      "size": 2
+    },
+    {
+      "id": "不是-小时",
+      "source": "不是",
+      "target": "小时",
+      "size": 2
+    },
+    {
+      "id": "一种-小时",
+      "source": "一种",
+      "target": "小时",
+      "size": 2
+    },
+    {
+      "id": "小时-赞扬",
+      "source": "小时",
+      "target": "赞扬",
+      "size": 2
+    },
+    {
+      "id": "yxh-看多",
+      "source": "yxh",
+      "target": "看多",
+      "size": 1
+    },
+    {
+      "id": "yxh-要是",
+      "source": "yxh",
+      "target": "要是",
+      "size": 1
+    },
+    {
+      "id": "yxh-每天",
+      "source": "yxh",
+      "target": "每天",
+      "size": 1
+    },
+    {
+      "id": "yxh-这么",
+      "source": "yxh",
+      "target": "这么",
+      "size": 1
+    },
+    {
+      "id": "nb-yxh",
+      "source": "nb",
+      "target": "yxh",
+      "size": 1
+    },
+    {
+      "id": "yxh-怎么",
+      "source": "yxh",
+      "target": "怎么",
+      "size": 1
+    },
+    {
+      "id": "yxh-不是",
+      "source": "yxh",
+      "target": "不是",
+      "size": 1
+    },
+    {
+      "id": "yxh-一种",
+      "source": "yxh",
+      "target": "一种",
+      "size": 1
+    },
+    {
+      "id": "yxh-赞扬",
+      "source": "yxh",
+      "target": "赞扬",
+      "size": 1
+    },
+    {
+      "id": "看多-要是",
+      "source": "看多",
+      "target": "要是",
+      "size": 1
+    },
+    {
+      "id": "每天-看多",
+      "source": "每天",
+      "target": "看多",
+      "size": 1
+    },
+    {
+      "id": "看多-这么",
+      "source": "看多",
+      "target": "这么",
+      "size": 1
+    },
+    {
+      "id": "nb-看多",
+      "source": "nb",
+      "target": "看多",
+      "size": 1
+    },
+    {
+      "id": "怎么-看多",
+      "source": "怎么",
+      "target": "看多",
+      "size": 1
+    },
+    {
+      "id": "不是-看多",
+      "source": "不是",
+      "target": "看多",
+      "size": 1
+    },
+    {
+      "id": "一种-看多",
+      "source": "一种",
+      "target": "看多",
+      "size": 1
+    },
+    {
+      "id": "看多-赞扬",
+      "source": "看多",
+      "target": "赞扬",
+      "size": 1
+    },
+    {
+      "id": "每天-要是",
+      "source": "每天",
+      "target": "要是",
+      "size": 1
+    },
+    {
+      "id": "要是-这么",
+      "source": "要是",
+      "target": "这么",
+      "size": 1
+    },
+    {
+      "id": "nb-要是",
+      "source": "nb",
+      "target": "要是",
+      "size": 1
+    },
+    {
+      "id": "怎么-要是",
+      "source": "怎么",
+      "target": "要是",
+      "size": 1
+    },
+    {
+      "id": "不是-要是",
+      "source": "不是",
+      "target": "要是",
+      "size": 1
+    },
+    {
+      "id": "一种-要是",
+      "source": "一种",
+      "target": "要是",
+      "size": 1
+    },
+    {
+      "id": "要是-赞扬",
+      "source": "要是",
+      "target": "赞扬",
+      "size": 1
+    },
+    {
+      "id": "每天-这么",
+      "source": "每天",
+      "target": "这么",
+      "size": 1
+    },
+    {
+      "id": "nb-每天",
+      "source": "nb",
+      "target": "每天",
+      "size": 1
+    },
+    {
+      "id": "怎么-每天",
+      "source": "怎么",
+      "target": "每天",
+      "size": 1
+    },
+    {
+      "id": "不是-每天",
+      "source": "不是",
+      "target": "每天",
+      "size": 1
+    },
+    {
+      "id": "一种-每天",
+      "source": "一种",
+      "target": "每天",
+      "size": 1
+    },
+    {
+      "id": "每天-赞扬",
+      "source": "每天",
+      "target": "赞扬",
+      "size": 1
+    },
+    {
+      "id": "nb-这么",
+      "source": "nb",
+      "target": "这么",
+      "size": 1
+    },
+    {
+      "id": "怎么-这么",
+      "source": "怎么",
+      "target": "这么",
+      "size": 2
+    },
+    {
+      "id": "不是-这么",
+      "source": "不是",
+      "target": "这么",
+      "size": 1
+    },
+    {
+      "id": "一种-这么",
+      "source": "一种",
+      "target": "这么",
+      "size": 1
+    },
+    {
+      "id": "赞扬-这么",
+      "source": "赞扬",
+      "target": "这么",
+      "size": 1
+    },
+    {
+      "id": "nb-怎么",
+      "source": "nb",
+      "target": "怎么",
+      "size": 1
+    },
+    {
+      "id": "nb-不是",
+      "source": "nb",
+      "target": "不是",
+      "size": 1
+    },
+    {
+      "id": "nb-一种",
+      "source": "nb",
+      "target": "一种",
+      "size": 1
+    },
+    {
+      "id": "nb-赞扬",
+      "source": "nb",
+      "target": "赞扬",
+      "size": 1
+    },
+    {
+      "id": "不是-怎么",
+      "source": "不是",
+      "target": "怎么",
+      "size": 1
+    },
+    {
+      "id": "一种-怎么",
+      "source": "一种",
+      "target": "怎么",
+      "size": 1
+    },
+    {
+      "id": "怎么-赞扬",
+      "source": "怎么",
+      "target": "赞扬",
+      "size": 1
+    },
+    {
+      "id": "一种-不是",
+      "source": "一种",
+      "target": "不是",
+      "size": 1
+    },
+    {
+      "id": "不是-赞扬",
+      "source": "不是",
+      "target": "赞扬",
+      "size": 1
+    },
+    {
+      "id": "一种-赞扬",
+      "source": "一种",
+      "target": "赞扬",
+      "size": 1
+    },
+    {
+      "id": "五个-你们",
+      "source": "五个",
+      "target": "你们",
+      "size": 1
+    },
+    {
+      "id": "你们-这样",
+      "source": "你们",
+      "target": "这样",
+      "size": 2
+    },
+    {
+      "id": "你们-过去",
+      "source": "你们",
+      "target": "过去",
+      "size": 1
+    },
+    {
+      "id": "你们-顺便",
+      "source": "你们",
+      "target": "顺便",
+      "size": 1
+    },
+    {
+      "id": "你们-快递",
+      "source": "你们",
+      "target": "快递",
+      "size": 1
+    },
+    {
+      "id": "你们-谢谢",
+      "source": "你们",
+      "target": "谢谢",
+      "size": 1
+    },
+    {
+      "id": "你们-宝宝",
+      "source": "你们",
+      "target": "宝宝",
+      "size": 1
+    },
+    {
+      "id": "五个-这样",
+      "source": "五个",
+      "target": "这样",
+      "size": 1
+    },
+    {
+      "id": "五个-过去",
+      "source": "五个",
+      "target": "过去",
+      "size": 1
+    },
+    {
+      "id": "五个-顺便",
+      "source": "五个",
+      "target": "顺便",
+      "size": 1
+    },
+    {
+      "id": "五个-快递",
+      "source": "五个",
+      "target": "快递",
+      "size": 1
+    },
+    {
+      "id": "五个-谢谢",
+      "source": "五个",
+      "target": "谢谢",
+      "size": 1
+    },
+    {
+      "id": "五个-宝宝",
+      "source": "五个",
+      "target": "宝宝",
+      "size": 1
+    },
+    {
+      "id": "过去-这样",
+      "source": "过去",
+      "target": "这样",
+      "size": 1
+    },
+    {
+      "id": "这样-顺便",
+      "source": "这样",
+      "target": "顺便",
+      "size": 1
+    },
+    {
+      "id": "快递-这样",
+      "source": "快递",
+      "target": "这样",
+      "size": 2
+    },
+    {
+      "id": "谢谢-这样",
+      "source": "谢谢",
+      "target": "这样",
+      "size": 1
+    },
+    {
+      "id": "宝宝-这样",
+      "source": "宝宝",
+      "target": "这样",
+      "size": 1
+    },
+    {
+      "id": "过去-顺便",
+      "source": "过去",
+      "target": "顺便",
+      "size": 1
+    },
+    {
+      "id": "快递-过去",
+      "source": "快递",
+      "target": "过去",
+      "size": 1
+    },
+    {
+      "id": "谢谢-过去",
+      "source": "谢谢",
+      "target": "过去",
+      "size": 1
+    },
+    {
+      "id": "宝宝-过去",
+      "source": "宝宝",
+      "target": "过去",
+      "size": 1
+    },
+    {
+      "id": "快递-顺便",
+      "source": "快递",
+      "target": "顺便",
+      "size": 1
+    },
+    {
+      "id": "谢谢-顺便",
+      "source": "谢谢",
+      "target": "顺便",
+      "size": 1
+    },
+    {
+      "id": "宝宝-顺便",
+      "source": "宝宝",
+      "target": "顺便",
+      "size": 1
+    },
+    {
+      "id": "快递-谢谢",
+      "source": "快递",
+      "target": "谢谢",
+      "size": 1
+    },
+    {
+      "id": "宝宝-快递",
+      "source": "宝宝",
+      "target": "快递",
+      "size": 1
+    },
+    {
+      "id": "宝宝-谢谢",
+      "source": "宝宝",
+      "target": "谢谢",
+      "size": 1
+    },
+    {
+      "id": "五个-妹妹",
+      "source": "五个",
+      "target": "妹妹",
+      "size": 2
+    },
+    {
+      "id": "五个-还是",
+      "source": "五个",
+      "target": "还是",
+      "size": 2
+    },
+    {
+      "id": "五个-回家吧",
+      "source": "五个",
+      "target": "回家吧",
+      "size": 1
+    },
+    {
+      "id": "上学-五个",
+      "source": "上学",
+      "target": "五个",
+      "size": 2
+    },
+    {
+      "id": "妹妹-还是",
+      "source": "妹妹",
+      "target": "还是",
+      "size": 2
+    },
+    {
+      "id": "回家吧-妹妹",
+      "source": "回家吧",
+      "target": "妹妹",
+      "size": 1
+    },
+    {
+      "id": "上学-妹妹",
+      "source": "上学",
+      "target": "妹妹",
+      "size": 2
+    },
+    {
+      "id": "回家吧-还是",
+      "source": "回家吧",
+      "target": "还是",
+      "size": 1
+    },
+    {
+      "id": "上学-还是",
+      "source": "上学",
+      "target": "还是",
+      "size": 2
+    },
+    {
+      "id": "上学-回家吧",
+      "source": "上学",
+      "target": "回家吧",
+      "size": 1
+    },
+    {
+      "id": "下面-观众",
+      "source": "下面",
+      "target": "观众",
+      "size": 1
+    },
+    {
+      "id": "下面-打招呼",
+      "source": "下面",
+      "target": "打招呼",
+      "size": 1
+    },
+    {
+      "id": "打招呼-观众",
+      "source": "打招呼",
+      "target": "观众",
+      "size": 1
+    },
+    {
+      "id": "小熊-开麦",
+      "source": "小熊",
+      "target": "开麦",
+      "size": 1
+    },
+    {
+      "id": "小熊-进步",
+      "source": "小熊",
+      "target": "进步",
+      "size": 1
+    },
+    {
+      "id": "太大-小熊",
+      "source": "太大",
+      "target": "小熊",
+      "size": 1
+    },
+    {
+      "id": "开麦-进步",
+      "source": "开麦",
+      "target": "进步",
+      "size": 1
+    },
+    {
+      "id": "太大-开麦",
+      "source": "太大",
+      "target": "开麦",
+      "size": 1
+    },
+    {
+      "id": "太大-进步",
+      "source": "太大",
+      "target": "进步",
+      "size": 2
+    },
+    {
+      "id": "多想-这样",
+      "source": "多想",
+      "target": "这样",
+      "size": 1
+    },
+    {
+      "id": "你们-多想",
+      "source": "你们",
+      "target": "多想",
+      "size": 1
+    },
+    {
+      "id": "你担-没有",
+      "source": "你担",
+      "target": "没有",
+      "size": 1
+    },
+    {
+      "id": "njz-你担",
+      "source": "njz",
+      "target": "你担",
+      "size": 1
+    },
+    {
+      "id": "你担-待遇",
+      "source": "你担",
+      "target": "待遇",
+      "size": 1
+    },
+    {
+      "id": "不想-你担",
+      "source": "不想",
+      "target": "你担",
+      "size": 1
+    },
+    {
+      "id": "njz-没有",
+      "source": "njz",
+      "target": "没有",
+      "size": 1
+    },
+    {
+      "id": "待遇-没有",
+      "source": "待遇",
+      "target": "没有",
+      "size": 1
+    },
+    {
+      "id": "不想-没有",
+      "source": "不想",
+      "target": "没有",
+      "size": 1
+    },
+    {
+      "id": "njz-待遇",
+      "source": "njz",
+      "target": "待遇",
+      "size": 1
+    },
+    {
+      "id": "njz-不想",
+      "source": "njz",
+      "target": "不想",
+      "size": 1
+    },
+    {
+      "id": "不想-待遇",
+      "source": "不想",
+      "target": "待遇",
+      "size": 1
+    },
+    {
+      "id": "显得-贴脸",
+      "source": "显得",
+      "target": "贴脸",
+      "size": 1
+    },
+    {
+      "id": "必须-所有人",
+      "source": "必须",
+      "target": "所有人",
+      "size": 1
+    },
+    {
+      "id": "所有人-打招呼",
+      "source": "所有人",
+      "target": "打招呼",
+      "size": 1
+    },
+    {
+      "id": "必须-打招呼",
+      "source": "必须",
+      "target": "打招呼",
+      "size": 1
+    },
+    {
+      "id": "全开-麦鲸舞",
+      "source": "全开",
+      "target": "麦鲸舞",
+      "size": 1
+    },
+    {
+      "id": "全开-难度",
+      "source": "全开",
+      "target": "难度",
+      "size": 1
+    },
+    {
+      "id": "全开-太大",
+      "source": "全开",
+      "target": "太大",
+      "size": 1
+    },
+    {
+      "id": "难度-麦鲸舞",
+      "source": "难度",
+      "target": "麦鲸舞",
+      "size": 1
+    },
+    {
+      "id": "太大-麦鲸舞",
+      "source": "太大",
+      "target": "麦鲸舞",
+      "size": 1
+    },
+    {
+      "id": "太大-难度",
+      "source": "太大",
+      "target": "难度",
+      "size": 1
+    },
+    {
+      "id": "转晕-这四小",
+      "source": "转晕",
+      "target": "这四小",
+      "size": 1
+    },
+    {
+      "id": "Hanni-小手",
+      "source": "Hanni",
+      "target": "小手",
+      "size": 1
+    },
+    {
+      "id": "minji-这个",
+      "source": "minji",
+      "target": "这个",
+      "size": 2
+    },
+    {
+      "id": "minji-挑眉",
+      "source": "minji",
+      "target": "挑眉",
+      "size": 1
+    },
+    {
+      "id": "minji-啊啊啊",
+      "source": "minji",
+      "target": "啊啊啊",
+      "size": 7
+    },
+    {
+      "id": "挑眉-这个",
+      "source": "挑眉",
+      "target": "这个",
+      "size": 1
+    },
+    {
+      "id": "啊啊啊-这个",
+      "source": "啊啊啊",
+      "target": "这个",
+      "size": 2
+    },
+    {
+      "id": "啊啊啊-挑眉",
+      "source": "啊啊啊",
+      "target": "挑眉",
+      "size": 2
+    },
+    {
+      "id": "猫猫-进步",
+      "source": "猫猫",
+      "target": "进步",
+      "size": 1
+    },
+    {
+      "id": "猫猫-真的",
+      "source": "猫猫",
+      "target": "真的",
+      "size": 1
+    },
+    {
+      "id": "很大-猫猫",
+      "source": "很大",
+      "target": "猫猫",
+      "size": 1
+    },
+    {
+      "id": "真的-进步",
+      "source": "真的",
+      "target": "进步",
+      "size": 1
+    },
+    {
+      "id": "很大-进步",
+      "source": "很大",
+      "target": "进步",
+      "size": 1
+    },
+    {
+      "id": "很大-真的",
+      "source": "很大",
+      "target": "真的",
+      "size": 1
+    },
+    {
+      "id": "谢谢-黑粉",
+      "source": "谢谢",
+      "target": "黑粉",
+      "size": 1
+    },
+    {
+      "id": "谢谢-贡献",
+      "source": "谢谢",
+      "target": "贡献",
+      "size": 1
+    },
+    {
+      "id": "播放-谢谢",
+      "source": "播放",
+      "target": "谢谢",
+      "size": 1
+    },
+    {
+      "id": "贡献-黑粉",
+      "source": "贡献",
+      "target": "黑粉",
+      "size": 1
+    },
+    {
+      "id": "播放-黑粉",
+      "source": "播放",
+      "target": "黑粉",
+      "size": 1
+    },
+    {
+      "id": "播放-贡献",
+      "source": "播放",
+      "target": "贡献",
+      "size": 1
+    },
+    {
+      "id": "大家-赶紧",
+      "source": "大家",
+      "target": "赶紧",
+      "size": 1
+    },
+    {
+      "id": "大家-打招呼",
+      "source": "大家",
+      "target": "打招呼",
+      "size": 2
+    },
+    {
+      "id": "打招呼-赶紧",
+      "source": "打招呼",
+      "target": "赶紧",
+      "size": 1
+    },
+    {
+      "id": "minji-接收",
+      "source": "minji",
+      "target": "接收",
+      "size": 1
+    },
+    {
+      "id": "接收-爱心",
+      "source": "接收",
+      "target": "爱心",
+      "size": 1
+    },
+    {
+      "id": "minji-爱心",
+      "source": "minji",
+      "target": "爱心",
+      "size": 1
+    },
+    {
+      "id": "boy-hype",
+      "source": "boy",
+      "target": "hype",
+      "size": 1
+    },
+    {
+      "id": "hype-一响",
+      "source": "hype",
+      "target": "一响",
+      "size": 1
+    },
+    {
+      "id": "hype-全场",
+      "source": "hype",
+      "target": "全场",
+      "size": 1
+    },
+    {
+      "id": "hype-沸腾",
+      "source": "hype",
+      "target": "沸腾",
+      "size": 1
+    },
+    {
+      "id": "hype-kkk",
+      "source": "hype",
+      "target": "kkk",
+      "size": 1
+    },
+    {
+      "id": "boy-一响",
+      "source": "boy",
+      "target": "一响",
+      "size": 1
+    },
+    {
+      "id": "boy-全场",
+      "source": "boy",
+      "target": "全场",
+      "size": 1
+    },
+    {
+      "id": "boy-沸腾",
+      "source": "boy",
+      "target": "沸腾",
+      "size": 1
+    },
+    {
+      "id": "boy-kkk",
+      "source": "boy",
+      "target": "kkk",
+      "size": 1
+    },
+    {
+      "id": "一响-全场",
+      "source": "一响",
+      "target": "全场",
+      "size": 1
+    },
+    {
+      "id": "一响-沸腾",
+      "source": "一响",
+      "target": "沸腾",
+      "size": 1
+    },
+    {
+      "id": "kkk-一响",
+      "source": "kkk",
+      "target": "一响",
+      "size": 1
+    },
+    {
+      "id": "全场-沸腾",
+      "source": "全场",
+      "target": "沸腾",
+      "size": 1
+    },
+    {
+      "id": "kkk-全场",
+      "source": "kkk",
+      "target": "全场",
+      "size": 1
+    },
+    {
+      "id": "kkk-沸腾",
+      "source": "kkk",
+      "target": "沸腾",
+      "size": 1
+    },
+    {
+      "id": "珠们-那些",
+      "source": "珠们",
+      "target": "那些",
+      "size": 1
+    },
+    {
+      "id": "你们-那些",
+      "source": "你们",
+      "target": "那些",
+      "size": 1
+    },
+    {
+      "id": "个事-那些",
+      "source": "个事",
+      "target": "那些",
+      "size": 1
+    },
+    {
+      "id": "你们-珠们",
+      "source": "你们",
+      "target": "珠们",
+      "size": 1
+    },
+    {
+      "id": "个事-珠们",
+      "source": "个事",
+      "target": "珠们",
+      "size": 1
+    },
+    {
+      "id": "个事-你们",
+      "source": "个事",
+      "target": "你们",
+      "size": 1
+    },
+    {
+      "id": "弹幕-浮木",
+      "source": "弹幕",
+      "target": "浮木",
+      "size": 1
+    },
+    {
+      "id": "弹幕-怎么办",
+      "source": "弹幕",
+      "target": "怎么办",
+      "size": 1
+    },
+    {
+      "id": "怎么办-浮木",
+      "source": "怎么办",
+      "target": "浮木",
+      "size": 1
+    },
+    {
+      "id": "剪得-简直",
+      "source": "剪得",
+      "target": "简直",
+      "size": 1
+    },
+    {
+      "id": "没边-简直",
+      "source": "没边",
+      "target": "简直",
+      "size": 1
+    },
+    {
+      "id": "剪得-没边",
+      "source": "剪得",
+      "target": "没边",
+      "size": 1
+    },
+    {
+      "id": "minji-太会",
+      "source": "minji",
+      "target": "太会",
+      "size": 1
+    },
+    {
+      "id": "两句-好听",
+      "source": "两句",
+      "target": "好听",
+      "size": 1
+    },
+    {
+      "id": "基本上-未成年",
+      "source": "基本上",
+      "target": "未成年",
+      "size": 1
+    },
+    {
+      "id": "十个-基本上",
+      "source": "十个",
+      "target": "基本上",
+      "size": 1
+    },
+    {
+      "id": "基本上-小时",
+      "source": "基本上",
+      "target": "小时",
+      "size": 1
+    },
+    {
+      "id": "十个-未成年",
+      "source": "十个",
+      "target": "未成年",
+      "size": 1
+    },
+    {
+      "id": "小时-未成年",
+      "source": "小时",
+      "target": "未成年",
+      "size": 1
+    },
+    {
+      "id": "njz-好好",
+      "source": "njz",
+      "target": "好好",
+      "size": 1
+    },
+    {
+      "id": "太萌-宝宝",
+      "source": "太萌",
+      "target": "宝宝",
+      "size": 1
+    },
+    {
+      "id": "dani-丸子",
+      "source": "dani",
+      "target": "丸子",
+      "size": 1
+    },
+    {
+      "id": "dani-亲亲",
+      "source": "dani",
+      "target": "亲亲",
+      "size": 1
+    },
+    {
+      "id": "丸子-亲亲",
+      "source": "丸子",
+      "target": "亲亲",
+      "size": 1
+    },
+    {
+      "id": "never-newjeans",
+      "source": "never",
+      "target": "newjeans",
+      "size": 1
+    },
+    {
+      "id": "die-newjeans",
+      "source": "die",
+      "target": "newjeans",
+      "size": 1
+    },
+    {
+      "id": "die-never",
+      "source": "die",
+      "target": "never",
+      "size": 3
+    },
+    {
+      "id": "害羞-小猫",
+      "source": "害羞",
+      "target": "小猫",
+      "size": 1
+    },
+    {
+      "id": "好好-救命",
+      "source": "好好",
+      "target": "救命",
+      "size": 1
+    },
+    {
+      "id": "喜欢-好好",
+      "source": "喜欢",
+      "target": "好好",
+      "size": 1
+    },
+    {
+      "id": "她们-好好",
+      "source": "她们",
+      "target": "好好",
+      "size": 1
+    },
+    {
+      "id": "好好-这次",
+      "source": "好好",
+      "target": "这次",
+      "size": 1
+    },
+    {
+      "id": "好好-舞台",
+      "source": "好好",
+      "target": "舞台",
+      "size": 1
+    },
+    {
+      "id": "喜欢-救命",
+      "source": "喜欢",
+      "target": "救命",
+      "size": 1
+    },
+    {
+      "id": "她们-救命",
+      "source": "她们",
+      "target": "救命",
+      "size": 1
+    },
+    {
+      "id": "救命-这次",
+      "source": "救命",
+      "target": "这次",
+      "size": 1
+    },
+    {
+      "id": "救命-舞台",
+      "source": "救命",
+      "target": "舞台",
+      "size": 1
+    },
+    {
+      "id": "喜欢-她们",
+      "source": "喜欢",
+      "target": "她们",
+      "size": 1
+    },
+    {
+      "id": "喜欢-这次",
+      "source": "喜欢",
+      "target": "这次",
+      "size": 1
+    },
+    {
+      "id": "喜欢-舞台",
+      "source": "喜欢",
+      "target": "舞台",
+      "size": 2
+    },
+    {
+      "id": "她们-这次",
+      "source": "她们",
+      "target": "这次",
+      "size": 1
+    },
+    {
+      "id": "她们-舞台",
+      "source": "她们",
+      "target": "舞台",
+      "size": 1
+    },
+    {
+      "id": "舞台-这次",
+      "source": "舞台",
+      "target": "这次",
+      "size": 1
+    },
+    {
+      "id": "太萌-这个",
+      "source": "太萌",
+      "target": "这个",
+      "size": 1
+    },
+    {
+      "id": "太萌-版本",
+      "source": "太萌",
+      "target": "版本",
+      "size": 1
+    },
+    {
+      "id": "haohaot-太萌",
+      "source": "haohaot",
+      "target": "太萌",
+      "size": 1
+    },
+    {
+      "id": "版本-这个",
+      "source": "版本",
+      "target": "这个",
+      "size": 1
+    },
+    {
+      "id": "haohaot-这个",
+      "source": "haohaot",
+      "target": "这个",
+      "size": 1
+    },
+    {
+      "id": "haohaot-版本",
+      "source": "haohaot",
+      "target": "版本",
+      "size": 1
+    },
+    {
+      "id": "举报-大家",
+      "source": "举报",
+      "target": "大家",
+      "size": 1
+    },
+    {
+      "id": "大家-那些",
+      "source": "大家",
+      "target": "那些",
+      "size": 1
+    },
+    {
+      "id": "举报-那些",
+      "source": "举报",
+      "target": "那些",
+      "size": 1
+    },
+    {
+      "id": "司马-贴脸",
+      "source": "司马",
+      "target": "贴脸",
+      "size": 1
+    },
+    {
+      "id": "好好-惠仁",
+      "source": "好好",
+      "target": "惠仁",
+      "size": 1
+    },
+    {
+      "id": "事实-论据",
+      "source": "事实",
+      "target": "论据",
+      "size": 1
+    },
+    {
+      "id": "minji-上天",
+      "source": "minji",
+      "target": "上天",
+      "size": 1
+    },
+    {
+      "id": "小猫-敬礼",
+      "source": "小猫",
+      "target": "敬礼",
+      "size": 1
+    },
+    {
+      "id": "care-dont",
+      "source": "care",
+      "target": "dont",
+      "size": 1
+    },
+    {
+      "id": "10-人家",
+      "source": "10",
+      "target": "人家",
+      "size": 1
+    },
+    {
+      "id": "人家-小时",
+      "source": "人家",
+      "target": "小时",
+      "size": 1
+    },
+    {
+      "id": "人家-耽误",
+      "source": "人家",
+      "target": "耽误",
+      "size": 1
+    },
+    {
+      "id": "人家-工作",
+      "source": "人家",
+      "target": "工作",
+      "size": 1
+    },
+    {
+      "id": "10-小时",
+      "source": "10",
+      "target": "小时",
+      "size": 3
+    },
+    {
+      "id": "10-耽误",
+      "source": "10",
+      "target": "耽误",
+      "size": 1
+    },
+    {
+      "id": "10-工作",
+      "source": "10",
+      "target": "工作",
+      "size": 1
+    },
+    {
+      "id": "小时-耽误",
+      "source": "小时",
+      "target": "耽误",
+      "size": 1
+    },
+    {
+      "id": "小时-工作",
+      "source": "小时",
+      "target": "工作",
+      "size": 1
+    },
+    {
+      "id": "工作-耽误",
+      "source": "工作",
+      "target": "耽误",
+      "size": 1
+    },
+    {
+      "id": "大声-小池",
+      "source": "大声",
+      "target": "小池",
+      "size": 2
+    },
+    {
+      "id": "妈妈-惠仁",
+      "source": "妈妈",
+      "target": "惠仁",
+      "size": 1
+    },
+    {
+      "id": "ditto-伟大",
+      "source": "ditto",
+      "target": "伟大",
+      "size": 1
+    },
+    {
+      "id": "爱死-这五小",
+      "source": "爱死",
+      "target": "这五小",
+      "size": 1
+    },
+    {
+      "id": "minji-美晕",
+      "source": "minji",
+      "target": "美晕",
+      "size": 1
+    },
+    {
+      "id": "可以-我担",
+      "source": "可以",
+      "target": "我担",
+      "size": 1
+    },
+    {
+      "id": "我担-拥有",
+      "source": "我担",
+      "target": "拥有",
+      "size": 1
+    },
+    {
+      "id": "newjeans-我担",
+      "source": "newjeans",
+      "target": "我担",
+      "size": 1
+    },
+    {
+      "id": "待遇-我担",
+      "source": "待遇",
+      "target": "我担",
+      "size": 1
+    },
+    {
+      "id": "可以-拥有",
+      "source": "可以",
+      "target": "拥有",
+      "size": 1
+    },
+    {
+      "id": "newjeans-可以",
+      "source": "newjeans",
+      "target": "可以",
+      "size": 1
+    },
+    {
+      "id": "可以-待遇",
+      "source": "可以",
+      "target": "待遇",
+      "size": 1
+    },
+    {
+      "id": "newjeans-拥有",
+      "source": "newjeans",
+      "target": "拥有",
+      "size": 1
+    },
+    {
+      "id": "待遇-拥有",
+      "source": "待遇",
+      "target": "拥有",
+      "size": 1
+    },
+    {
+      "id": "newjeans-待遇",
+      "source": "newjeans",
+      "target": "待遇",
+      "size": 1
+    },
+    {
+      "id": "可以-每天",
+      "source": "可以",
+      "target": "每天",
+      "size": 1
+    },
+    {
+      "id": "十小时-每天",
+      "source": "十小时",
+      "target": "每天",
+      "size": 1
+    },
+    {
+      "id": "每天-爱豆",
+      "source": "每天",
+      "target": "爱豆",
+      "size": 1
+    },
+    {
+      "id": "十小时-可以",
+      "source": "十小时",
+      "target": "可以",
+      "size": 1
+    },
+    {
+      "id": "可以-爱豆",
+      "source": "可以",
+      "target": "爱豆",
+      "size": 1
+    },
+    {
+      "id": "十小时-爱豆",
+      "source": "十小时",
+      "target": "爱豆",
+      "size": 1
+    },
+    {
+      "id": "五条-裤裤",
+      "source": "五条",
+      "target": "裤裤",
+      "size": 1
+    },
+    {
+      "id": "五条-回家吧",
+      "source": "五条",
+      "target": "回家吧",
+      "size": 1
+    },
+    {
+      "id": "回家吧-裤裤",
+      "source": "回家吧",
+      "target": "裤裤",
+      "size": 1
+    },
+    {
+      "id": "NJZ-万岁",
+      "source": "NJZ",
+      "target": "万岁",
+      "size": 2
+    },
+    {
+      "id": "NJZ-kpop",
+      "source": "NJZ",
+      "target": "kpop",
+      "size": 1
+    },
+    {
+      "id": "kpop-万岁",
+      "source": "kpop",
+      "target": "万岁",
+      "size": 1
+    },
+    {
+      "id": "建议-无视",
+      "source": "建议",
+      "target": "无视",
+      "size": 1
+    },
+    {
+      "id": "bnz-无视",
+      "source": "bnz",
+      "target": "无视",
+      "size": 1
+    },
+    {
+      "id": "无视-这样",
+      "source": "无视",
+      "target": "这样",
+      "size": 1
+    },
+    {
+      "id": "回复-无视",
+      "source": "回复",
+      "target": "无视",
+      "size": 1
+    },
+    {
+      "id": "无视-顺带",
+      "source": "无视",
+      "target": "顺带",
+      "size": 1
+    },
+    {
+      "id": "无视-澄清",
+      "source": "无视",
+      "target": "澄清",
+      "size": 1
+    },
+    {
+      "id": "bnz-建议",
+      "source": "bnz",
+      "target": "建议",
+      "size": 1
+    },
+    {
+      "id": "建议-这样",
+      "source": "建议",
+      "target": "这样",
+      "size": 1
+    },
+    {
+      "id": "回复-建议",
+      "source": "回复",
+      "target": "建议",
+      "size": 1
+    },
+    {
+      "id": "建议-顺带",
+      "source": "建议",
+      "target": "顺带",
+      "size": 1
+    },
+    {
+      "id": "建议-澄清",
+      "source": "建议",
+      "target": "澄清",
+      "size": 1
+    },
+    {
+      "id": "bnz-这样",
+      "source": "bnz",
+      "target": "这样",
+      "size": 1
+    },
+    {
+      "id": "bnz-回复",
+      "source": "bnz",
+      "target": "回复",
+      "size": 1
+    },
+    {
+      "id": "bnz-顺带",
+      "source": "bnz",
+      "target": "顺带",
+      "size": 1
+    },
+    {
+      "id": "bnz-澄清",
+      "source": "bnz",
+      "target": "澄清",
+      "size": 1
+    },
+    {
+      "id": "回复-这样",
+      "source": "回复",
+      "target": "这样",
+      "size": 1
+    },
+    {
+      "id": "这样-顺带",
+      "source": "这样",
+      "target": "顺带",
+      "size": 1
+    },
+    {
+      "id": "澄清-这样",
+      "source": "澄清",
+      "target": "这样",
+      "size": 1
+    },
+    {
+      "id": "回复-顺带",
+      "source": "回复",
+      "target": "顺带",
+      "size": 1
+    },
+    {
+      "id": "回复-澄清",
+      "source": "回复",
+      "target": "澄清",
+      "size": 1
+    },
+    {
+      "id": "澄清-顺带",
+      "source": "澄清",
+      "target": "顺带",
+      "size": 1
+    },
+    {
+      "id": "hello-一直",
+      "source": "hello",
+      "target": "一直",
+      "size": 1
+    },
+    {
+      "id": "一直-人机",
+      "source": "一直",
+      "target": "人机",
+      "size": 1
+    },
+    {
+      "id": "一直-好好笑",
+      "source": "一直",
+      "target": "好好笑",
+      "size": 1
+    },
+    {
+      "id": "一直-别来",
+      "source": "一直",
+      "target": "别来",
+      "size": 1
+    },
+    {
+      "id": "一直-贩间",
+      "source": "一直",
+      "target": "贩间",
+      "size": 1
+    },
+    {
+      "id": "hello-人机",
+      "source": "hello",
+      "target": "人机",
+      "size": 1
+    },
+    {
+      "id": "hello-好好笑",
+      "source": "hello",
+      "target": "好好笑",
+      "size": 1
+    },
+    {
+      "id": "hello-别来",
+      "source": "hello",
+      "target": "别来",
+      "size": 1
+    },
+    {
+      "id": "hello-贩间",
+      "source": "hello",
+      "target": "贩间",
+      "size": 1
+    },
+    {
+      "id": "人机-好好笑",
+      "source": "人机",
+      "target": "好好笑",
+      "size": 1
+    },
+    {
+      "id": "人机-别来",
+      "source": "人机",
+      "target": "别来",
+      "size": 1
+    },
+    {
+      "id": "人机-贩间",
+      "source": "人机",
+      "target": "贩间",
+      "size": 1
+    },
+    {
+      "id": "别来-好好笑",
+      "source": "别来",
+      "target": "好好笑",
+      "size": 1
+    },
+    {
+      "id": "好好笑-贩间",
+      "source": "好好笑",
+      "target": "贩间",
+      "size": 1
+    },
+    {
+      "id": "别来-贩间",
+      "source": "别来",
+      "target": "贩间",
+      "size": 1
+    },
+    {
+      "id": "回归-有点像",
+      "source": "回归",
+      "target": "有点像",
+      "size": 2
+    },
+    {
+      "id": "有点像-每天",
+      "source": "有点像",
+      "target": "每天",
+      "size": 2
+    },
+    {
+      "id": "10-有点像",
+      "source": "10",
+      "target": "有点像",
+      "size": 2
+    },
+    {
+      "id": "小时-有点像",
+      "source": "小时",
+      "target": "有点像",
+      "size": 2
+    },
+    {
+      "id": "休息时间-有点像",
+      "source": "休息时间",
+      "target": "有点像",
+      "size": 2
+    },
+    {
+      "id": "hanni-有点像",
+      "source": "hanni",
+      "target": "有点像",
+      "size": 2
+    },
+    {
+      "id": "中国-有点像",
+      "source": "中国",
+      "target": "有点像",
+      "size": 2
+    },
+    {
+      "id": "同胞-有点像",
+      "source": "同胞",
+      "target": "有点像",
+      "size": 2
+    },
+    {
+      "id": "有点像-遇难",
+      "source": "有点像",
+      "target": "遇难",
+      "size": 2
+    },
+    {
+      "id": "有点像-老板",
+      "source": "有点像",
+      "target": "老板",
+      "size": 2
+    },
+    {
+      "id": "合影-有点像",
+      "source": "合影",
+      "target": "有点像",
+      "size": 2
+    },
+    {
+      "id": "回归-每天",
+      "source": "回归",
+      "target": "每天",
+      "size": 1
+    },
+    {
+      "id": "10-回归",
+      "source": "10",
+      "target": "回归",
+      "size": 1
+    },
+    {
+      "id": "回归-小时",
+      "source": "回归",
+      "target": "小时",
+      "size": 3
+    },
+    {
+      "id": "休息时间-回归",
+      "source": "休息时间",
+      "target": "回归",
+      "size": 1
+    },
+    {
+      "id": "hanni-回归",
+      "source": "hanni",
+      "target": "回归",
+      "size": 1
+    },
+    {
+      "id": "中国-回归",
+      "source": "中国",
+      "target": "回归",
+      "size": 1
+    },
+    {
+      "id": "同胞-回归",
+      "source": "同胞",
+      "target": "回归",
+      "size": 1
+    },
+    {
+      "id": "回归-遇难",
+      "source": "回归",
+      "target": "遇难",
+      "size": 1
+    },
+    {
+      "id": "回归-老板",
+      "source": "回归",
+      "target": "老板",
+      "size": 1
+    },
+    {
+      "id": "合影-回归",
+      "source": "合影",
+      "target": "回归",
+      "size": 1
+    },
+    {
+      "id": "10-每天",
+      "source": "10",
+      "target": "每天",
+      "size": 1
+    },
+    {
+      "id": "休息时间-每天",
+      "source": "休息时间",
+      "target": "每天",
+      "size": 1
+    },
+    {
+      "id": "hanni-每天",
+      "source": "hanni",
+      "target": "每天",
+      "size": 1
+    },
+    {
+      "id": "中国-每天",
+      "source": "中国",
+      "target": "每天",
+      "size": 1
+    },
+    {
+      "id": "同胞-每天",
+      "source": "同胞",
+      "target": "每天",
+      "size": 1
+    },
+    {
+      "id": "每天-遇难",
+      "source": "每天",
+      "target": "遇难",
+      "size": 1
+    },
+    {
+      "id": "每天-老板",
+      "source": "每天",
+      "target": "老板",
+      "size": 1
+    },
+    {
+      "id": "合影-每天",
+      "source": "合影",
+      "target": "每天",
+      "size": 1
+    },
+    {
+      "id": "10-休息时间",
+      "source": "10",
+      "target": "休息时间",
+      "size": 1
+    },
+    {
+      "id": "10-hanni",
+      "source": "10",
+      "target": "hanni",
+      "size": 1
+    },
+    {
+      "id": "10-中国",
+      "source": "10",
+      "target": "中国",
+      "size": 1
+    },
+    {
+      "id": "10-同胞",
+      "source": "10",
+      "target": "同胞",
+      "size": 1
+    },
+    {
+      "id": "10-遇难",
+      "source": "10",
+      "target": "遇难",
+      "size": 1
+    },
+    {
+      "id": "10-老板",
+      "source": "10",
+      "target": "老板",
+      "size": 1
+    },
+    {
+      "id": "10-合影",
+      "source": "10",
+      "target": "合影",
+      "size": 1
+    },
+    {
+      "id": "休息时间-小时",
+      "source": "休息时间",
+      "target": "小时",
+      "size": 1
+    },
+    {
+      "id": "hanni-小时",
+      "source": "hanni",
+      "target": "小时",
+      "size": 1
+    },
+    {
+      "id": "中国-小时",
+      "source": "中国",
+      "target": "小时",
+      "size": 1
+    },
+    {
+      "id": "同胞-小时",
+      "source": "同胞",
+      "target": "小时",
+      "size": 1
+    },
+    {
+      "id": "小时-遇难",
+      "source": "小时",
+      "target": "遇难",
+      "size": 1
+    },
+    {
+      "id": "小时-老板",
+      "source": "小时",
+      "target": "老板",
+      "size": 1
+    },
+    {
+      "id": "合影-小时",
+      "source": "合影",
+      "target": "小时",
+      "size": 1
+    },
+    {
+      "id": "hanni-休息时间",
+      "source": "hanni",
+      "target": "休息时间",
+      "size": 1
+    },
+    {
+      "id": "中国-休息时间",
+      "source": "中国",
+      "target": "休息时间",
+      "size": 1
+    },
+    {
+      "id": "休息时间-同胞",
+      "source": "休息时间",
+      "target": "同胞",
+      "size": 1
+    },
+    {
+      "id": "休息时间-遇难",
+      "source": "休息时间",
+      "target": "遇难",
+      "size": 1
+    },
+    {
+      "id": "休息时间-老板",
+      "source": "休息时间",
+      "target": "老板",
+      "size": 1
+    },
+    {
+      "id": "休息时间-合影",
+      "source": "休息时间",
+      "target": "合影",
+      "size": 1
+    },
+    {
+      "id": "hanni-中国",
+      "source": "hanni",
+      "target": "中国",
+      "size": 1
+    },
+    {
+      "id": "hanni-同胞",
+      "source": "hanni",
+      "target": "同胞",
+      "size": 1
+    },
+    {
+      "id": "hanni-遇难",
+      "source": "hanni",
+      "target": "遇难",
+      "size": 1
+    },
+    {
+      "id": "hanni-老板",
+      "source": "hanni",
+      "target": "老板",
+      "size": 1
+    },
+    {
+      "id": "hanni-合影",
+      "source": "hanni",
+      "target": "合影",
+      "size": 1
+    },
+    {
+      "id": "中国-同胞",
+      "source": "中国",
+      "target": "同胞",
+      "size": 1
+    },
+    {
+      "id": "中国-遇难",
+      "source": "中国",
+      "target": "遇难",
+      "size": 1
+    },
+    {
+      "id": "中国-老板",
+      "source": "中国",
+      "target": "老板",
+      "size": 1
+    },
+    {
+      "id": "中国-合影",
+      "source": "中国",
+      "target": "合影",
+      "size": 1
+    },
+    {
+      "id": "同胞-遇难",
+      "source": "同胞",
+      "target": "遇难",
+      "size": 1
+    },
+    {
+      "id": "同胞-老板",
+      "source": "同胞",
+      "target": "老板",
+      "size": 1
+    },
+    {
+      "id": "合影-同胞",
+      "source": "合影",
+      "target": "同胞",
+      "size": 1
+    },
+    {
+      "id": "老板-遇难",
+      "source": "老板",
+      "target": "遇难",
+      "size": 1
+    },
+    {
+      "id": "合影-遇难",
+      "source": "合影",
+      "target": "遇难",
+      "size": 1
+    },
+    {
+      "id": "合影-老板",
+      "source": "合影",
+      "target": "老板",
+      "size": 1
+    },
+    {
+      "id": "有点像-法庭",
+      "source": "有点像",
+      "target": "法庭",
+      "size": 2
+    },
+    {
+      "id": "有点像-结果",
+      "source": "有点像",
+      "target": "结果",
+      "size": 2
+    },
+    {
+      "id": "有点像-证据",
+      "source": "有点像",
+      "target": "证据",
+      "size": 2
+    },
+    {
+      "id": "光速-有点像",
+      "source": "光速",
+      "target": "有点像",
+      "size": 2
+    },
+    {
+      "id": "打脸-有点像",
+      "source": "打脸",
+      "target": "有点像",
+      "size": 2
+    },
+    {
+      "id": "有点像-私连",
+      "source": "有点像",
+      "target": "私连",
+      "size": 2
+    },
+    {
+      "id": "大粉-有点像",
+      "source": "大粉",
+      "target": "有点像",
+      "size": 2
+    },
+    {
+      "id": "不行-有点像",
+      "source": "不行",
+      "target": "有点像",
+      "size": 2
+    },
+    {
+      "id": "法庭-结果",
+      "source": "法庭",
+      "target": "结果",
+      "size": 1
+    },
+    {
+      "id": "法庭-证据",
+      "source": "法庭",
+      "target": "证据",
+      "size": 1
+    },
+    {
+      "id": "光速-法庭",
+      "source": "光速",
+      "target": "法庭",
+      "size": 1
+    },
+    {
+      "id": "打脸-法庭",
+      "source": "打脸",
+      "target": "法庭",
+      "size": 1
+    },
+    {
+      "id": "法庭-私连",
+      "source": "法庭",
+      "target": "私连",
+      "size": 1
+    },
+    {
+      "id": "大粉-法庭",
+      "source": "大粉",
+      "target": "法庭",
+      "size": 1
+    },
+    {
+      "id": "不行-法庭",
+      "source": "不行",
+      "target": "法庭",
+      "size": 1
+    },
+    {
+      "id": "结果-证据",
+      "source": "结果",
+      "target": "证据",
+      "size": 1
+    },
+    {
+      "id": "光速-结果",
+      "source": "光速",
+      "target": "结果",
+      "size": 1
+    },
+    {
+      "id": "打脸-结果",
+      "source": "打脸",
+      "target": "结果",
+      "size": 1
+    },
+    {
+      "id": "私连-结果",
+      "source": "私连",
+      "target": "结果",
+      "size": 1
+    },
+    {
+      "id": "大粉-结果",
+      "source": "大粉",
+      "target": "结果",
+      "size": 1
+    },
+    {
+      "id": "不行-结果",
+      "source": "不行",
+      "target": "结果",
+      "size": 1
+    },
+    {
+      "id": "光速-证据",
+      "source": "光速",
+      "target": "证据",
+      "size": 1
+    },
+    {
+      "id": "打脸-证据",
+      "source": "打脸",
+      "target": "证据",
+      "size": 1
+    },
+    {
+      "id": "私连-证据",
+      "source": "私连",
+      "target": "证据",
+      "size": 1
+    },
+    {
+      "id": "大粉-证据",
+      "source": "大粉",
+      "target": "证据",
+      "size": 1
+    },
+    {
+      "id": "不行-证据",
+      "source": "不行",
+      "target": "证据",
+      "size": 1
+    },
+    {
+      "id": "光速-打脸",
+      "source": "光速",
+      "target": "打脸",
+      "size": 1
+    },
+    {
+      "id": "光速-私连",
+      "source": "光速",
+      "target": "私连",
+      "size": 1
+    },
+    {
+      "id": "光速-大粉",
+      "source": "光速",
+      "target": "大粉",
+      "size": 1
+    },
+    {
+      "id": "不行-光速",
+      "source": "不行",
+      "target": "光速",
+      "size": 1
+    },
+    {
+      "id": "打脸-私连",
+      "source": "打脸",
+      "target": "私连",
+      "size": 1
+    },
+    {
+      "id": "大粉-打脸",
+      "source": "大粉",
+      "target": "打脸",
+      "size": 1
+    },
+    {
+      "id": "不行-打脸",
+      "source": "不行",
+      "target": "打脸",
+      "size": 1
+    },
+    {
+      "id": "大粉-私连",
+      "source": "大粉",
+      "target": "私连",
+      "size": 1
+    },
+    {
+      "id": "不行-私连",
+      "source": "不行",
+      "target": "私连",
+      "size": 1
+    },
+    {
+      "id": "不行-大粉",
+      "source": "不行",
+      "target": "大粉",
+      "size": 1
+    },
+    {
+      "id": "minji-把手",
+      "source": "minji",
+      "target": "把手",
+      "size": 1
+    },
+    {
+      "id": "minji-肩上",
+      "source": "minji",
+      "target": "肩上",
+      "size": 1
+    },
+    {
+      "id": "把手-肩上",
+      "source": "把手",
+      "target": "肩上",
+      "size": 1
+    },
+    {
+      "id": "只有-美的",
+      "source": "只有",
+      "target": "美的",
+      "size": 1
+    },
+    {
+      "id": "四个-美的",
+      "source": "四个",
+      "target": "美的",
+      "size": 1
+    },
+    {
+      "id": "美的-马尾",
+      "source": "美的",
+      "target": "马尾",
+      "size": 1
+    },
+    {
+      "id": "美有-美的",
+      "source": "美有",
+      "target": "美的",
+      "size": 1
+    },
+    {
+      "id": "什么-美的",
+      "source": "什么",
+      "target": "美的",
+      "size": 1
+    },
+    {
+      "id": "关系-美的",
+      "source": "关系",
+      "target": "美的",
+      "size": 1
+    },
+    {
+      "id": "只有-四个",
+      "source": "只有",
+      "target": "四个",
+      "size": 1
+    },
+    {
+      "id": "只有-马尾",
+      "source": "只有",
+      "target": "马尾",
+      "size": 1
+    },
+    {
+      "id": "只有-美有",
+      "source": "只有",
+      "target": "美有",
+      "size": 1
+    },
+    {
+      "id": "什么-只有",
+      "source": "什么",
+      "target": "只有",
+      "size": 1
+    },
+    {
+      "id": "关系-只有",
+      "source": "关系",
+      "target": "只有",
+      "size": 1
+    },
+    {
+      "id": "四个-马尾",
+      "source": "四个",
+      "target": "马尾",
+      "size": 1
+    },
+    {
+      "id": "四个-美有",
+      "source": "四个",
+      "target": "美有",
+      "size": 1
+    },
+    {
+      "id": "什么-四个",
+      "source": "什么",
+      "target": "四个",
+      "size": 1
+    },
+    {
+      "id": "关系-四个",
+      "source": "关系",
+      "target": "四个",
+      "size": 1
+    },
+    {
+      "id": "美有-马尾",
+      "source": "美有",
+      "target": "马尾",
+      "size": 1
+    },
+    {
+      "id": "什么-马尾",
+      "source": "什么",
+      "target": "马尾",
+      "size": 1
+    },
+    {
+      "id": "关系-马尾",
+      "source": "关系",
+      "target": "马尾",
+      "size": 1
+    },
+    {
+      "id": "什么-美有",
+      "source": "什么",
+      "target": "美有",
+      "size": 1
+    },
+    {
+      "id": "关系-美有",
+      "source": "关系",
+      "target": "美有",
+      "size": 1
+    },
+    {
+      "id": "什么-关系",
+      "source": "什么",
+      "target": "关系",
+      "size": 1
+    },
+    {
+      "id": "体力-小妹",
+      "source": "体力",
+      "target": "小妹",
+      "size": 1
+    },
+    {
+      "id": "一首-小妹",
+      "source": "一首",
+      "target": "小妹",
+      "size": 2
+    },
+    {
+      "id": "不带-小妹",
+      "source": "不带",
+      "target": "小妹",
+      "size": 1
+    },
+    {
+      "id": "一首-体力",
+      "source": "一首",
+      "target": "体力",
+      "size": 2
+    },
+    {
+      "id": "不带-体力",
+      "source": "不带",
+      "target": "体力",
+      "size": 1
+    },
+    {
+      "id": "一首-不带",
+      "source": "一首",
+      "target": "不带",
+      "size": 2
+    },
+    {
+      "id": "李惠仁-火力",
+      "source": "李惠仁",
+      "target": "火力",
+      "size": 1
+    },
+    {
+      "id": "全开-李惠仁",
+      "source": "全开",
+      "target": "李惠仁",
+      "size": 1
+    },
+    {
+      "id": "全开-火力",
+      "source": "全开",
+      "target": "火力",
+      "size": 2
+    },
+    {
+      "id": "ditto-喜欢",
+      "source": "ditto",
+      "target": "喜欢",
+      "size": 1
+    },
+    {
+      "id": "line-澳洲",
+      "source": "line",
+      "target": "澳洲",
+      "size": 2
+    },
+    {
+      "id": "活泼-澳洲",
+      "source": "活泼",
+      "target": "澳洲",
+      "size": 1
+    },
+    {
+      "id": "line-活泼",
+      "source": "line",
+      "target": "活泼",
+      "size": 1
+    },
+    {
+      "id": "hanni-马尾",
+      "source": "hanni",
+      "target": "马尾",
+      "size": 1
+    },
+    {
+      "id": "就是-马尾",
+      "source": "就是",
+      "target": "马尾",
+      "size": 1
+    },
+    {
+      "id": "可爱-马尾",
+      "source": "可爱",
+      "target": "马尾",
+      "size": 1
+    },
+    {
+      "id": "hanni-就是",
+      "source": "hanni",
+      "target": "就是",
+      "size": 1
+    },
+    {
+      "id": "hanni-可爱",
+      "source": "hanni",
+      "target": "可爱",
+      "size": 1
+    },
+    {
+      "id": "可爱-就是",
+      "source": "可爱",
+      "target": "就是",
+      "size": 1
+    },
+    {
+      "id": "后天-终于",
+      "source": "后天",
+      "target": "终于",
+      "size": 1
+    },
+    {
+      "id": "后天-见到",
+      "source": "后天",
+      "target": "见到",
+      "size": 1
+    },
+    {
+      "id": "你们-后天",
+      "source": "你们",
+      "target": "后天",
+      "size": 1
+    },
+    {
+      "id": "终于-见到",
+      "source": "终于",
+      "target": "见到",
+      "size": 1
+    },
+    {
+      "id": "你们-终于",
+      "source": "你们",
+      "target": "终于",
+      "size": 1
+    },
+    {
+      "id": "你们-见到",
+      "source": "你们",
+      "target": "见到",
+      "size": 1
+    },
+    {
+      "id": "minji-原声",
+      "source": "minji",
+      "target": "原声",
+      "size": 1
+    },
+    {
+      "id": "minji-还有",
+      "source": "minji",
+      "target": "还有",
+      "size": 1
+    },
+    {
+      "id": "minji-少年",
+      "source": "minji",
+      "target": "少年",
+      "size": 1
+    },
+    {
+      "id": "原声-还有",
+      "source": "原声",
+      "target": "还有",
+      "size": 1
+    },
+    {
+      "id": "原声-少年",
+      "source": "原声",
+      "target": "少年",
+      "size": 1
+    },
+    {
+      "id": "少年-还有",
+      "source": "少年",
+      "target": "还有",
+      "size": 1
+    },
+    {
+      "id": "转身-这个",
+      "source": "转身",
+      "target": "这个",
+      "size": 1
+    },
+    {
+      "id": "帅死-这个",
+      "source": "帅死",
+      "target": "这个",
+      "size": 1
+    },
+    {
+      "id": "欧尼-这个",
+      "source": "欧尼",
+      "target": "这个",
+      "size": 1
+    },
+    {
+      "id": "帅死-转身",
+      "source": "帅死",
+      "target": "转身",
+      "size": 1
+    },
+    {
+      "id": "minji-转身",
+      "source": "minji",
+      "target": "转身",
+      "size": 1
+    },
+    {
+      "id": "欧尼-转身",
+      "source": "欧尼",
+      "target": "转身",
+      "size": 1
+    },
+    {
+      "id": "minji-帅死",
+      "source": "minji",
+      "target": "帅死",
+      "size": 1
+    },
+    {
+      "id": "帅死-欧尼",
+      "source": "帅死",
+      "target": "欧尼",
+      "size": 1
+    },
+    {
+      "id": "minji-欧尼",
+      "source": "minji",
+      "target": "欧尼",
+      "size": 1
+    },
+    {
+      "id": "池走-金玟",
+      "source": "池走",
+      "target": "金玟",
+      "size": 1
+    },
+    {
+      "id": "心里-金玟",
+      "source": "心里",
+      "target": "金玟",
+      "size": 1
+    },
+    {
+      "id": "心里-池走",
+      "source": "心里",
+      "target": "池走",
+      "size": 1
+    },
+    {
+      "id": "minji-走路",
+      "source": "minji",
+      "target": "走路",
+      "size": 1
+    },
+    {
+      "id": "minji-嘻嘻",
+      "source": "minji",
+      "target": "嘻嘻",
+      "size": 1
+    },
+    {
+      "id": "嘻嘻-走路",
+      "source": "嘻嘻",
+      "target": "走路",
+      "size": 1
+    },
+    {
+      "id": "喜欢-这个",
+      "source": "喜欢",
+      "target": "这个",
+      "size": 1
+    },
+    {
+      "id": "喜欢-设计",
+      "source": "喜欢",
+      "target": "设计",
+      "size": 1
+    },
+    {
+      "id": "舞台-这个",
+      "source": "舞台",
+      "target": "这个",
+      "size": 1
+    },
+    {
+      "id": "设计-这个",
+      "source": "设计",
+      "target": "这个",
+      "size": 1
+    },
+    {
+      "id": "舞台-设计",
+      "source": "舞台",
+      "target": "设计",
+      "size": 1
+    },
+    {
+      "id": "hanni-minji",
+      "source": "hanni",
+      "target": "minji",
+      "size": 1
+    },
+    {
+      "id": "不能-为什么",
+      "source": "不能",
+      "target": "为什么",
+      "size": 1
+    },
+    {
+      "id": "为什么-贴脸",
+      "source": "为什么",
+      "target": "贴脸",
+      "size": 1
+    },
+    {
+      "id": "不能-贴脸",
+      "source": "不能",
+      "target": "贴脸",
+      "size": 1
+    },
+    {
+      "id": "再说-当时",
+      "source": "再说",
+      "target": "当时",
+      "size": 1
+    },
+    {
+      "id": "再说-几个",
+      "source": "再说",
+      "target": "几个",
+      "size": 1
+    },
+    {
+      "id": "再说-小时",
+      "source": "再说",
+      "target": "小时",
+      "size": 2
+    },
+    {
+      "id": "再说-是因为",
+      "source": "再说",
+      "target": "是因为",
+      "size": 1
+    },
+    {
+      "id": "再说-回归",
+      "source": "再说",
+      "target": "回归",
+      "size": 1
+    },
+    {
+      "id": "再说-期太累",
+      "source": "再说",
+      "target": "期太累",
+      "size": 1
+    },
+    {
+      "id": "休息-再说",
+      "source": "休息",
+      "target": "再说",
+      "size": 1
+    },
+    {
+      "id": "一天-再说",
+      "source": "一天",
+      "target": "再说",
+      "size": 1
+    },
+    {
+      "id": "再说-直接",
+      "source": "再说",
+      "target": "直接",
+      "size": 1
+    },
+    {
+      "id": "再说-十几个",
+      "source": "再说",
+      "target": "十几个",
+      "size": 1
+    },
+    {
+      "id": "几个-当时",
+      "source": "几个",
+      "target": "当时",
+      "size": 1
+    },
+    {
+      "id": "小时-当时",
+      "source": "小时",
+      "target": "当时",
+      "size": 2
+    },
+    {
+      "id": "当时-是因为",
+      "source": "当时",
+      "target": "是因为",
+      "size": 1
+    },
+    {
+      "id": "回归-当时",
+      "source": "回归",
+      "target": "当时",
+      "size": 1
+    },
+    {
+      "id": "当时-期太累",
+      "source": "当时",
+      "target": "期太累",
+      "size": 1
+    },
+    {
+      "id": "休息-当时",
+      "source": "休息",
+      "target": "当时",
+      "size": 1
+    },
+    {
+      "id": "一天-当时",
+      "source": "一天",
+      "target": "当时",
+      "size": 1
+    },
+    {
+      "id": "当时-直接",
+      "source": "当时",
+      "target": "直接",
+      "size": 1
+    },
+    {
+      "id": "十几个-当时",
+      "source": "十几个",
+      "target": "当时",
+      "size": 1
+    },
+    {
+      "id": "几个-小时",
+      "source": "几个",
+      "target": "小时",
+      "size": 2
+    },
+    {
+      "id": "几个-是因为",
+      "source": "几个",
+      "target": "是因为",
+      "size": 1
+    },
+    {
+      "id": "几个-回归",
+      "source": "几个",
+      "target": "回归",
+      "size": 1
+    },
+    {
+      "id": "几个-期太累",
+      "source": "几个",
+      "target": "期太累",
+      "size": 1
+    },
+    {
+      "id": "休息-几个",
+      "source": "休息",
+      "target": "几个",
+      "size": 1
+    },
+    {
+      "id": "一天-几个",
+      "source": "一天",
+      "target": "几个",
+      "size": 1
+    },
+    {
+      "id": "几个-直接",
+      "source": "几个",
+      "target": "直接",
+      "size": 1
+    },
+    {
+      "id": "几个-十几个",
+      "source": "几个",
+      "target": "十几个",
+      "size": 1
+    },
+    {
+      "id": "小时-是因为",
+      "source": "小时",
+      "target": "是因为",
+      "size": 2
+    },
+    {
+      "id": "小时-期太累",
+      "source": "小时",
+      "target": "期太累",
+      "size": 2
+    },
+    {
+      "id": "休息-小时",
+      "source": "休息",
+      "target": "小时",
+      "size": 2
+    },
+    {
+      "id": "一天-小时",
+      "source": "一天",
+      "target": "小时",
+      "size": 2
+    },
+    {
+      "id": "小时-直接",
+      "source": "小时",
+      "target": "直接",
+      "size": 2
+    },
+    {
+      "id": "十几个-小时",
+      "source": "十几个",
+      "target": "小时",
+      "size": 2
+    },
+    {
+      "id": "回归-是因为",
+      "source": "回归",
+      "target": "是因为",
+      "size": 1
+    },
+    {
+      "id": "是因为-期太累",
+      "source": "是因为",
+      "target": "期太累",
+      "size": 1
+    },
+    {
+      "id": "休息-是因为",
+      "source": "休息",
+      "target": "是因为",
+      "size": 1
+    },
+    {
+      "id": "一天-是因为",
+      "source": "一天",
+      "target": "是因为",
+      "size": 1
+    },
+    {
+      "id": "是因为-直接",
+      "source": "是因为",
+      "target": "直接",
+      "size": 1
+    },
+    {
+      "id": "十几个-是因为",
+      "source": "十几个",
+      "target": "是因为",
+      "size": 1
+    },
+    {
+      "id": "回归-期太累",
+      "source": "回归",
+      "target": "期太累",
+      "size": 1
+    },
+    {
+      "id": "休息-回归",
+      "source": "休息",
+      "target": "回归",
+      "size": 1
+    },
+    {
+      "id": "一天-回归",
+      "source": "一天",
+      "target": "回归",
+      "size": 1
+    },
+    {
+      "id": "回归-直接",
+      "source": "回归",
+      "target": "直接",
+      "size": 1
+    },
+    {
+      "id": "十几个-回归",
+      "source": "十几个",
+      "target": "回归",
+      "size": 1
+    },
+    {
+      "id": "休息-期太累",
+      "source": "休息",
+      "target": "期太累",
+      "size": 1
+    },
+    {
+      "id": "一天-期太累",
+      "source": "一天",
+      "target": "期太累",
+      "size": 1
+    },
+    {
+      "id": "期太累-直接",
+      "source": "期太累",
+      "target": "直接",
+      "size": 1
+    },
+    {
+      "id": "十几个-期太累",
+      "source": "十几个",
+      "target": "期太累",
+      "size": 1
+    },
+    {
+      "id": "一天-休息",
+      "source": "一天",
+      "target": "休息",
+      "size": 1
+    },
+    {
+      "id": "休息-直接",
+      "source": "休息",
+      "target": "直接",
+      "size": 1
+    },
+    {
+      "id": "休息-十几个",
+      "source": "休息",
+      "target": "十几个",
+      "size": 1
+    },
+    {
+      "id": "一天-直接",
+      "source": "一天",
+      "target": "直接",
+      "size": 1
+    },
+    {
+      "id": "一天-十几个",
+      "source": "一天",
+      "target": "十几个",
+      "size": 1
+    },
+    {
+      "id": "十几个-直接",
+      "source": "十几个",
+      "target": "直接",
+      "size": 1
+    },
+    {
+      "id": "已成-开麦",
+      "source": "已成",
+      "target": "开麦",
+      "size": 1
+    },
+    {
+      "id": "你们-牛腱",
+      "source": "你们",
+      "target": "牛腱",
+      "size": 1
+    },
+    {
+      "id": "你们-好听",
+      "source": "你们",
+      "target": "好听",
+      "size": 1
+    },
+    {
+      "id": "六亲不认-走出",
+      "source": "六亲不认",
+      "target": "走出",
+      "size": 1
+    },
+    {
+      "id": "步伐-走出",
+      "source": "步伐",
+      "target": "走出",
+      "size": 1
+    },
+    {
+      "id": "六亲不认-步伐",
+      "source": "六亲不认",
+      "target": "步伐",
+      "size": 1
+    },
+    {
+      "id": "你们-小鲸",
+      "source": "你们",
+      "target": "小鲸",
+      "size": 1
+    },
+    {
+      "id": "喜欢-大家",
+      "source": "喜欢",
+      "target": "大家",
+      "size": 1
+    },
+    {
+      "id": "大家-首歌",
+      "source": "大家",
+      "target": "首歌",
+      "size": 1
+    },
+    {
+      "id": "喜欢-首歌",
+      "source": "喜欢",
+      "target": "首歌",
+      "size": 1
+    },
+    {
+      "id": "猫猫-这个",
+      "source": "猫猫",
+      "target": "这个",
+      "size": 1
+    },
+    {
+      "id": "宝宝-这个",
+      "source": "宝宝",
+      "target": "这个",
+      "size": 1
+    },
+    {
+      "id": "宝宝-猫猫",
+      "source": "宝宝",
+      "target": "猫猫",
+      "size": 1
+    },
+    {
+      "id": "可爱-啊啊啊",
+      "source": "可爱",
+      "target": "啊啊啊",
+      "size": 1
+    },
+    {
+      "id": "宝宝-我爱你",
+      "source": "宝宝",
+      "target": "我爱你",
+      "size": 1
+    },
+    {
+      "id": "forever-宝宝",
+      "source": "forever",
+      "target": "宝宝",
+      "size": 1
+    },
+    {
+      "id": "forever-我爱你",
+      "source": "forever",
+      "target": "我爱你",
+      "size": 1
+    },
+    {
+      "id": "可爱-衣服",
+      "source": "可爱",
+      "target": "衣服",
+      "size": 1
+    },
+    {
+      "id": "晕倒-萌得",
+      "source": "晕倒",
+      "target": "萌得",
+      "size": 1
+    },
+    {
+      "id": "跨步-这个",
+      "source": "跨步",
+      "target": "这个",
+      "size": 1
+    },
+    {
+      "id": "人生-这个",
+      "source": "人生",
+      "target": "这个",
+      "size": 1
+    },
+    {
+      "id": "这个-镜头",
+      "source": "这个",
+      "target": "镜头",
+      "size": 1
+    },
+    {
+      "id": "之一-这个",
+      "source": "之一",
+      "target": "这个",
+      "size": 1
+    },
+    {
+      "id": "有人-这个",
+      "source": "有人",
+      "target": "这个",
+      "size": 1
+    },
+    {
+      "id": "一样-这个",
+      "source": "一样",
+      "target": "这个",
+      "size": 1
+    },
+    {
+      "id": "人生-跨步",
+      "source": "人生",
+      "target": "跨步",
+      "size": 1
+    },
+    {
+      "id": "跨步-镜头",
+      "source": "跨步",
+      "target": "镜头",
+      "size": 1
+    },
+    {
+      "id": "之一-跨步",
+      "source": "之一",
+      "target": "跨步",
+      "size": 1
+    },
+    {
+      "id": "有人-跨步",
+      "source": "有人",
+      "target": "跨步",
+      "size": 1
+    },
+    {
+      "id": "一样-跨步",
+      "source": "一样",
+      "target": "跨步",
+      "size": 1
+    },
+    {
+      "id": "人生-镜头",
+      "source": "人生",
+      "target": "镜头",
+      "size": 1
+    },
+    {
+      "id": "之一-人生",
+      "source": "之一",
+      "target": "人生",
+      "size": 1
+    },
+    {
+      "id": "人生-有人",
+      "source": "人生",
+      "target": "有人",
+      "size": 1
+    },
+    {
+      "id": "一样-人生",
+      "source": "一样",
+      "target": "人生",
+      "size": 1
+    },
+    {
+      "id": "之一-镜头",
+      "source": "之一",
+      "target": "镜头",
+      "size": 1
+    },
+    {
+      "id": "有人-镜头",
+      "source": "有人",
+      "target": "镜头",
+      "size": 1
+    },
+    {
+      "id": "一样-镜头",
+      "source": "一样",
+      "target": "镜头",
+      "size": 1
+    },
+    {
+      "id": "之一-有人",
+      "source": "之一",
+      "target": "有人",
+      "size": 1
+    },
+    {
+      "id": "一样-之一",
+      "source": "一样",
+      "target": "之一",
+      "size": 1
+    },
+    {
+      "id": "一样-有人",
+      "source": "一样",
+      "target": "有人",
+      "size": 1
+    },
+    {
+      "id": "NJ-大发",
+      "source": "NJ",
+      "target": "大发",
+      "size": 1
+    },
+    {
+      "id": "刷屏-所以",
+      "source": "刷屏",
+      "target": "所以",
+      "size": 1
+    },
+    {
+      "id": "希望-所以",
+      "source": "希望",
+      "target": "所以",
+      "size": 1
+    },
+    {
+      "id": "所以-看见",
+      "source": "所以",
+      "target": "看见",
+      "size": 1
+    },
+    {
+      "id": "所以-自己",
+      "source": "所以",
+      "target": "自己",
+      "size": 1
+    },
+    {
+      "id": "所以-爱豆",
+      "source": "所以",
+      "target": "爱豆",
+      "size": 1
+    },
+    {
+      "id": "所以-苦哈哈",
+      "source": "所以",
+      "target": "苦哈哈",
+      "size": 1
+    },
+    {
+      "id": "所以-理解",
+      "source": "所以",
+      "target": "理解",
+      "size": 1
+    },
+    {
+      "id": "刷屏-希望",
+      "source": "刷屏",
+      "target": "希望",
+      "size": 1
+    },
+    {
+      "id": "刷屏-看见",
+      "source": "刷屏",
+      "target": "看见",
+      "size": 1
+    },
+    {
+      "id": "刷屏-自己",
+      "source": "刷屏",
+      "target": "自己",
+      "size": 1
+    },
+    {
+      "id": "刷屏-爱豆",
+      "source": "刷屏",
+      "target": "爱豆",
+      "size": 1
+    },
+    {
+      "id": "刷屏-苦哈哈",
+      "source": "刷屏",
+      "target": "苦哈哈",
+      "size": 1
+    },
+    {
+      "id": "刷屏-理解",
+      "source": "刷屏",
+      "target": "理解",
+      "size": 1
+    },
+    {
+      "id": "希望-看见",
+      "source": "希望",
+      "target": "看见",
+      "size": 1
+    },
+    {
+      "id": "希望-自己",
+      "source": "希望",
+      "target": "自己",
+      "size": 1
+    },
+    {
+      "id": "希望-爱豆",
+      "source": "希望",
+      "target": "爱豆",
+      "size": 1
+    },
+    {
+      "id": "希望-苦哈哈",
+      "source": "希望",
+      "target": "苦哈哈",
+      "size": 1
+    },
+    {
+      "id": "希望-理解",
+      "source": "希望",
+      "target": "理解",
+      "size": 1
+    },
+    {
+      "id": "看见-自己",
+      "source": "看见",
+      "target": "自己",
+      "size": 1
+    },
+    {
+      "id": "爱豆-看见",
+      "source": "爱豆",
+      "target": "看见",
+      "size": 1
+    },
+    {
+      "id": "看见-苦哈哈",
+      "source": "看见",
+      "target": "苦哈哈",
+      "size": 1
+    },
+    {
+      "id": "理解-看见",
+      "source": "理解",
+      "target": "看见",
+      "size": 1
+    },
+    {
+      "id": "爱豆-自己",
+      "source": "爱豆",
+      "target": "自己",
+      "size": 1
+    },
+    {
+      "id": "自己-苦哈哈",
+      "source": "自己",
+      "target": "苦哈哈",
+      "size": 1
+    },
+    {
+      "id": "理解-自己",
+      "source": "理解",
+      "target": "自己",
+      "size": 1
+    },
+    {
+      "id": "爱豆-苦哈哈",
+      "source": "爱豆",
+      "target": "苦哈哈",
+      "size": 1
+    },
+    {
+      "id": "爱豆-理解",
+      "source": "爱豆",
+      "target": "理解",
+      "size": 1
+    },
+    {
+      "id": "理解-苦哈哈",
+      "source": "理解",
+      "target": "苦哈哈",
+      "size": 1
+    },
+    {
+      "id": "hanni-美死",
+      "source": "hanni",
+      "target": "美死",
+      "size": 1
+    },
+    {
+      "id": "hanni-hello",
+      "source": "hanni",
+      "target": "hello",
+      "size": 1
+    },
+    {
+      "id": "hello-驾到",
+      "source": "hello",
+      "target": "驾到",
+      "size": 1
+    },
+    {
+      "id": "hello-跪下",
+      "source": "hello",
+      "target": "跪下",
+      "size": 1
+    },
+    {
+      "id": "hanni-驾到",
+      "source": "hanni",
+      "target": "驾到",
+      "size": 1
+    },
+    {
+      "id": "hanni-跪下",
+      "source": "hanni",
+      "target": "跪下",
+      "size": 1
+    },
+    {
+      "id": "跪下-驾到",
+      "source": "跪下",
+      "target": "驾到",
+      "size": 1
+    },
+    {
+      "id": "永不-真爱粉",
+      "source": "永不",
+      "target": "真爱粉",
+      "size": 1
+    },
+    {
+      "id": "引战-真爱粉",
+      "source": "引战",
+      "target": "真爱粉",
+      "size": 1
+    },
+    {
+      "id": "引战-永不",
+      "source": "引战",
+      "target": "永不",
+      "size": 1
+    },
+    {
+      "id": "仆人-打招呼",
+      "source": "仆人",
+      "target": "打招呼",
+      "size": 1
+    },
+    {
+      "id": "可以-打招呼",
+      "source": "可以",
+      "target": "打招呼",
+      "size": 1
+    },
+    {
+      "id": "打招呼-跪下",
+      "source": "打招呼",
+      "target": "跪下",
+      "size": 1
+    },
+    {
+      "id": "仆人-可以",
+      "source": "仆人",
+      "target": "可以",
+      "size": 1
+    },
+    {
+      "id": "仆人-跪下",
+      "source": "仆人",
+      "target": "跪下",
+      "size": 1
+    },
+    {
+      "id": "可以-跪下",
+      "source": "可以",
+      "target": "跪下",
+      "size": 1
+    },
+    {
+      "id": "抄袭-策划",
+      "source": "抄袭",
+      "target": "策划",
+      "size": 1
+    },
+    {
+      "id": "ditto-欢乐",
+      "source": "ditto",
+      "target": "欢乐",
+      "size": 1
+    },
+    {
+      "id": "啊啊啊-好想哭",
+      "source": "啊啊啊",
+      "target": "好想哭",
+      "size": 1
+    },
+    {
+      "id": "也好-吴晓梅",
+      "source": "也好",
+      "target": "吴晓梅",
+      "size": 1
+    },
+    {
+      "id": "不能-也好",
+      "source": "不能",
+      "target": "也好",
+      "size": 1
+    },
+    {
+      "id": "也好-快点",
+      "source": "也好",
+      "target": "快点",
+      "size": 1
+    },
+    {
+      "id": "也好-回来",
+      "source": "也好",
+      "target": "回来",
+      "size": 1
+    },
+    {
+      "id": "不能-吴晓梅",
+      "source": "不能",
+      "target": "吴晓梅",
+      "size": 1
+    },
+    {
+      "id": "吴晓梅-快点",
+      "source": "吴晓梅",
+      "target": "快点",
+      "size": 1
+    },
+    {
+      "id": "吴晓梅-回来",
+      "source": "吴晓梅",
+      "target": "回来",
+      "size": 1
+    },
+    {
+      "id": "不能-快点",
+      "source": "不能",
+      "target": "快点",
+      "size": 1
+    },
+    {
+      "id": "不能-回来",
+      "source": "不能",
+      "target": "回来",
+      "size": 1
+    },
+    {
+      "id": "回来-快点",
+      "source": "回来",
+      "target": "快点",
+      "size": 1
+    },
+    {
+      "id": "怀念-永远",
+      "source": "怀念",
+      "target": "永远",
+      "size": 1
+    },
+    {
+      "id": "小池-进步",
+      "source": "小池",
+      "target": "进步",
+      "size": 1
+    },
+    {
+      "id": "太大-小池",
+      "source": "太大",
+      "target": "小池",
+      "size": 1
+    },
+    {
+      "id": "好好-小池",
+      "source": "好好",
+      "target": "小池",
+      "size": 1
+    },
+    {
+      "id": "好好-进步",
+      "source": "好好",
+      "target": "进步",
+      "size": 1
+    },
+    {
+      "id": "太大-好好",
+      "source": "太大",
+      "target": "好好",
+      "size": 1
+    },
+    {
+      "id": "minji-这样",
+      "source": "minji",
+      "target": "这样",
+      "size": 1
+    },
+    {
+      "id": "minji-菜鸟",
+      "source": "minji",
+      "target": "菜鸟",
+      "size": 1
+    },
+    {
+      "id": "minji-驿站",
+      "source": "minji",
+      "target": "驿站",
+      "size": 1
+    },
+    {
+      "id": "minji-取个",
+      "source": "minji",
+      "target": "取个",
+      "size": 1
+    },
+    {
+      "id": "minji-快递",
+      "source": "minji",
+      "target": "快递",
+      "size": 1
+    },
+    {
+      "id": "菜鸟-这样",
+      "source": "菜鸟",
+      "target": "这样",
+      "size": 1
+    },
+    {
+      "id": "这样-驿站",
+      "source": "这样",
+      "target": "驿站",
+      "size": 1
+    },
+    {
+      "id": "取个-这样",
+      "source": "取个",
+      "target": "这样",
+      "size": 1
+    },
+    {
+      "id": "菜鸟-驿站",
+      "source": "菜鸟",
+      "target": "驿站",
+      "size": 1
+    },
+    {
+      "id": "取个-菜鸟",
+      "source": "取个",
+      "target": "菜鸟",
+      "size": 1
+    },
+    {
+      "id": "快递-菜鸟",
+      "source": "快递",
+      "target": "菜鸟",
+      "size": 1
+    },
+    {
+      "id": "取个-驿站",
+      "source": "取个",
+      "target": "驿站",
+      "size": 1
+    },
+    {
+      "id": "快递-驿站",
+      "source": "快递",
+      "target": "驿站",
+      "size": 1
+    },
+    {
+      "id": "取个-快递",
+      "source": "取个",
+      "target": "快递",
+      "size": 1
+    },
+    {
+      "id": "前面-打招呼",
+      "source": "前面",
+      "target": "打招呼",
+      "size": 1
+    },
+    {
+      "id": "前面-是不是",
+      "source": "前面",
+      "target": "是不是",
+      "size": 1
+    },
+    {
+      "id": "前面-自担",
+      "source": "前面",
+      "target": "自担",
+      "size": 1
+    },
+    {
+      "id": "不了-前面",
+      "source": "不了",
+      "target": "前面",
+      "size": 1
+    },
+    {
+      "id": "前面-我们",
+      "source": "前面",
+      "target": "我们",
+      "size": 1
+    },
+    {
+      "id": "打招呼-是不是",
+      "source": "打招呼",
+      "target": "是不是",
+      "size": 1
+    },
+    {
+      "id": "打招呼-自担",
+      "source": "打招呼",
+      "target": "自担",
+      "size": 1
+    },
+    {
+      "id": "不了-打招呼",
+      "source": "不了",
+      "target": "打招呼",
+      "size": 1
+    },
+    {
+      "id": "是不是-自担",
+      "source": "是不是",
+      "target": "自担",
+      "size": 1
+    },
+    {
+      "id": "不了-是不是",
+      "source": "不了",
+      "target": "是不是",
+      "size": 1
+    },
+    {
+      "id": "我们-是不是",
+      "source": "我们",
+      "target": "是不是",
+      "size": 1
+    },
+    {
+      "id": "不了-自担",
+      "source": "不了",
+      "target": "自担",
+      "size": 1
+    },
+    {
+      "id": "我们-自担",
+      "source": "我们",
+      "target": "自担",
+      "size": 1
+    },
+    {
+      "id": "不了-我们",
+      "source": "不了",
+      "target": "我们",
+      "size": 1
+    },
+    {
+      "id": "hanni-好棒",
+      "source": "hanni",
+      "target": "好棒",
+      "size": 2
+    },
+    {
+      "id": "官号-底下",
+      "source": "官号",
+      "target": "底下",
+      "size": 1
+    },
+    {
+      "id": "官号-贴脸",
+      "source": "官号",
+      "target": "贴脸",
+      "size": 2
+    },
+    {
+      "id": "官号-无敌",
+      "source": "官号",
+      "target": "无敌",
+      "size": 1
+    },
+    {
+      "id": "底下-贴脸",
+      "source": "底下",
+      "target": "贴脸",
+      "size": 1
+    },
+    {
+      "id": "底下-无敌",
+      "source": "底下",
+      "target": "无敌",
+      "size": 1
+    },
+    {
+      "id": "无敌-贴脸",
+      "source": "无敌",
+      "target": "贴脸",
+      "size": 1
+    },
+    {
+      "id": "你们-真的",
+      "source": "你们",
+      "target": "真的",
+      "size": 1
+    },
+    {
+      "id": "NewJeans-你们",
+      "source": "NewJeans",
+      "target": "你们",
+      "size": 1
+    },
+    {
+      "id": "为了-你们",
+      "source": "为了",
+      "target": "你们",
+      "size": 1
+    },
+    {
+      "id": "你们-贴脸",
+      "source": "你们",
+      "target": "贴脸",
+      "size": 1
+    },
+    {
+      "id": "你们-打开",
+      "source": "你们",
+      "target": "打开",
+      "size": 1
+    },
+    {
+      "id": "你们-官号",
+      "source": "你们",
+      "target": "官号",
+      "size": 1
+    },
+    {
+      "id": "你们-弹幕",
+      "source": "你们",
+      "target": "弹幕",
+      "size": 1
+    },
+    {
+      "id": "NewJeans-真的",
+      "source": "NewJeans",
+      "target": "真的",
+      "size": 1
+    },
+    {
+      "id": "为了-真的",
+      "source": "为了",
+      "target": "真的",
+      "size": 1
+    },
+    {
+      "id": "真的-贴脸",
+      "source": "真的",
+      "target": "贴脸",
+      "size": 1
+    },
+    {
+      "id": "打开-真的",
+      "source": "打开",
+      "target": "真的",
+      "size": 1
+    },
+    {
+      "id": "官号-真的",
+      "source": "官号",
+      "target": "真的",
+      "size": 1
+    },
+    {
+      "id": "弹幕-真的",
+      "source": "弹幕",
+      "target": "真的",
+      "size": 1
+    },
+    {
+      "id": "NewJeans-为了",
+      "source": "NewJeans",
+      "target": "为了",
+      "size": 1
+    },
+    {
+      "id": "NewJeans-贴脸",
+      "source": "NewJeans",
+      "target": "贴脸",
+      "size": 1
+    },
+    {
+      "id": "NewJeans-打开",
+      "source": "NewJeans",
+      "target": "打开",
+      "size": 1
+    },
+    {
+      "id": "NewJeans-官号",
+      "source": "NewJeans",
+      "target": "官号",
+      "size": 1
+    },
+    {
+      "id": "NewJeans-弹幕",
+      "source": "NewJeans",
+      "target": "弹幕",
+      "size": 1
+    },
+    {
+      "id": "为了-贴脸",
+      "source": "为了",
+      "target": "贴脸",
+      "size": 1
+    },
+    {
+      "id": "为了-打开",
+      "source": "为了",
+      "target": "打开",
+      "size": 1
+    },
+    {
+      "id": "为了-官号",
+      "source": "为了",
+      "target": "官号",
+      "size": 1
+    },
+    {
+      "id": "为了-弹幕",
+      "source": "为了",
+      "target": "弹幕",
+      "size": 1
+    },
+    {
+      "id": "打开-贴脸",
+      "source": "打开",
+      "target": "贴脸",
+      "size": 1
+    },
+    {
+      "id": "弹幕-贴脸",
+      "source": "弹幕",
+      "target": "贴脸",
+      "size": 1
+    },
+    {
+      "id": "官号-打开",
+      "source": "官号",
+      "target": "打开",
+      "size": 1
+    },
+    {
+      "id": "弹幕-打开",
+      "source": "弹幕",
+      "target": "打开",
+      "size": 1
+    },
+    {
+      "id": "官号-弹幕",
+      "source": "官号",
+      "target": "弹幕",
+      "size": 1
+    },
+    {
+      "id": "minji-帅帅帅",
+      "source": "minji",
+      "target": "帅帅帅",
+      "size": 1
+    },
+    {
+      "id": "minji-美死",
+      "source": "minji",
+      "target": "美死",
+      "size": 1
+    },
+    {
+      "id": "TTTTTTTT-你们",
+      "source": "TTTTTTTT",
+      "target": "你们",
+      "size": 1
+    },
+    {
+      "id": "你们-永远",
+      "source": "你们",
+      "target": "永远",
+      "size": 1
+    },
+    {
+      "id": "minji-生日快乐",
+      "source": "minji",
+      "target": "生日快乐",
+      "size": 1
+    },
+    {
+      "id": "回归-永远",
+      "source": "回归",
+      "target": "永远",
+      "size": 1
+    },
+    {
+      "id": "不了-永远",
+      "source": "不了",
+      "target": "永远",
+      "size": 1
+    },
+    {
+      "id": "不了-回归",
+      "source": "不了",
+      "target": "回归",
+      "size": 1
+    },
+    {
+      "id": "大声-开麦",
+      "source": "大声",
+      "target": "开麦",
+      "size": 1
+    },
+    {
+      "id": "回老家-所以",
+      "source": "回老家",
+      "target": "所以",
+      "size": 1
+    },
+    {
+      "id": "滚下来-说话",
+      "source": "滚下来",
+      "target": "说话",
+      "size": 1
+    },
+    {
+      "id": "但是-前面",
+      "source": "但是",
+      "target": "前面",
+      "size": 1
+    },
+    {
+      "id": "前面-这个",
+      "source": "前面",
+      "target": "这个",
+      "size": 1
+    },
+    {
+      "id": "前面-海男",
+      "source": "前面",
+      "target": "海男",
+      "size": 1
+    },
+    {
+      "id": "其实-前面",
+      "source": "其实",
+      "target": "前面",
+      "size": 1
+    },
+    {
+      "id": "不错-前面",
+      "source": "不错",
+      "target": "前面",
+      "size": 1
+    },
+    {
+      "id": "全开-前面",
+      "source": "全开",
+      "target": "前面",
+      "size": 1
+    },
+    {
+      "id": "但是-这个",
+      "source": "但是",
+      "target": "这个",
+      "size": 1
+    },
+    {
+      "id": "但是-海男",
+      "source": "但是",
+      "target": "海男",
+      "size": 1
+    },
+    {
+      "id": "但是-其实",
+      "source": "但是",
+      "target": "其实",
+      "size": 1
+    },
+    {
+      "id": "不错-但是",
+      "source": "不错",
+      "target": "但是",
+      "size": 1
+    },
+    {
+      "id": "但是-全开",
+      "source": "但是",
+      "target": "全开",
+      "size": 1
+    },
+    {
+      "id": "海男-这个",
+      "source": "海男",
+      "target": "这个",
+      "size": 1
+    },
+    {
+      "id": "其实-这个",
+      "source": "其实",
+      "target": "这个",
+      "size": 1
+    },
+    {
+      "id": "不错-这个",
+      "source": "不错",
+      "target": "这个",
+      "size": 1
+    },
+    {
+      "id": "全开-这个",
+      "source": "全开",
+      "target": "这个",
+      "size": 1
+    },
+    {
+      "id": "其实-海男",
+      "source": "其实",
+      "target": "海男",
+      "size": 1
+    },
+    {
+      "id": "不错-海男",
+      "source": "不错",
+      "target": "海男",
+      "size": 1
+    },
+    {
+      "id": "全开-海男",
+      "source": "全开",
+      "target": "海男",
+      "size": 1
+    },
+    {
+      "id": "不错-其实",
+      "source": "不错",
+      "target": "其实",
+      "size": 1
+    },
+    {
+      "id": "全开-其实",
+      "source": "全开",
+      "target": "其实",
+      "size": 1
+    },
+    {
+      "id": "不错-全开",
+      "source": "不错",
+      "target": "全开",
+      "size": 1
+    },
+    {
+      "id": "你们-前面",
+      "source": "你们",
+      "target": "前面",
+      "size": 1
+    },
+    {
+      "id": "前面-浮木",
+      "source": "前面",
+      "target": "浮木",
+      "size": 1
+    },
+    {
+      "id": "你们-几个",
+      "source": "你们",
+      "target": "几个",
+      "size": 1
+    },
+    {
+      "id": "几个-浮木",
+      "source": "几个",
+      "target": "浮木",
+      "size": 1
+    },
+    {
+      "id": "hello-你们",
+      "source": "hello",
+      "target": "你们",
+      "size": 1
+    },
+    {
+      "id": "hello-浮木",
+      "source": "hello",
+      "target": "浮木",
+      "size": 1
+    },
+    {
+      "id": "你们-浮木",
+      "source": "你们",
+      "target": "浮木",
+      "size": 1
+    },
+    {
+      "id": "好萌-转圈",
+      "source": "好萌",
+      "target": "转圈",
+      "size": 1
+    },
+    {
+      "id": "被毀-那個",
+      "source": "被毀",
+      "target": "那個",
+      "size": 1
+    },
+    {
+      "id": "還有家-那個",
+      "source": "還有家",
+      "target": "那個",
+      "size": 1
+    },
+    {
+      "id": "被毀-還有家",
+      "source": "被毀",
+      "target": "還有家",
+      "size": 1
+    },
+    {
+      "id": "aaa-低头",
+      "source": "aaa",
+      "target": "低头",
+      "size": 2
+    },
+    {
+      "id": "有点-真的",
+      "source": "有点",
+      "target": "真的",
+      "size": 1
+    },
+    {
+      "id": "为什么-他们",
+      "source": "为什么",
+      "target": "他们",
+      "size": 1
+    },
+    {
+      "id": "他们-这么",
+      "source": "他们",
+      "target": "这么",
+      "size": 1
+    },
+    {
+      "id": "他们-宝宝",
+      "source": "他们",
+      "target": "宝宝",
+      "size": 1
+    },
+    {
+      "id": "他们-睡衣",
+      "source": "他们",
+      "target": "睡衣",
+      "size": 1
+    },
+    {
+      "id": "为什么-这么",
+      "source": "为什么",
+      "target": "这么",
+      "size": 1
+    },
+    {
+      "id": "为什么-宝宝",
+      "source": "为什么",
+      "target": "宝宝",
+      "size": 1
+    },
+    {
+      "id": "为什么-睡衣",
+      "source": "为什么",
+      "target": "睡衣",
+      "size": 1
+    },
+    {
+      "id": "宝宝-这么",
+      "source": "宝宝",
+      "target": "这么",
+      "size": 1
+    },
+    {
+      "id": "睡衣-这么",
+      "source": "睡衣",
+      "target": "这么",
+      "size": 1
+    },
+    {
+      "id": "宝宝-睡衣",
+      "source": "宝宝",
+      "target": "睡衣",
+      "size": 1
+    },
+    {
+      "id": "可爱-小忍",
+      "source": "可爱",
+      "target": "小忍",
+      "size": 1
+    },
+    {
+      "id": "感觉-舒服",
+      "source": "感觉",
+      "target": "舒服",
+      "size": 1
+    },
+    {
+      "id": "新曲-看看",
+      "source": "新曲",
+      "target": "看看",
+      "size": 1
+    },
+    {
+      "id": "看看-舞蹈",
+      "source": "看看",
+      "target": "舞蹈",
+      "size": 1
+    },
+    {
+      "id": "新曲-舞蹈",
+      "source": "新曲",
+      "target": "舞蹈",
+      "size": 1
+    },
+    {
+      "id": "10-虽然",
+      "source": "10",
+      "target": "虽然",
+      "size": 1
+    },
+    {
+      "id": "小时-虽然",
+      "source": "小时",
+      "target": "虽然",
+      "size": 1
+    },
+    {
+      "id": "虽然-觉得",
+      "source": "虽然",
+      "target": "觉得",
+      "size": 1
+    },
+    {
+      "id": "公司-虽然",
+      "source": "公司",
+      "target": "虽然",
+      "size": 1
+    },
+    {
+      "id": "虽然-针对",
+      "source": "虽然",
+      "target": "针对",
+      "size": 1
+    },
+    {
+      "id": "我们-虽然",
+      "source": "我们",
+      "target": "虽然",
+      "size": 1
+    },
+    {
+      "id": "10-觉得",
+      "source": "10",
+      "target": "觉得",
+      "size": 1
+    },
+    {
+      "id": "10-公司",
+      "source": "10",
+      "target": "公司",
+      "size": 1
+    },
+    {
+      "id": "10-针对",
+      "source": "10",
+      "target": "针对",
+      "size": 1
+    },
+    {
+      "id": "10-我们",
+      "source": "10",
+      "target": "我们",
+      "size": 1
+    },
+    {
+      "id": "小时-觉得",
+      "source": "小时",
+      "target": "觉得",
+      "size": 1
+    },
+    {
+      "id": "公司-小时",
+      "source": "公司",
+      "target": "小时",
+      "size": 1
+    },
+    {
+      "id": "小时-针对",
+      "source": "小时",
+      "target": "针对",
+      "size": 1
+    },
+    {
+      "id": "小时-我们",
+      "source": "小时",
+      "target": "我们",
+      "size": 1
+    },
+    {
+      "id": "公司-觉得",
+      "source": "公司",
+      "target": "觉得",
+      "size": 1
+    },
+    {
+      "id": "觉得-针对",
+      "source": "觉得",
+      "target": "针对",
+      "size": 1
+    },
+    {
+      "id": "我们-觉得",
+      "source": "我们",
+      "target": "觉得",
+      "size": 1
+    },
+    {
+      "id": "公司-针对",
+      "source": "公司",
+      "target": "针对",
+      "size": 1
+    },
+    {
+      "id": "公司-我们",
+      "source": "公司",
+      "target": "我们",
+      "size": 2
+    },
+    {
+      "id": "我们-针对",
+      "source": "我们",
+      "target": "针对",
+      "size": 1
+    },
+    {
+      "id": "怎么-改名",
+      "source": "怎么",
+      "target": "改名",
+      "size": 1
+    },
+    {
+      "id": "前面-哈哈哈",
+      "source": "前面",
+      "target": "哈哈哈",
+      "size": 1
+    },
+    {
+      "id": "哈哈哈-怎么",
+      "source": "哈哈哈",
+      "target": "怎么",
+      "size": 1
+    },
+    {
+      "id": "哈哈哈-直接",
+      "source": "哈哈哈",
+      "target": "直接",
+      "size": 1
+    },
+    {
+      "id": "人生-哈哈哈",
+      "source": "人生",
+      "target": "哈哈哈",
+      "size": 1
+    },
+    {
+      "id": "哈哈哈-攻击",
+      "source": "哈哈哈",
+      "target": "攻击",
+      "size": 1
+    },
+    {
+      "id": "前面-怎么",
+      "source": "前面",
+      "target": "怎么",
+      "size": 1
+    },
+    {
+      "id": "前面-直接",
+      "source": "前面",
+      "target": "直接",
+      "size": 1
+    },
+    {
+      "id": "人生-前面",
+      "source": "人生",
+      "target": "前面",
+      "size": 1
+    },
+    {
+      "id": "前面-攻击",
+      "source": "前面",
+      "target": "攻击",
+      "size": 1
+    },
+    {
+      "id": "怎么-直接",
+      "source": "怎么",
+      "target": "直接",
+      "size": 1
+    },
+    {
+      "id": "人生-怎么",
+      "source": "人生",
+      "target": "怎么",
+      "size": 1
+    },
+    {
+      "id": "怎么-攻击",
+      "source": "怎么",
+      "target": "攻击",
+      "size": 1
+    },
+    {
+      "id": "人生-直接",
+      "source": "人生",
+      "target": "直接",
+      "size": 1
+    },
+    {
+      "id": "攻击-直接",
+      "source": "攻击",
+      "target": "直接",
+      "size": 1
+    },
+    {
+      "id": "人生-攻击",
+      "source": "人生",
+      "target": "攻击",
+      "size": 1
+    },
+    {
+      "id": "庆祝-春节",
+      "source": "庆祝",
+      "target": "春节",
+      "size": 1
+    },
+    {
+      "id": "女团-庆祝",
+      "source": "女团",
+      "target": "庆祝",
+      "size": 1
+    },
+    {
+      "id": "女团-春节",
+      "source": "女团",
+      "target": "春节",
+      "size": 1
+    },
+    {
+      "id": "呜呜-怀念",
+      "source": "呜呜",
+      "target": "怀念",
+      "size": 1
+    },
+    {
+      "id": "minji-耍帅",
+      "source": "minji",
+      "target": "耍帅",
+      "size": 2
+    },
+    {
+      "id": "ing-minji",
+      "source": "ing",
+      "target": "minji",
+      "size": 1
+    },
+    {
+      "id": "ing-耍帅",
+      "source": "ing",
+      "target": "耍帅",
+      "size": 1
+    },
+    {
+      "id": "孩子-打点",
+      "source": "孩子",
+      "target": "打点",
+      "size": 1
+    },
+    {
+      "id": "孩子-死亡",
+      "source": "孩子",
+      "target": "死亡",
+      "size": 1
+    },
+    {
+      "id": "打点-死亡",
+      "source": "打点",
+      "target": "死亡",
+      "size": 1
+    },
+    {
+      "id": "18-永远",
+      "source": "18",
+      "target": "永远",
+      "size": 1
+    },
+    {
+      "id": "njz-永远",
+      "source": "njz",
+      "target": "永远",
+      "size": 1
+    },
+    {
+      "id": "18-njz",
+      "source": "18",
+      "target": "njz",
+      "size": 1
+    },
+    {
+      "id": "minji-深情",
+      "source": "minji",
+      "target": "深情",
+      "size": 1
+    },
+    {
+      "id": "抄袭-见到",
+      "source": "抄袭",
+      "target": "见到",
+      "size": 1
+    },
+    {
+      "id": "NJZ-抄袭",
+      "source": "NJZ",
+      "target": "抄袭",
+      "size": 1
+    },
+    {
+      "id": "几个-抄袭",
+      "source": "几个",
+      "target": "抄袭",
+      "size": 1
+    },
+    {
+      "id": "抄袭-招呼",
+      "source": "抄袭",
+      "target": "招呼",
+      "size": 1
+    },
+    {
+      "id": "怎么-抄袭",
+      "source": "怎么",
+      "target": "抄袭",
+      "size": 1
+    },
+    {
+      "id": "NJZ-见到",
+      "source": "NJZ",
+      "target": "见到",
+      "size": 1
+    },
+    {
+      "id": "几个-见到",
+      "source": "几个",
+      "target": "见到",
+      "size": 1
+    },
+    {
+      "id": "招呼-见到",
+      "source": "招呼",
+      "target": "见到",
+      "size": 1
+    },
+    {
+      "id": "怎么-见到",
+      "source": "怎么",
+      "target": "见到",
+      "size": 1
+    },
+    {
+      "id": "NJZ-几个",
+      "source": "NJZ",
+      "target": "几个",
+      "size": 1
+    },
+    {
+      "id": "NJZ-招呼",
+      "source": "NJZ",
+      "target": "招呼",
+      "size": 1
+    },
+    {
+      "id": "NJZ-怎么",
+      "source": "NJZ",
+      "target": "怎么",
+      "size": 1
+    },
+    {
+      "id": "几个-招呼",
+      "source": "几个",
+      "target": "招呼",
+      "size": 1
+    },
+    {
+      "id": "几个-怎么",
+      "source": "几个",
+      "target": "怎么",
+      "size": 1
+    },
+    {
+      "id": "怎么-招呼",
+      "source": "怎么",
+      "target": "招呼",
+      "size": 1
+    },
+    {
+      "id": "担死-犯贱",
+      "source": "担死",
+      "target": "犯贱",
+      "size": 1
+    },
+    {
+      "id": "担事-犯贱",
+      "source": "担事",
+      "target": "犯贱",
+      "size": 1
+    },
+    {
+      "id": "可爱-姜海粼",
+      "source": "可爱",
+      "target": "姜海粼",
+      "size": 1
+    },
+    {
+      "id": "never-newjesns",
+      "source": "never",
+      "target": "newjesns",
+      "size": 1
+    },
+    {
+      "id": "die-newjesns",
+      "source": "die",
+      "target": "newjesns",
+      "size": 1
+    },
+    {
+      "id": "嫁给-方时赫",
+      "source": "嫁给",
+      "target": "方时赫",
+      "size": 1
+    },
+    {
+      "id": "sm-贴脸",
+      "source": "sm",
+      "target": "贴脸",
+      "size": 1
+    },
+    {
+      "id": "嘻嘻-打脸",
+      "source": "嘻嘻",
+      "target": "打脸",
+      "size": 1
+    },
+    {
+      "id": "回家吧-孩子",
+      "source": "回家吧",
+      "target": "孩子",
+      "size": 2
+    },
+    {
+      "id": "2500-每人",
+      "source": "2500",
+      "target": "每人",
+      "size": 1
+    },
+    {
+      "id": "2500-我们",
+      "source": "2500",
+      "target": "我们",
+      "size": 1
+    },
+    {
+      "id": "2500-500",
+      "source": "2500",
+      "target": "500",
+      "size": 1
+    },
+    {
+      "id": "2500-公司",
+      "source": "2500",
+      "target": "公司",
+      "size": 1
+    },
+    {
+      "id": "2500-每年",
+      "source": "2500",
+      "target": "每年",
+      "size": 1
+    },
+    {
+      "id": "2500-工资总额",
+      "source": "2500",
+      "target": "工资总额",
+      "size": 1
+    },
+    {
+      "id": "2500-那么",
+      "source": "2500",
+      "target": "那么",
+      "size": 1
+    },
+    {
+      "id": "我们-每人",
+      "source": "我们",
+      "target": "每人",
+      "size": 1
+    },
+    {
+      "id": "500-每人",
+      "source": "500",
+      "target": "每人",
+      "size": 1
+    },
+    {
+      "id": "公司-每人",
+      "source": "公司",
+      "target": "每人",
+      "size": 1
+    },
+    {
+      "id": "每人-每年",
+      "source": "每人",
+      "target": "每年",
+      "size": 1
+    },
+    {
+      "id": "工资总额-每人",
+      "source": "工资总额",
+      "target": "每人",
+      "size": 1
+    },
+    {
+      "id": "每人-那么",
+      "source": "每人",
+      "target": "那么",
+      "size": 1
+    },
+    {
+      "id": "500-我们",
+      "source": "500",
+      "target": "我们",
+      "size": 1
+    },
+    {
+      "id": "我们-每年",
+      "source": "我们",
+      "target": "每年",
+      "size": 1
+    },
+    {
+      "id": "工资总额-我们",
+      "source": "工资总额",
+      "target": "我们",
+      "size": 1
+    },
+    {
+      "id": "我们-那么",
+      "source": "我们",
+      "target": "那么",
+      "size": 1
+    },
+    {
+      "id": "500-公司",
+      "source": "500",
+      "target": "公司",
+      "size": 1
+    },
+    {
+      "id": "500-每年",
+      "source": "500",
+      "target": "每年",
+      "size": 1
+    },
+    {
+      "id": "500-工资总额",
+      "source": "500",
+      "target": "工资总额",
+      "size": 1
+    },
+    {
+      "id": "500-那么",
+      "source": "500",
+      "target": "那么",
+      "size": 1
+    },
+    {
+      "id": "公司-每年",
+      "source": "公司",
+      "target": "每年",
+      "size": 1
+    },
+    {
+      "id": "公司-工资总额",
+      "source": "公司",
+      "target": "工资总额",
+      "size": 1
+    },
+    {
+      "id": "公司-那么",
+      "source": "公司",
+      "target": "那么",
+      "size": 1
+    },
+    {
+      "id": "工资总额-每年",
+      "source": "工资总额",
+      "target": "每年",
+      "size": 1
+    },
+    {
+      "id": "每年-那么",
+      "source": "每年",
+      "target": "那么",
+      "size": 1
+    },
+    {
+      "id": "工资总额-那么",
+      "source": "工资总额",
+      "target": "那么",
+      "size": 1
+    },
+    {
+      "id": "封杀-终于",
+      "source": "封杀",
+      "target": "终于",
+      "size": 1
+    },
+    {
+      "id": "百妹-终于",
+      "source": "百妹",
+      "target": "终于",
+      "size": 1
+    },
+    {
+      "id": "20-终于",
+      "source": "20",
+      "target": "终于",
+      "size": 1
+    },
+    {
+      "id": "封杀-百妹",
+      "source": "封杀",
+      "target": "百妹",
+      "size": 1
+    },
+    {
+      "id": "20-封杀",
+      "source": "20",
+      "target": "封杀",
+      "size": 1
+    },
+    {
+      "id": "20-百妹",
+      "source": "20",
+      "target": "百妹",
+      "size": 1
+    },
+    {
+      "id": "hanni-好萌",
+      "source": "hanni",
+      "target": "好萌",
+      "size": 1
+    },
+    {
+      "id": "人别-有些",
+      "source": "人别",
+      "target": "有些",
+      "size": 1
+    },
+    {
+      "id": "有些-这里",
+      "source": "有些",
+      "target": "这里",
+      "size": 1
+    },
+    {
+      "id": "发癫-有些",
+      "source": "发癫",
+      "target": "有些",
+      "size": 1
+    },
+    {
+      "id": "有些-正主",
+      "source": "有些",
+      "target": "正主",
+      "size": 1
+    },
+    {
+      "id": "人别-这里",
+      "source": "人别",
+      "target": "这里",
+      "size": 1
+    },
+    {
+      "id": "人别-发癫",
+      "source": "人别",
+      "target": "发癫",
+      "size": 1
+    },
+    {
+      "id": "人别-正主",
+      "source": "人别",
+      "target": "正主",
+      "size": 1
+    },
+    {
+      "id": "发癫-这里",
+      "source": "发癫",
+      "target": "这里",
+      "size": 1
+    },
+    {
+      "id": "正主-这里",
+      "source": "正主",
+      "target": "这里",
+      "size": 1
+    },
+    {
+      "id": "发癫-正主",
+      "source": "发癫",
+      "target": "正主",
+      "size": 1
+    },
+    {
+      "id": "喜欢-狗叫",
+      "source": "喜欢",
+      "target": "狗叫",
+      "size": 1
+    },
+    {
+      "id": "喜欢-这里",
+      "source": "喜欢",
+      "target": "这里",
+      "size": 1
+    },
+    {
+      "id": "mother-喜欢",
+      "source": "mother",
+      "target": "喜欢",
+      "size": 1
+    },
+    {
+      "id": "狗叫-这里",
+      "source": "狗叫",
+      "target": "这里",
+      "size": 1
+    },
+    {
+      "id": "mother-狗叫",
+      "source": "mother",
+      "target": "狗叫",
+      "size": 1
+    },
+    {
+      "id": "mother-这里",
+      "source": "mother",
+      "target": "这里",
+      "size": 1
+    },
+    {
+      "id": "刚好-女高风",
+      "source": "刚好",
+      "target": "女高风",
+      "size": 1
+    },
+    {
+      "id": "三年-女高风",
+      "source": "三年",
+      "target": "女高风",
+      "size": 1
+    },
+    {
+      "id": "女高风-裤裤们",
+      "source": "女高风",
+      "target": "裤裤们",
+      "size": 1
+    },
+    {
+      "id": "女高风-毕业",
+      "source": "女高风",
+      "target": "毕业",
+      "size": 1
+    },
+    {
+      "id": "女高风-快乐",
+      "source": "女高风",
+      "target": "快乐",
+      "size": 1
+    },
+    {
+      "id": "三年-刚好",
+      "source": "三年",
+      "target": "刚好",
+      "size": 1
+    },
+    {
+      "id": "刚好-裤裤们",
+      "source": "刚好",
+      "target": "裤裤们",
+      "size": 1
+    },
+    {
+      "id": "刚好-毕业",
+      "source": "刚好",
+      "target": "毕业",
+      "size": 1
+    },
+    {
+      "id": "刚好-快乐",
+      "source": "刚好",
+      "target": "快乐",
+      "size": 1
+    },
+    {
+      "id": "三年-裤裤们",
+      "source": "三年",
+      "target": "裤裤们",
+      "size": 1
+    },
+    {
+      "id": "三年-毕业",
+      "source": "三年",
+      "target": "毕业",
+      "size": 1
+    },
+    {
+      "id": "三年-快乐",
+      "source": "三年",
+      "target": "快乐",
+      "size": 1
+    },
+    {
+      "id": "毕业-裤裤们",
+      "source": "毕业",
+      "target": "裤裤们",
+      "size": 1
+    },
+    {
+      "id": "快乐-裤裤们",
+      "source": "快乐",
+      "target": "裤裤们",
+      "size": 1
+    },
+    {
+      "id": "快乐-毕业",
+      "source": "快乐",
+      "target": "毕业",
+      "size": 1
+    },
+    {
+      "id": "ATTENTION-NJZ",
+      "source": "ATTENTION",
+      "target": "NJZ",
+      "size": 1
+    },
+    {
+      "id": "ATTENTION-出道",
+      "source": "ATTENTION",
+      "target": "出道",
+      "size": 1
+    },
+    {
+      "id": "ATTENTION-人手",
+      "source": "ATTENTION",
+      "target": "人手",
+      "size": 1
+    },
+    {
+      "id": "ATTENTION-高奢",
+      "source": "ATTENTION",
+      "target": "高奢",
+      "size": 1
+    },
+    {
+      "id": "NJZ-出道",
+      "source": "NJZ",
+      "target": "出道",
+      "size": 1
+    },
+    {
+      "id": "NJZ-人手",
+      "source": "NJZ",
+      "target": "人手",
+      "size": 1
+    },
+    {
+      "id": "NJZ-高奢",
+      "source": "NJZ",
+      "target": "高奢",
+      "size": 1
+    },
+    {
+      "id": "人手-出道",
+      "source": "人手",
+      "target": "出道",
+      "size": 1
+    },
+    {
+      "id": "出道-高奢",
+      "source": "出道",
+      "target": "高奢",
+      "size": 1
+    },
+    {
+      "id": "人手-高奢",
+      "source": "人手",
+      "target": "高奢",
+      "size": 1
+    },
+    {
+      "id": "NJZ-回家吧",
+      "source": "NJZ",
+      "target": "回家吧",
+      "size": 1
+    },
+    {
+      "id": "newjeans-面包",
+      "source": "newjeans",
+      "target": "面包",
+      "size": 1
+    },
+    {
+      "id": "私联-黑粉",
+      "source": "私联",
+      "target": "黑粉",
+      "size": 1
+    },
+    {
+      "id": "毒唯-私联",
+      "source": "毒唯",
+      "target": "私联",
+      "size": 1
+    },
+    {
+      "id": "毒唯-黑粉",
+      "source": "毒唯",
+      "target": "黑粉",
+      "size": 1
+    },
+    {
+      "id": "newjeans-任何人",
+      "source": "newjeans",
+      "target": "任何人",
+      "size": 1
+    },
+    {
+      "id": "任何人-资格",
+      "source": "任何人",
+      "target": "资格",
+      "size": 1
+    },
+    {
+      "id": "任何人-直播",
+      "source": "任何人",
+      "target": "直播",
+      "size": 1
+    },
+    {
+      "id": "newjeans-资格",
+      "source": "newjeans",
+      "target": "资格",
+      "size": 1
+    },
+    {
+      "id": "newjeans-直播",
+      "source": "newjeans",
+      "target": "直播",
+      "size": 1
+    },
+    {
+      "id": "直播-资格",
+      "source": "直播",
+      "target": "资格",
+      "size": 1
+    },
+    {
+      "id": "HANNI-不会",
+      "source": "HANNI",
+      "target": "不会",
+      "size": 1
+    },
+    {
+      "id": "HANNI-njz",
+      "source": "HANNI",
+      "target": "njz",
+      "size": 1
+    },
+    {
+      "id": "njz-不会",
+      "source": "njz",
+      "target": "不会",
+      "size": 1
+    },
+    {
+      "id": "大家-小面包",
+      "source": "大家",
+      "target": "小面包",
+      "size": 1
+    },
+    {
+      "id": "小面包-打招呼",
+      "source": "小面包",
+      "target": "打招呼",
+      "size": 1
+    },
+    {
+      "id": "hanni-单飞",
+      "source": "hanni",
+      "target": "单飞",
+      "size": 1
+    },
+    {
+      "id": "hanni-连累",
+      "source": "hanni",
+      "target": "连累",
+      "size": 1
+    },
+    {
+      "id": "hanni-队友",
+      "source": "hanni",
+      "target": "队友",
+      "size": 1
+    },
+    {
+      "id": "单飞-连累",
+      "source": "单飞",
+      "target": "连累",
+      "size": 1
+    },
+    {
+      "id": "单飞-队友",
+      "source": "单飞",
+      "target": "队友",
+      "size": 1
+    },
+    {
+      "id": "连累-队友",
+      "source": "连累",
+      "target": "队友",
+      "size": 1
+    },
+    {
+      "id": "回家吧-小面包",
+      "source": "回家吧",
+      "target": "小面包",
+      "size": 1
+    },
+    {
+      "id": "Kpop-NJZ",
+      "source": "Kpop",
+      "target": "NJZ",
+      "size": 1
+    },
+    {
+      "id": "NJZ-就是",
+      "source": "NJZ",
+      "target": "就是",
+      "size": 1
+    },
+    {
+      "id": "NJZ-奴隶",
+      "source": "NJZ",
+      "target": "奴隶",
+      "size": 1
+    },
+    {
+      "id": "NJZ-产业",
+      "source": "NJZ",
+      "target": "产业",
+      "size": 1
+    },
+    {
+      "id": "Kpop-万岁",
+      "source": "Kpop",
+      "target": "万岁",
+      "size": 1
+    },
+    {
+      "id": "万岁-就是",
+      "source": "万岁",
+      "target": "就是",
+      "size": 1
+    },
+    {
+      "id": "万岁-奴隶",
+      "source": "万岁",
+      "target": "奴隶",
+      "size": 1
+    },
+    {
+      "id": "万岁-产业",
+      "source": "万岁",
+      "target": "产业",
+      "size": 1
+    },
+    {
+      "id": "Kpop-就是",
+      "source": "Kpop",
+      "target": "就是",
+      "size": 1
+    },
+    {
+      "id": "Kpop-奴隶",
+      "source": "Kpop",
+      "target": "奴隶",
+      "size": 1
+    },
+    {
+      "id": "Kpop-产业",
+      "source": "Kpop",
+      "target": "产业",
+      "size": 1
+    },
+    {
+      "id": "奴隶-就是",
+      "source": "奴隶",
+      "target": "就是",
+      "size": 1
+    },
+    {
+      "id": "产业-就是",
+      "source": "产业",
+      "target": "就是",
+      "size": 1
+    },
+    {
+      "id": "产业-奴隶",
+      "source": "产业",
+      "target": "奴隶",
+      "size": 1
+    },
+    {
+      "id": "惠仁高-马尾",
+      "source": "惠仁高",
+      "target": "马尾",
+      "size": 1
+    },
+    {
+      "id": "好看-惠仁高",
+      "source": "好看",
+      "target": "惠仁高",
+      "size": 1
+    },
+    {
+      "id": "好看-马尾",
+      "source": "好看",
+      "target": "马尾",
+      "size": 1
+    },
+    {
+      "id": "所有-打招呼",
+      "source": "所有",
+      "target": "打招呼",
+      "size": 1
+    },
+    {
+      "id": "所有-无视",
+      "source": "所有",
+      "target": "无视",
+      "size": 1
+    },
+    {
+      "id": "ta-所有",
+      "source": "ta",
+      "target": "所有",
+      "size": 1
+    },
+    {
+      "id": "打招呼-无视",
+      "source": "打招呼",
+      "target": "无视",
+      "size": 1
+    },
+    {
+      "id": "ta-打招呼",
+      "source": "ta",
+      "target": "打招呼",
+      "size": 1
+    },
+    {
+      "id": "ta-无视",
+      "source": "ta",
+      "target": "无视",
+      "size": 1
+    },
+    {
+      "id": "听爽-改编",
+      "source": "听爽",
+      "target": "改编",
+      "size": 1
+    },
+    {
+      "id": "我快-萌死",
+      "source": "我快",
+      "target": "萌死",
+      "size": 1
+    },
+    {
+      "id": "两个-澳洲",
+      "source": "两个",
+      "target": "澳洲",
+      "size": 2
+    },
+    {
+      "id": "两个-韩国",
+      "source": "两个",
+      "target": "韩国",
+      "size": 2
+    },
+    {
+      "id": "两个-道歉",
+      "source": "两个",
+      "target": "道歉",
+      "size": 2
+    },
+    {
+      "id": "澳洲-韩国",
+      "source": "澳洲",
+      "target": "韩国",
+      "size": 2
+    },
+    {
+      "id": "澳洲-道歉",
+      "source": "澳洲",
+      "target": "道歉",
+      "size": 2
+    },
+    {
+      "id": "道歉-韩国",
+      "source": "道歉",
+      "target": "韩国",
+      "size": 2
+    },
+    {
+      "id": "NJZ-别说",
+      "source": "NJZ",
+      "target": "别说",
+      "size": 1
+    },
+    {
+      "id": "别说-鲸粉",
+      "source": "别说",
+      "target": "鲸粉",
+      "size": 1
+    },
+    {
+      "id": "别说-她们",
+      "source": "别说",
+      "target": "她们",
+      "size": 1
+    },
+    {
+      "id": "别说-违约金",
+      "source": "别说",
+      "target": "违约金",
+      "size": 1
+    },
+    {
+      "id": "一点-别说",
+      "source": "一点",
+      "target": "别说",
+      "size": 1
+    },
+    {
+      "id": "NJZ-鲸粉",
+      "source": "NJZ",
+      "target": "鲸粉",
+      "size": 1
+    },
+    {
+      "id": "NJZ-她们",
+      "source": "NJZ",
+      "target": "她们",
+      "size": 1
+    },
+    {
+      "id": "NJZ-违约金",
+      "source": "NJZ",
+      "target": "违约金",
+      "size": 1
+    },
+    {
+      "id": "NJZ-一点",
+      "source": "NJZ",
+      "target": "一点",
+      "size": 1
+    },
+    {
+      "id": "她们-鲸粉",
+      "source": "她们",
+      "target": "鲸粉",
+      "size": 1
+    },
+    {
+      "id": "违约金-鲸粉",
+      "source": "违约金",
+      "target": "鲸粉",
+      "size": 1
+    },
+    {
+      "id": "一点-鲸粉",
+      "source": "一点",
+      "target": "鲸粉",
+      "size": 1
+    },
+    {
+      "id": "她们-违约金",
+      "source": "她们",
+      "target": "违约金",
+      "size": 1
+    },
+    {
+      "id": "一点-她们",
+      "source": "一点",
+      "target": "她们",
+      "size": 1
+    },
+    {
+      "id": "一点-违约金",
+      "source": "一点",
+      "target": "违约金",
+      "size": 1
+    },
+    {
+      "id": "五个-真可笑",
+      "source": "五个",
+      "target": "真可笑",
+      "size": 1
+    },
+    {
+      "id": "法盲-真可笑",
+      "source": "法盲",
+      "target": "真可笑",
+      "size": 1
+    },
+    {
+      "id": "五个-法盲",
+      "source": "五个",
+      "target": "法盲",
+      "size": 1
+    },
+    {
+      "id": "根本-粉丝",
+      "source": "根本",
+      "target": "粉丝",
+      "size": 1
+    },
+    {
+      "id": "粉丝-认清",
+      "source": "粉丝",
+      "target": "认清",
+      "size": 1
+    },
+    {
+      "id": "事实-粉丝",
+      "source": "事实",
+      "target": "粉丝",
+      "size": 1
+    },
+    {
+      "id": "根本-认清",
+      "source": "根本",
+      "target": "认清",
+      "size": 1
+    },
+    {
+      "id": "事实-根本",
+      "source": "事实",
+      "target": "根本",
+      "size": 1
+    },
+    {
+      "id": "事实-认清",
+      "source": "事实",
+      "target": "认清",
+      "size": 1
+    },
+    {
+      "id": "告上-打招呼",
+      "source": "告上",
+      "target": "打招呼",
+      "size": 1
+    },
+    {
+      "id": "国会-打招呼",
+      "source": "国会",
+      "target": "打招呼",
+      "size": 1
+    },
+    {
+      "id": "告上-国会",
+      "source": "告上",
+      "target": "国会",
+      "size": 1
+    },
+    {
+      "id": "别的-女团",
+      "source": "别的",
+      "target": "女团",
+      "size": 1
+    },
+    {
+      "id": "别的-道歉",
+      "source": "别的",
+      "target": "道歉",
+      "size": 1
+    },
+    {
+      "id": "女团-道歉",
+      "source": "女团",
+      "target": "道歉",
+      "size": 1
+    },
+    {
+      "id": "南韩-李明德",
+      "source": "南韩",
+      "target": "李明德",
+      "size": 52
+    },
+    {
+      "id": "池儿-身上",
+      "source": "池儿",
+      "target": "身上",
+      "size": 1
+    },
+    {
+      "id": "一直-幸福",
+      "source": "一直",
+      "target": "幸福",
+      "size": 1
+    },
+    {
+      "id": "liveband-真好",
+      "source": "liveband",
+      "target": "真好",
+      "size": 1
+    },
+    {
+      "id": "不要-韩令",
+      "source": "不要",
+      "target": "韩令",
+      "size": 1
+    },
+    {
+      "id": "爱豆-韩令",
+      "source": "爱豆",
+      "target": "韩令",
+      "size": 1
+    },
+    {
+      "id": "自有办法-韩令",
+      "source": "自有办法",
+      "target": "韩令",
+      "size": 1
+    },
+    {
+      "id": "见到-韩令",
+      "source": "见到",
+      "target": "韩令",
+      "size": 1
+    },
+    {
+      "id": "不要-爱豆",
+      "source": "不要",
+      "target": "爱豆",
+      "size": 1
+    },
+    {
+      "id": "不要-自有办法",
+      "source": "不要",
+      "target": "自有办法",
+      "size": 1
+    },
+    {
+      "id": "不要-见到",
+      "source": "不要",
+      "target": "见到",
+      "size": 1
+    },
+    {
+      "id": "爱豆-自有办法",
+      "source": "爱豆",
+      "target": "自有办法",
+      "size": 1
+    },
+    {
+      "id": "爱豆-见到",
+      "source": "爱豆",
+      "target": "见到",
+      "size": 1
+    },
+    {
+      "id": "自有办法-见到",
+      "source": "自有办法",
+      "target": "见到",
+      "size": 1
+    },
+    {
+      "id": "小妹-美的",
+      "source": "小妹",
+      "target": "美的",
+      "size": 1
+    },
+    {
+      "id": "Jeans-New",
+      "source": "Jeans",
+      "target": "New",
+      "size": 1
+    },
+    {
+      "id": "Never-New",
+      "source": "Never",
+      "target": "New",
+      "size": 1
+    },
+    {
+      "id": "Die-New",
+      "source": "Die",
+      "target": "New",
+      "size": 1
+    },
+    {
+      "id": "Jeans-Never",
+      "source": "Jeans",
+      "target": "Never",
+      "size": 1
+    },
+    {
+      "id": "Die-Jeans",
+      "source": "Die",
+      "target": "Jeans",
+      "size": 1
+    },
+    {
+      "id": "Die-Never",
+      "source": "Die",
+      "target": "Never",
+      "size": 1
+    },
+    {
+      "id": "好萌-猫猫",
+      "source": "好萌",
+      "target": "猫猫",
+      "size": 2
+    },
+    {
+      "id": "妈妈-小忍",
+      "source": "妈妈",
+      "target": "小忍",
+      "size": 1
+    },
+    {
+      "id": "女人-小忍",
+      "source": "女人",
+      "target": "小忍",
+      "size": 1
+    },
+    {
+      "id": "女人-妈妈",
+      "source": "女人",
+      "target": "妈妈",
+      "size": 1
+    },
+    {
+      "id": "minji-好美",
+      "source": "minji",
+      "target": "好美",
+      "size": 1
+    },
+    {
+      "id": "minji-我爱你",
+      "source": "minji",
+      "target": "我爱你",
+      "size": 1
+    },
+    {
+      "id": "匆忙-哈哈哈哈",
+      "source": "匆忙",
+      "target": "哈哈哈哈",
+      "size": 1
+    },
+    {
+      "id": "哈哈哈哈-回来",
+      "source": "哈哈哈哈",
+      "target": "回来",
+      "size": 1
+    },
+    {
+      "id": "哈哈哈哈-哈尼",
+      "source": "哈哈哈哈",
+      "target": "哈尼",
+      "size": 1
+    },
+    {
+      "id": "匆忙-回来",
+      "source": "匆忙",
+      "target": "回来",
+      "size": 1
+    },
+    {
+      "id": "匆忙-哈尼",
+      "source": "匆忙",
+      "target": "哈尼",
+      "size": 1
+    },
+    {
+      "id": "哈尼-回来",
+      "source": "哈尼",
+      "target": "回来",
+      "size": 1
+    },
+    {
+      "id": "hanni-太棒了",
+      "source": "hanni",
+      "target": "太棒了",
+      "size": 1
+    },
+    {
+      "id": "太美-家池",
+      "source": "太美",
+      "target": "家池",
+      "size": 1
+    },
+    {
+      "id": "丹尼-看见",
+      "source": "丹尼",
+      "target": "看见",
+      "size": 1
+    },
+    {
+      "id": "丹尼-什么",
+      "source": "丹尼",
+      "target": "什么",
+      "size": 1
+    },
+    {
+      "id": "什么-看见",
+      "source": "什么",
+      "target": "看见",
+      "size": 1
+    },
+    {
+      "id": "minji-哈哈哈哈",
+      "source": "minji",
+      "target": "哈哈哈哈",
+      "size": 1
+    },
+    {
+      "id": "哈哈哈哈-耍帅",
+      "source": "哈哈哈哈",
+      "target": "耍帅",
+      "size": 1
+    },
+    {
+      "id": "minji-迷死",
+      "source": "minji",
+      "target": "迷死",
+      "size": 1
+    },
+    {
+      "id": "啊啊啊-迷死",
+      "source": "啊啊啊",
+      "target": "迷死",
+      "size": 1
+    },
+    {
+      "id": "大屏-小池",
+      "source": "大屏",
+      "target": "小池",
+      "size": 1
+    },
+    {
+      "id": "大屏-姐好",
+      "source": "大屏",
+      "target": "姐好",
+      "size": 1
+    },
+    {
+      "id": "姐好-小池",
+      "source": "姐好",
+      "target": "小池",
+      "size": 1
+    },
+    {
+      "id": "媚粉-小池",
+      "source": "媚粉",
+      "target": "小池",
+      "size": 1
+    },
+    {
+      "id": "minji-你好",
+      "source": "minji",
+      "target": "你好",
+      "size": 1
+    },
+    {
+      "id": "哈哈哈-哈哈哈哈",
+      "source": "哈哈哈",
+      "target": "哈哈哈哈",
+      "size": 1
+    },
+    {
+      "id": "哈哈哈哈-整活",
+      "source": "哈哈哈哈",
+      "target": "整活",
+      "size": 1
+    },
+    {
+      "id": "ing-哈哈哈哈",
+      "source": "ing",
+      "target": "哈哈哈哈",
+      "size": 1
+    },
+    {
+      "id": "哈哈哈-整活",
+      "source": "哈哈哈",
+      "target": "整活",
+      "size": 1
+    },
+    {
+      "id": "ing-哈哈哈",
+      "source": "ing",
+      "target": "哈哈哈",
+      "size": 1
+    },
+    {
+      "id": "ing-整活",
+      "source": "ing",
+      "target": "整活",
+      "size": 1
+    },
+    {
+      "id": "minji-大声",
+      "source": "minji",
+      "target": "大声",
+      "size": 1
+    },
+    {
+      "id": "minji-侧脸",
+      "source": "minji",
+      "target": "侧脸",
+      "size": 1
+    },
+    {
+      "id": "害羞-捂脸",
+      "source": "害羞",
+      "target": "捂脸",
+      "size": 1
+    },
+    {
+      "id": "姐美-小池",
+      "source": "姐美",
+      "target": "小池",
+      "size": 1
+    },
+    {
+      "id": "一大跳-小池",
+      "source": "一大跳",
+      "target": "小池",
+      "size": 1
+    },
+    {
+      "id": "一大跳-姐美",
+      "source": "一大跳",
+      "target": "姐美",
+      "size": 1
+    }
+  ]
+}
