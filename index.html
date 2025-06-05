@@ -1,39 +1,335 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Graph Visualization</title>
-    <!-- 引入 Sigma.js 库 -->
-    <script src="https://unpkg.com/sigma@2.2.3/build/sigma.min.js"></script>
-    <style>
-        /* 设置画布的样式 */
-        #sigma-container {
-            width: 100%;
-            height: 600px;
+    <title>我的Gephi网络图</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sigma@2.2.3/build/sigma.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.8/dist/chart.umd.min.js"></script>
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#3B82F6',
+                        secondary: '#10B981',
+                        accent: '#8B5CF6',
+                        dark: '#1E293B',
+                        light: '#F8FAFC'
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'system-ui', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    
+    <style type="text/tailwindcss">
+        @layer utilities {
+            .content-auto {
+                content-visibility: auto;
+            }
+            .graph-container {
+                height: calc(100vh - 12rem);
+            }
         }
     </style>
 </head>
+<body class="bg-light text-dark">
+    <header class="bg-primary text-white shadow-lg">
+        <div class="container mx-auto px-4 py-6">
+            <div class="flex justify-between items-center">
+                <h1 class="text-[clamp(1.5rem,3vw,2.5rem)] font-bold">
+                    <i class="fa fa-sitemap mr-3"></i>网络可视化
+                </h1>
+                <nav>
+                    <ul class="flex space-x-6">
+                        <li><a href="#" class="hover:text-secondary transition-colors duration-300">首页</a></li>
+                        <li><a href="#" class="hover:text-secondary transition-colors duration-300">项目</a></li>
+                        <li><a href="#" class="hover:text-secondary transition-colors duration-300">关于</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
 
-<body>
-    <!-- 创建一个容器用于显示图 -->
-    <div id="sigma-container"></div>
+    <main class="container mx-auto px-4 py-8">
+        <section class="mb-8">
+            <h2 class="text-2xl font-bold mb-4">Gephi网络图展示</h2>
+            <p class="text-gray-600 mb-6">
+                这个页面展示了我使用Gephi创建的网络图数据。
+                网络图可以直观地展示实体之间的关系，帮助我们理解复杂系统的结构和动态。
+            </p>
+            
+            <div class="bg-white rounded-xl shadow-xl p-4 mb-6">
+                <div class="flex flex-col md:flex-row gap-4">
+                    <div class="md:w-1/4">
+                        <div class="bg-gray-50 rounded-lg p-4 shadow-inner">
+                            <h3 class="font-bold text-lg mb-3 flex items-center">
+                                <i class="fa fa-sliders mr-2 text-primary"></i>控制选项
+                            </h3>
+                            <div class="space-y-4">
+                                <div>
+                                    <label class="block text-sm font-medium text-gray-700 mb-1">节点大小</label>
+                                    <input type="range" id="node-size" min="1" max="10" value="5" 
+                                        class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer accent-primary">
+                                </div>
+                                <div>
+                                    <label class="block text-sm font-medium text-gray-700 mb-1">边透明度</label>
+                                    <input type="range" id="edge-opacity" min="0.1" max="1" step="0.1" value="0.3" 
+                                        class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer accent-primary">
+                                </div>
+                                <div>
+                                    <button id="reset-view" class="w-full bg-primary hover:bg-primary/90 text-white py-2 px-4 rounded-lg transition-colors duration-300">
+                                        <i class="fa fa-refresh mr-2"></i>重置视图
+                                    </button>
+                                </div>
+                                <div>
+                                    <label class="block text-sm font-medium text-gray-700 mb-1">选择数据文件</label>
+                                    <input type="file" id="file-upload" accept=".json" class="w-full text-sm text-gray-500 file:mr-4 file:py-2 file:px-4 file:rounded-lg file:border-0 file:text-sm file:font-medium file:bg-primary file:text-white hover:file:bg-primary/90">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="md:w-3/4">
+                        <div class="bg-gray-50 rounded-lg shadow-inner p-2 relative overflow-hidden" id="graph-container">
+                            <div id="sigma-container" class="w-full h-full"></div>
+                            <div id="tooltip" class="absolute bg-dark/80 text-white p-2 rounded-md text-sm hidden z-10"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-8">
+            <h2 class="text-2xl font-bold mb-4">网络分析指标</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div class="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center text-primary">
+                            <i class="fa fa-users text-xl"></i>
+                        </div>
+                        <h3 class="ml-4 text-lg font-semibold">节点统计</h3>
+                    </div>
+                    <div class="text-4xl font-bold mb-2" id="node-count">0</div>
+                    <div class="text-sm text-gray-500">
+                        <i class="fa fa-info-circle mr-1"></i>网络中的实体总数
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-secondary/10 rounded-full flex items-center justify-center text-secondary">
+                            <i class="fa fa-link text-xl"></i>
+                        </div>
+                        <h3 class="ml-4 text-lg font-semibold">连接统计</h3>
+                    </div>
+                    <div class="text-4xl font-bold mb-2" id="edge-count">0</div>
+                    <div class="text-sm text-gray-500">
+                        <i class="fa fa-info-circle mr-1"></i>实体间的关系总数
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-accent/10 rounded-full flex items-center justify-center text-accent">
+                            <i class="fa fa-random text-xl"></i>
+                        </div>
+                        <h3 class="ml-4 text-lg font-semibold">平均连接度</h3>
+                    </div>
+                    <div class="text-4xl font-bold mb-2" id="avg-degree">0</div>
+                    <div class="text-sm text-gray-500">
+                        <i class="fa fa-info-circle mr-1"></i>每个节点的平均连接数
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white mt-12">
+        <div class="container mx-auto px-4 py-8">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <h3 class="text-xl font-bold mb-2">网络可视化项目</h3>
+                    <p class="text-gray-400">使用Gephi和Sigma.js构建的交互式网络图</p>
+                </div>
+                <div class="flex space-x-4">
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">
+                        <i class="fa fa-github text-xl"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">
+                        <i class="fa fa-twitter text-xl"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">
+                        <i class="fa fa-linkedin text-xl"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-6 pt-6 text-center text-gray-400">
+                <p>&copy; 2025 我的网络图项目 | 使用Gephi和Sigma.js构建</p>
+            </div>
+        </div>
+    </footer>
+
     <script>
-        // 加载 JSON 数据
-        fetch('network_data.json')
+        // 全局变量
+        let sigmaInstance;
+        let currentGraph = null;
+        
+        // 文件上传处理
+        document.getElementById('file-upload').addEventListener('change', function(e) {
+            const file = e.target.files[0];
+            if (!file) return;
+            
+            const reader = new FileReader();
+            reader.onload = function(event) {
+                try {
+                    const data = JSON.parse(event.target.result);
+                    loadGraph(data);
+                } catch (error) {
+                    alert('解析JSON文件时出错: ' + error.message);
+                }
+            };
+            reader.readAsText(file);
+        });
+        
+        // 加载并显示图
+        function loadGraph(graphData) {
+            currentGraph = graphData;
+            
+            // 清空现有图
+            const container = document.getElementById('sigma-container');
+            while (container.firstChild) {
+                container.removeChild(container.firstChild);
+            }
+            
+            // 创建新的Sigma实例
+            sigmaInstance = new sigma({
+                graph: graphData,
+                container: container,
+                settings: {
+                    defaultNodeColor: '#3B82F6',
+                    defaultEdgeColor: '#999',
+                    edgeColor: 'default',
+                    enableEdgeHovering: true,
+                    edgeHoverColor: 'edge',
+                    defaultEdgeHoverColor: '#FF4136',
+                    edgeHoverSizeRatio: 1,
+                    edgeHoverExtremities: true,
+                    defaultLabelSize: 12,
+                    labelThreshold: 8,
+                    zoomingRatio: 1.1,
+                    minNodeSize: 1,
+                    maxNodeSize: 10,
+                    minEdgeSize: 0.5,
+                    maxEdgeSize: 2,
+                    sideMargin: 0.1
+                }
+            });
+            
+            // 更新统计信息
+            document.getElementById('node-count').textContent = graphData.nodes.length;
+            document.getElementById('edge-count').textContent = graphData.edges.length;
+            document.getElementById('avg-degree').textContent = 
+                (graphData.edges.length * 2 / graphData.nodes.length).toFixed(1);
+            
+            // 节点悬停提示
+            const tooltip = document.getElementById('tooltip');
+            
+            sigmaInstance.graph.nodes().forEach(function(node) {
+                node.originalColor = node.color;
+            });
+            
+            sigmaInstance.graph.edges().forEach(function(edge) {
+                edge.originalColor = edge.color;
+            });
+            
+            // 节点悬停事件
+            sigmaInstance.bind('overNode', function(e) {
+                const node = e.data.node;
+                tooltip.style.display = 'block';
+                tooltip.style.left = (e.data.renderedPosition.x + 10) + 'px';
+                tooltip.style.top = (e.data.renderedPosition.y + 10) + 'px';
+                
+                // 构建提示内容
+                let tooltipContent = `<div class="font-bold mb-1">${node.label || node.id}</div>`;
+                
+                // 添加节点属性
+                for (const [key, value] of Object.entries(node)) {
+                    if (key !== 'id' && key !== 'label' && key !== 'x' && key !== 'y' && key !== 'size' && key !== 'color' && key !== 'originalColor') {
+                        tooltipContent += `<div>${key}: ${value}</div>`;
+                    }
+                }
+                
+                tooltip.innerHTML = tooltipContent;
+                
+                // 高亮节点
+                node.color = '#FF4136';
+                sigmaInstance.refresh();
+            });
+            
+            sigmaInstance.bind('outNode', function() {
+                tooltip.style.display = 'none';
+                
+                // 恢复节点颜色
+                sigmaInstance.graph.nodes().forEach(function(node) {
+                    node.color = node.originalColor;
+                });
+                sigmaInstance.refresh();
+            });
+            
+            // 节点大小控制
+            document.getElementById('node-size').addEventListener('input', function() {
+                const size = parseFloat(this.value);
+                sigmaInstance.graph.nodes().forEach(function(node) {
+                    node.size = size;
+                });
+                sigmaInstance.refresh();
+            });
+            
+            // 边透明度控制
+            document.getElementById('edge-opacity').addEventListener('input', function() {
+                const opacity = parseFloat(this.value);
+                sigmaInstance.graph.edges().forEach(function(edge) {
+                    edge.color = `rgba(153, 153, 153, ${opacity})`;
+                });
+                sigmaInstance.refresh();
+            });
+            
+            // 重置视图
+            document.getElementById('reset-view').addEventListener('click', function() {
+                sigmaInstance.refresh();
+                sigmaInstance.startForceAtlas2();
+                setTimeout(() => {
+                    sigmaInstance.stopForceAtlas2();
+                }, 2000);
+            });
+            
+            // 启动力导向布局
+            sigmaInstance.startForceAtlas2();
+            setTimeout(() => {
+                sigmaInstance.stopForceAtlas2();
+            }, 2000);
+        }
+        
+        // 默认加载示例数据（如果你有示例数据的话）
+        // 如果没有，可以注释掉下面的代码，让用户先上传数据
+        /*
+        fetch('https://raw.githubusercontent.com/jacomyal/sigma.js/master/examples/data/arctic.json')
            .then(response => response.json())
            .then(data => {
-                // 获取容器元素
-                const container = document.getElementById('sigma-container');
-                // 初始化 Sigma.js 实例
-                const s = new sigma({
-                    graph: data,
-                    container: container
-                });
+                loadGraph(data);
             })
-           .catch(error => console.error('Error loading data:', error));
+           .catch(error => {
+                console.error('加载示例数据失败:', error);
+                alert('请上传你的Gephi JSON数据文件');
+            });
+        */
     </script>
 </body>
-
 </html>
