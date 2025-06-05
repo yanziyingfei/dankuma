@@ -8,25 +8,64 @@
     <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/sigma@2.2.3/build/sigma.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.8/dist/chart.umd.min.js"></script>
-    
+   
     <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        primary: '#3B82F6',
-                        secondary: '#10B981',
-                        accent: '#8B5CF6',
-                        dark: '#1E293B',
-                        light: '#F8FAFC'
-                    },
-                    fontFamily: {
-                        sans: ['Inter', 'system-ui', 'sans-serif'],
-                    },
-                }
-            }
+  // 文件上传处理
+  document.getElementById('file-upload').addEventListener('change', function(e) {
+    const file = e.target.files[0];
+    if (!file) return;
+    
+    const reader = new FileReader();
+    reader.onload = function(event) {
+      try {
+        // 解析 JSON 数据（假设根节点是 nodes 和 edges）
+        const rawData = JSON.parse(event.target.result);
+        const graphData = {
+          nodes: rawData.nodes,
+          edges: rawData.edges
+        };
+        
+        // 确保节点和边存在
+        if (!graphData.nodes || !graphData.edges) {
+          alert('JSON 数据缺少 nodes 或 edges 字段');
+          return;
         }
-    </script>
+        
+        loadGraph(graphData);
+      } catch (error) {
+        alert('解析 JSON 出错：' + error.message);
+      }
+    };
+    reader.readAsText(file);
+  });
+
+  // 加载图数据
+  function loadGraph(graphData) {
+    if (!checkSigmaLoaded()) return;
+    
+    const container = document.getElementById('sigma-container');
+    container.innerHTML = ''; // 清空容器
+    
+    try {
+      sigmaInstance = new Sigma({
+        graph: graphData,
+        container: container,
+        // 其他设置不变...
+      });
+      
+      // 更新统计信息（注意节点/边数量是否正确）
+      document.getElementById('node-count').textContent = graphData.nodes.length;
+      document.getElementById('edge-count').textContent = graphData.edges.length;
+      document.getElementById('avg-degree').textContent = 
+        (graphData.edges.length * 2 / graphData.nodes.length).toFixed(1);
+      
+      // 其他交互逻辑不变...
+    } catch (error) {
+      alert('Sigma.js 初始化失败：' + error.message);
+    }
+  }
+</script>
+   
     
     <style type="text/tailwindcss">
         @layer utilities {
