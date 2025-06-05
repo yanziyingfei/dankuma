@@ -3,146 +3,153 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>我的Gephi网络图</title>
+    <title>B站弹幕词云分析</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/sigma@2.2.3/build/sigma.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.8/dist/chart.umd.min.js"></script>
-   
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/echarts-wordcloud@2.0.0/dist/echarts-wordcloud.min.js"></script>
+    
     <script>
-  // 文件上传处理
-  document.getElementById('file-upload').addEventListener('change', function(e) {
-    const file = e.target.files[0];
-    if (!file) return;
-    
-    const reader = new FileReader();
-    reader.onload = function(event) {
-      try {
-        // 解析 JSON 数据（假设根节点是 nodes 和 edges）
-        const rawData = JSON.parse(event.target.result);
-        const graphData = {
-          nodes: rawData.nodes,
-          edges: rawData.edges
-        };
-        
-        // 确保节点和边存在
-        if (!graphData.nodes || !graphData.edges) {
-          alert('JSON 数据缺少 nodes 或 edges 字段');
-          return;
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#3B82F6',
+                        secondary: '#10B981',
+                        accent: '#8B5CF6',
+                        dark: '#1E293B',
+                        light: '#F8FAFC'
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'system-ui', 'sans-serif'],
+                    },
+                }
+            }
         }
-        
-        loadGraph(graphData);
-      } catch (error) {
-        alert('解析 JSON 出错：' + error.message);
-      }
-    };
-    reader.readAsText(file);
-  });
-
-  // 加载图数据
-  function loadGraph(graphData) {
-    if (!checkSigmaLoaded()) return;
-    
-    const container = document.getElementById('sigma-container');
-    container.innerHTML = ''; // 清空容器
-    
-    try {
-      sigmaInstance = new Sigma({
-        graph: graphData,
-        container: container,
-        // 其他设置不变...
-      });
-      
-      // 更新统计信息（注意节点/边数量是否正确）
-      document.getElementById('node-count').textContent = graphData.nodes.length;
-      document.getElementById('edge-count').textContent = graphData.edges.length;
-      document.getElementById('avg-degree').textContent = 
-        (graphData.edges.length * 2 / graphData.nodes.length).toFixed(1);
-      
-      // 其他交互逻辑不变...
-    } catch (error) {
-      alert('Sigma.js 初始化失败：' + error.message);
-    }
-  }
-</script>
-   
+    </script>
     
     <style type="text/tailwindcss">
         @layer utilities {
             .content-auto {
                 content-visibility: auto;
             }
-            .graph-container {
-                height: calc(100vh - 12rem);
+            .wordcloud-container {
+                height: 70vh;
+            }
+            .hover-scale {
+                transition: transform 0.3s ease;
+            }
+            .hover-scale:hover {
+                transform: scale(1.03);
             }
         }
     </style>
 </head>
-<body class="bg-light text-dark">
+<body class="bg-light text-dark min-h-screen flex flex-col">
     <header class="bg-primary text-white shadow-lg">
         <div class="container mx-auto px-4 py-6">
-            <div class="flex justify-between items-center">
-                <h1 class="text-[clamp(1.5rem,3vw,2.5rem)] font-bold">
-                    <i class="fa fa-sitemap mr-3"></i>网络可视化
-                </h1>
-                <nav>
-                    <ul class="flex space-x-6">
-                        <li><a href="#" class="hover:text-secondary transition-colors duration-300">首页</a></li>
-                        <li><a href="#" class="hover:text-secondary transition-colors duration-300">项目</a></li>
-                        <li><a href="#" class="hover:text-secondary transition-colors duration-300">关于</a></li>
-                    </ul>
-                </nav>
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <h1 class="text-[clamp(1.5rem,3vw,2.5rem)] font-bold flex items-center">
+                        <i class="fa fa-comments-o mr-3"></i>B站弹幕词云分析
+                    </h1>
+                    <p class="text-blue-100 mt-1">探索弹幕中的热门话题和情感倾向</p>
+                </div>
+                <div class="flex space-x-4">
+                    <a href="#" class="text-white hover:text-blue-200 transition-colors duration-300">
+                        <i class="fa fa-github text-xl"></i>
+                    </a>
+                    <a href="#" class="text-white hover:text-blue-200 transition-colors duration-300">
+                        <i class="fa fa-info-circle text-xl"></i>
+                    </a>
+                </div>
             </div>
         </div>
     </header>
 
-    <main class="container mx-auto px-4 py-8">
+    <main class="flex-grow container mx-auto px-4 py-8">
         <section class="mb-8">
-            <h2 class="text-2xl font-bold mb-4">Gephi网络图展示</h2>
-            <p class="text-gray-600 mb-6">
-                这个页面展示了我使用Gephi创建的网络图数据。
-                网络图可以直观地展示实体之间的关系，帮助我们理解复杂系统的结构和动态。
-            </p>
-            
-            <div class="bg-white rounded-xl shadow-xl p-4 mb-6">
-                <div class="flex flex-col md:flex-row gap-4">
+            <div class="bg-white rounded-xl shadow-xl p-6 mb-6">
+                <div class="flex flex-col md:flex-row gap-6">
                     <div class="md:w-1/4">
-                        <div class="bg-gray-50 rounded-lg p-4 shadow-inner">
-                            <h3 class="font-bold text-lg mb-3 flex items-center">
-                                <i class="fa fa-sliders mr-2 text-primary"></i>控制选项
+                        <div class="bg-gray-50 rounded-lg p-4 shadow-inner h-full">
+                            <h3 class="font-bold text-lg mb-4 flex items-center">
+                                <i class="fa fa-sliders mr-2 text-primary"></i>控制面板
                             </h3>
                             <div class="space-y-4">
                                 <div>
-                                    <label class="block text-sm font-medium text-gray-700 mb-1">节点大小</label>
-                                    <input type="range" id="node-size" min="1" max="10" value="5" 
-                                        class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer accent-primary">
+                                    <label class="block text-sm font-medium text-gray-700 mb-1">词云形状</label>
+                                    <select id="shape-select" class="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary">
+                                        <option value="circle">圆形</option>
+                                        <option value="cardioid">心形</option>
+                                        <option value="diamond">菱形</option>
+                                        <option value="triangle-forward">三角形</option>
+                                        <option value="triangle">倒三角形</option>
+                                        <option value="star">星形</option>
+                                    </select>
                                 </div>
                                 <div>
-                                    <label class="block text-sm font-medium text-gray-700 mb-1">边透明度</label>
-                                    <input type="range" id="edge-opacity" min="0.1" max="1" step="0.1" value="0.3" 
+                                    <label class="block text-sm font-medium text-gray-700 mb-1">显示数量</label>
+                                    <input type="range" id="word-count" min="50" max="300" value="150" 
                                         class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer accent-primary">
+                                    <div class="flex justify-between text-xs text-gray-500 mt-1">
+                                        <span>最少</span>
+                                        <span id="count-value">150</span>
+                                        <span>最多</span>
+                                    </div>
                                 </div>
                                 <div>
-                                    <button id="reset-view" class="w-full bg-primary hover:bg-primary/90 text-white py-2 px-4 rounded-lg transition-colors duration-300">
-                                        <i class="fa fa-refresh mr-2"></i>重置视图
+                                    <label class="block text-sm font-medium text-gray-700 mb-1">字体大小范围</label>
+                                    <div class="flex items-center space-x-2">
+                                        <input type="range" id="min-size" min="10" max="50" value="12" 
+                                            class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer accent-primary">
+                                        <span id="min-size-value" class="text-sm">12</span>
+                                    </div>
+                                    <div class="flex items-center space-x-2 mt-2">
+                                        <input type="range" id="max-size" min="30" max="100" value="70" 
+                                            class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer accent-primary">
+                                        <span id="max-size-value" class="text-sm">70</span>
+                                    </div>
+                                </div>
+                                <div>
+                                    <button id="refresh-btn" class="w-full bg-primary hover:bg-primary/90 text-white py-2 px-4 rounded-lg transition-colors duration-300 flex items-center justify-center">
+                                        <i class="fa fa-refresh mr-2"></i>刷新词云
                                     </button>
                                 </div>
                                 <div>
-                                    <label class="block text-sm font-medium text-gray-700 mb-1">选择数据文件</label>
-                                    <input type="file" id="file-upload" accept=".json" class="w-full text-sm text-gray-500 file:mr-4 file:py-2 file:px-4 file:rounded-lg file:border-0 file:text-sm file:font-medium file:bg-primary file:text-white hover:file:bg-primary/90">
+                                    <label class="block text-sm font-medium text-gray-700 mb-1">数据来源</label>
+                                    <div class="bg-blue-50 p-3 rounded-md text-sm">
+                                        <p class="font-medium text-primary">GitHub仓库</p>
+                                        <p class="text-gray-600 mt-1">点击刷新按钮从以下地址加载数据：</p>
+                                        <p class="text-blue-600 text-xs mt-1 break-all">
+                                            <span id="data-url">https://raw.githubusercontent.com/yourusername/your-repo/main/network_data.json</span>
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     
                     <div class="md:w-3/4">
-                        <div class="bg-gray-50 rounded-lg shadow-inner p-2 relative overflow-hidden" id="graph-container">
-                            <div id="sigma-container" class="w-full h-full"></div>
-                            <div id="tooltip" class="absolute bg-dark/80 text-white p-2 rounded-md text-sm hidden z-10"></div>
+                        <div class="bg-gray-50 rounded-lg shadow-inner p-4 relative">
+                            <div class="flex justify-between items-center mb-4">
+                                <h3 class="font-bold text-lg flex items-center">
+                                    <i class="fa fa-cloud mr-2 text-primary"></i>弹幕词云图
+                                </h3>
+                                <div class="flex space-x-2">
+                                    <button id="save-png" class="bg-green-600 hover:bg-green-700 text-white py-1 px-3 rounded-md text-sm transition-colors duration-300 flex items-center">
+                                        <i class="fa fa-download mr-1"></i> PNG
+                                    </button>
+                                    <button id="save-svg" class="bg-purple-600 hover:bg-purple-700 text-white py-1 px-3 rounded-md text-sm transition-colors duration-300 flex items-center">
+                                        <i class="fa fa-download mr-1"></i> SVG
+                                    </button>
+                                </div>
+                            </div>
+                            <div id="wordcloud-container" class="wordcloud-container w-full"></div>
                             <div id="loading-indicator" class="absolute inset-0 flex items-center justify-center bg-white/80 hidden">
                                 <div class="flex flex-col items-center">
                                     <div class="w-16 h-16 border-4 border-primary border-t-transparent rounded-full animate-spin"></div>
-                                    <p class="mt-4 text-primary font-medium">加载中...</p>
+                                    <p class="mt-4 text-primary font-medium">加载词云数据中...</p>
                                 </div>
                             </div>
                         </div>
@@ -151,57 +158,82 @@
             </div>
         </section>
 
+        <section class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+            <div class="bg-white rounded-xl shadow-lg p-6 hover-scale">
+                <div class="flex items-center mb-4">
+                    <div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center text-primary">
+                        <i class="fa fa-line-chart text-xl"></i>
+                    </div>
+                    <h3 class="ml-4 text-lg font-semibold">词频统计</h3>
+                </div>
+                <div class="h-64">
+                    <canvas id="frequency-chart"></canvas>
+                </div>
+            </div>
+            
+            <div class="bg-white rounded-xl shadow-lg p-6 hover-scale">
+                <div class="flex items-center mb-4">
+                    <div class="w-12 h-12 bg-secondary/10 rounded-full flex items-center justify-center text-secondary">
+                        <i class="fa fa-smile-o text-xl"></i>
+                    </div>
+                    <h3 class="ml-4 text-lg font-semibold">情感分析</h3>
+                </div>
+                <div class="h-64">
+                    <canvas id="sentiment-chart"></canvas>
+                </div>
+            </div>
+        </section>
+
         <section class="mb-8">
-            <h2 class="text-2xl font-bold mb-4">网络分析指标</h2>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-                <div class="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
-                    <div class="flex items-center mb-4">
-                        <div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center text-primary">
-                            <i class="fa fa-users text-xl"></i>
+            <div class="bg-white rounded-xl shadow-lg p-6 hover-scale">
+                <div class="flex items-center justify-between mb-4">
+                    <h3 class="text-lg font-semibold flex items-center">
+                        <i class="fa fa-list-alt mr-2 text-primary"></i>原始弹幕数据
+                    </h3>
+                    <div class="flex space-x-2">
+                        <div class="relative">
+                            <input type="text" id="search-danmu" placeholder="搜索弹幕..." class="pl-8 pr-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary">
+                            <i class="fa fa-search absolute left-3 top-3 text-gray-400"></i>
                         </div>
-                        <h3 class="ml-4 text-lg font-semibold">节点统计</h3>
-                    </div>
-                    <div class="text-4xl font-bold mb-2" id="node-count">0</div>
-                    <div class="text-sm text-gray-500">
-                        <i class="fa fa-info-circle mr-1"></i>网络中的实体总数
+                        <select id="filter-sentiment" class="p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary">
+                            <option value="all">全部情感</option>
+                            <option value="positive">积极</option>
+                            <option value="neutral">中性</option>
+                            <option value="negative">消极</option>
+                        </select>
                     </div>
                 </div>
-                
-                <div class="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
-                    <div class="flex items-center mb-4">
-                        <div class="w-12 h-12 bg-secondary/10 rounded-full flex items-center justify-center text-secondary">
-                            <i class="fa fa-link text-xl"></i>
-                        </div>
-                        <h3 class="ml-4 text-lg font-semibold">连接统计</h3>
-                    </div>
-                    <div class="text-4xl font-bold mb-2" id="edge-count">0</div>
-                    <div class="text-sm text-gray-500">
-                        <i class="fa fa-info-circle mr-1"></i>实体间的关系总数
-                    </div>
+                <div class="overflow-x-auto">
+                    <table class="min-w-full divide-y divide-gray-200">
+                        <thead class="bg-gray-50">
+                            <tr>
+                                <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">弹幕内容</th>
+                                <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">情感倾向</th>
+                                <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">出现次数</th>
+                            </tr>
+                        </thead>
+                        <tbody id="danmu-table-body" class="bg-white divide-y divide-gray-200">
+                            <!-- 动态生成的弹幕数据 -->
+                        </tbody>
+                    </table>
                 </div>
-                
-                <div class="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
-                    <div class="flex items-center mb-4">
-                        <div class="w-12 h-12 bg-accent/10 rounded-full flex items-center justify-center text-accent">
-                            <i class="fa fa-random text-xl"></i>
-                        </div>
-                        <h3 class="ml-4 text-lg font-semibold">平均连接度</h3>
-                    </div>
-                    <div class="text-4xl font-bold mb-2" id="avg-degree">0</div>
-                    <div class="text-sm text-gray-500">
-                        <i class="fa fa-info-circle mr-1"></i>每个节点的平均连接数
+                <div class="mt-4 flex justify-between items-center">
+                    <div class="text-sm text-gray-500">显示 <span id="shown-count">0</span> 条，共 <span id="total-count">0</span> 条</div>
+                    <div class="flex space-x-2">
+                        <button id="prev-page" class="px-3 py-1 border border-gray-300 rounded-md text-sm bg-white hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed">上一页</button>
+                        <button id="next-page" class="px-3 py-1 border border-gray-300 rounded-md text-sm bg-white hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed">下一页</button>
                     </div>
                 </div>
             </div>
         </section>
     </main>
 
-    <footer class="bg-dark text-white mt-12">
-        <div class="container mx-auto px-4 py-8">
+    <footer class="bg-dark text-white py-8">
+        <div class="container mx-auto px-4">
             <div class="flex flex-col md:flex-row justify-between items-center">
                 <div class="mb-4 md:mb-0">
-                    <h3 class="text-xl font-bold mb-2">网络可视化项目</h3>
-                    <p class="text-gray-400">使用Gephi和Sigma.js构建的交互式网络图</p>
+                    <h3 class="text-xl font-bold mb-2">B站弹幕分析项目</h3>
+                    <p class="text-gray-400">使用ECharts.js和Tailwind CSS构建的交互式弹幕词云分析工具</p>
                 </div>
                 <div class="flex space-x-4">
                     <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">
@@ -216,198 +248,441 @@
                 </div>
             </div>
             <div class="border-t border-gray-700 mt-6 pt-6 text-center text-gray-400">
-                <p>&copy; 2025 我的网络图项目 | 使用Gephi和Sigma.js构建</p>
+                <p>&copy; 2025 B站弹幕分析 | 数据可视化项目</p>
             </div>
         </div>
     </footer>
 
     <script>
         // 全局变量
-        let sigmaInstance;
-        let currentGraph = null;
+        let wordcloudChart;
+        let frequencyChart;
+        let sentimentChart;
+        let allDanmuData = [];
+        let currentPage = 1;
+        const itemsPerPage = 10;
+        let filteredDanmu = [];
         
-        // 检查Sigma.js是否已加载
-        function checkSigmaLoaded() {
-            return typeof Sigma !== 'undefined';
+        // 页面加载完成后初始化
+        document.addEventListener('DOMContentLoaded', function() {
+            // 初始化控制面板事件
+            initControls();
+            
+            // 初始化图表
+            initCharts();
+            
+            // 加载数据
+            loadData();
+        });
+        
+        // 初始化控制面板
+        function initControls() {
+            // 词云形状选择
+            document.getElementById('shape-select').addEventListener('change', updateWordcloud);
+            
+            // 词云数量控制
+            const wordCountSlider = document.getElementById('word-count');
+            wordCountSlider.addEventListener('input', function() {
+                document.getElementById('count-value').textContent = this.value;
+                updateWordcloud();
+            });
+            
+            // 最小字体控制
+            const minSizeSlider = document.getElementById('min-size');
+            minSizeSlider.addEventListener('input', function() {
+                document.getElementById('min-size-value').textContent = this.value;
+                updateWordcloud();
+            });
+            
+            // 最大字体控制
+            const maxSizeSlider = document.getElementById('max-size');
+            maxSizeSlider.addEventListener('input', function() {
+                document.getElementById('max-size-value').textContent = this.value;
+                updateWordcloud();
+            });
+            
+            // 刷新按钮
+            document.getElementById('refresh-btn').addEventListener('click', function() {
+                loadData(true);
+            });
+            
+            // 保存图片按钮
+            document.getElementById('save-png').addEventListener('click', function() {
+                if (wordcloudChart) {
+                    const link = document.createElement('a');
+                    link.download = '弹幕词云图.png';
+                    link.href = wordcloudChart.getDataURL({type: 'png'});
+                    link.click();
+                }
+            });
+            
+            document.getElementById('save-svg').addEventListener('click', function() {
+                if (wordcloudChart) {
+                    const link = document.createElement('a');
+                    link.download = '弹幕词云图.svg';
+                    link.href = wordcloudChart.getDataURL({type: 'svg'});
+                    link.click();
+                }
+            });
+            
+            // 弹幕搜索
+            document.getElementById('search-danmu').addEventListener('input', filterDanmu);
+            
+            // 情感过滤
+            document.getElementById('filter-sentiment').addEventListener('change', filterDanmu);
+            
+            // 分页控制
+            document.getElementById('prev-page').addEventListener('click', function() {
+                if (currentPage > 1) {
+                    currentPage--;
+                    renderDanmuTable();
+                }
+            });
+            
+            document.getElementById('next-page').addEventListener('click', function() {
+                if (currentPage < getTotalPages()) {
+                    currentPage++;
+                    renderDanmuTable();
+                }
+            });
         }
         
-        // 等待Sigma.js加载完成
-        function waitForSigma(callback) {
-            if (checkSigmaLoaded()) {
-                callback();
-            } else {
-                setTimeout(() => waitForSigma(callback), 100);
-            }
+        // 初始化图表
+        function initCharts() {
+            // 初始化词云容器
+            const wordcloudContainer = document.getElementById('wordcloud-container');
+            wordcloudChart = echarts.init(wordcloudContainer);
+            
+            // 初始化词频统计图表
+            const frequencyCtx = document.getElementById('frequency-chart').getContext('2d');
+            frequencyChart = new Chart(frequencyCtx, {
+                type: 'bar',
+                data: {
+                    labels: [],
+                    datasets: [{
+                        label: '出现次数',
+                        data: [],
+                        backgroundColor: 'rgba(59, 130, 246, 0.7)',
+                        borderColor: 'rgba(59, 130, 246, 1)',
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    },
+                    plugins: {
+                        legend: {
+                            display: false
+                        }
+                    }
+                }
+            });
+            
+            // 初始化情感分析图表
+            const sentimentCtx = document.getElementById('sentiment-chart').getContext('2d');
+            sentimentChart = new Chart(sentimentCtx, {
+                type: 'doughnut',
+                data: {
+                    labels: ['积极', '中性', '消极'],
+                    datasets: [{
+                        data: [0, 0, 0],
+                        backgroundColor: [
+                            'rgba(16, 185, 129, 0.7)',
+                            'rgba(156, 163, 175, 0.7)',
+                            'rgba(239, 68, 68, 0.7)'
+                        ],
+                        borderColor: [
+                            'rgba(16, 185, 129, 1)',
+                            'rgba(156, 163, 175, 1)',
+                            'rgba(239, 68, 68, 1)'
+                        ],
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            position: 'bottom'
+                        }
+                    }
+                }
+            });
         }
         
-        // 显示加载指示器
+        // 加载数据
+        function loadData(forceRefresh = false) {
+            showLoading();
+            
+            // 从GitHub加载JSON数据
+            // 注意：需要替换为你的实际GitHub数据URL
+            const dataUrl = 'https://raw.githubusercontent.com/yanziiyingfei/dankuma/main/network_data.json';
+            document.getElementById('data-url').textContent = dataUrl;
+            
+            fetch(dataUrl)
+               .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`HTTP错误，状态码: ${response.status}`);
+                    }
+                    return response.json();
+                })
+               .then(data => {
+                    // 处理数据并更新图表
+                    processData(data);
+                    updateWordcloud();
+                    updateFrequencyChart();
+                    updateSentimentChart();
+                    renderDanmuTable();
+                    
+                    hideLoading();
+                })
+               .catch(error => {
+                    console.error('加载数据失败:', error);
+                    hideLoading();
+                    alert(`加载数据失败: ${error.message}\n请确保GitHub仓库路径正确且文件存在。`);
+                });
+        }
+        
+        // 处理数据
+        function processData(data) {
+            // 假设数据格式为 { nodes: [...], edges: [...] }
+            // 提取节点中的弹幕文本并统计词频
+            const textNodes = data.nodes.filter(node => node.label);
+            const words = [];
+            
+            // 提取所有文本并分词
+            textNodes.forEach(node => {
+                if (node.label) {
+                    // 简单分词（实际应用中可使用更复杂的分词算法）
+                    const segList = node.label.split(/[\s,，.。!！?？、]+/);
+                    segList.forEach(word => {
+                        if (word.trim()) {
+                            words.push({
+                                name: word,
+                                value: node.size || 1,
+                                // 为词云添加颜色变化
+                                textStyle: {
+                                    color: getRandomColor()
+                                }
+                            });
+                        }
+                    });
+                }
+            });
+            
+            // 保存处理后的词云数据
+            window.wordcloudData = words;
+            
+            // 处理原始弹幕数据（假设每条边代表一条弹幕）
+            allDanmuData = data.edges.map(edge => {
+                return {
+                    content: edge.label || `${edge.source}→${edge.target}`,
+                    // 模拟情感分析结果（实际应用中应从数据中获取或使用情感分析库）
+                    sentiment: getRandomSentiment(),
+                    count: edge.size || 1
+                };
+            });
+            
+            filteredDanmu = [...allDanmuData];
+        }
+        
+        // 更新词云图
+        function updateWordcloud() {
+            if (!window.wordcloudData) return;
+            
+            const shape = document.getElementById('shape-select').value;
+            const wordCount = parseInt(document.getElementById('word-count').value);
+            const minSize = parseInt(document.getElementById('min-size').value);
+            const maxSize = parseInt(document.getElementById('max-size').value);
+            
+            // 按值排序并截取前N个词
+            const sortedData = [...window.wordcloudData].sort((a, b) => b.value - a.value).slice(0, wordCount);
+            
+            const option = {
+                tooltip: {
+                    show: true
+                },
+                series: [{
+                    type: 'wordCloud',
+                    shape: shape,
+                    sizeRange: [minSize, maxSize],
+                    rotationRange: [-90, 90],
+                    rotationStep: 45,
+                    gridSize: 8,
+                    textStyle: {
+                        normal: {
+                            fontFamily: 'SimHei, Microsoft YaHei, sans-serif',
+                            fontWeight: 'normal'
+                        },
+                        emphasis: {
+                            shadowBlur: 10,
+                            shadowColor: '#333'
+                        }
+                    },
+                    data: sortedData
+                }]
+            };
+            
+            wordcloudChart.setOption(option);
+        }
+        
+        // 更新词频统计图表
+        function updateFrequencyChart() {
+            if (!window.wordcloudData) return;
+            
+            // 取前10个高频词
+            const topWords = [...window.wordcloudData].sort((a, b) => b.value - a.value).slice(0, 10);
+            
+            const labels = topWords.map(word => word.name);
+            const values = topWords.map(word => word.value);
+            
+            frequencyChart.data.labels = labels;
+            frequencyChart.data.datasets[0].data = values;
+            frequencyChart.update();
+        }
+        
+        // 更新情感分析图表
+        function updateSentimentChart() {
+            if (!allDanmuData || allDanmuData.length === 0) return;
+            
+            // 计算情感分布
+            const positiveCount = allDanmuData.filter(d => d.sentiment === 'positive').length;
+            const neutralCount = allDanmuData.filter(d => d.sentiment === 'neutral').length;
+            const negativeCount = allDanmuData.filter(d => d.sentiment === 'negative').length;
+            
+            const total = allDanmuData.length;
+            
+            sentimentChart.data.datasets[0].data = [
+                (positiveCount / total) * 100,
+                (neutralCount / total) * 100,
+                (negativeCount / total) * 100
+            ];
+            sentimentChart.update();
+        }
+        
+        // 渲染弹幕表格
+        function renderDanmuTable() {
+            const tableBody = document.getElementById('danmu-table-body');
+            tableBody.innerHTML = '';
+            
+            const totalPages = getTotalPages();
+            
+            // 更新分页按钮状态
+            document.getElementById('prev-page').disabled = currentPage === 1;
+            document.getElementById('next-page').disabled = currentPage === totalPages;
+            
+            // 计算当前页的弹幕数据
+            const startIndex = (currentPage - 1) * itemsPerPage;
+            const endIndex = Math.min(startIndex + itemsPerPage, filteredDanmu.length);
+            const pageData = filteredDanmu.slice(startIndex, endIndex);
+            
+            // 更新计数显示
+            document.getElementById('shown-count').textContent = pageData.length;
+            document.getElementById('total-count').textContent = filteredDanmu.length;
+            
+            // 添加弹幕行
+            pageData.forEach(danmu => {
+                const row = document.createElement('tr');
+                
+                // 弹幕内容单元格
+                const contentCell = document.createElement('td');
+                contentCell.className = 'px-6 py-4 whitespace-nowrap text-sm text-gray-900';
+                contentCell.textContent = danmu.content;
+                
+                // 情感倾向单元格
+                const sentimentCell = document.createElement('td');
+                sentimentCell.className = 'px-6 py-4 whitespace-nowrap text-sm';
+                
+                let sentimentClass = '';
+                let sentimentText = '';
+                
+                switch (danmu.sentiment) {
+                    case 'positive':
+                        sentimentClass = 'text-green-600 bg-green-50';
+                        sentimentText = '积极';
+                        break;
+                    case 'neutral':
+                        sentimentClass = 'text-gray-600 bg-gray-50';
+                        sentimentText = '中性';
+                        break;
+                    case 'negative':
+                        sentimentClass = 'text-red-600 bg-red-50';
+                        sentimentText = '消极';
+                        break;
+                }
+                
+                sentimentCell.innerHTML = `<span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full ${sentimentClass}">${sentimentText}</span>`;
+                
+                // 出现次数单元格
+                const countCell = document.createElement('td');
+                countCell.className = 'px-6 py-4 whitespace-nowrap text-sm text-gray-900';
+                countCell.textContent = danmu.count;
+                
+                // 添加单元格到行
+                row.appendChild(contentCell);
+                row.appendChild(sentimentCell);
+                row.appendChild(countCell);
+                
+                // 添加行到表格
+                tableBody.appendChild(row);
+            });
+        }
+        
+        // 过滤弹幕
+        function filterDanmu() {
+            const searchTerm = document.getElementById('search-danmu').value.toLowerCase();
+            const sentimentFilter = document.getElementById('filter-sentiment').value;
+            
+            filteredDanmu = allDanmuData.filter(danmu => {
+                const matchesSearch = danmu.content.toLowerCase().includes(searchTerm);
+                const matchesSentiment = sentimentFilter === 'all' || danmu.sentiment === sentimentFilter;
+                
+                return matchesSearch && matchesSentiment;
+            });
+            
+            // 重置到第一页
+            currentPage = 1;
+            
+            // 重新渲染表格
+            renderDanmuTable();
+        }
+        
+        // 获取总页数
+        function getTotalPages() {
+            return Math.ceil(filteredDanmu.length / itemsPerPage);
+        }
+        
+        // 显示加载状态
         function showLoading() {
             document.getElementById('loading-indicator').classList.remove('hidden');
         }
         
-        // 隐藏加载指示器
+        // 隐藏加载状态
         function hideLoading() {
             document.getElementById('loading-indicator').classList.add('hidden');
         }
         
-        // 文件上传处理
-        document.getElementById('file-upload').addEventListener('change', function(e) {
-            const file = e.target.files[0];
-            if (!file) return;
-            
-            showLoading();
-            
-            const reader = new FileReader();
-            reader.onload = function(event) {
-                try {
-                    const data = JSON.parse(event.target.result);
-                    
-                    // 确保Sigma.js已加载
-                    waitForSigma(() => {
-                        loadGraph(data);
-                        hideLoading();
-                    });
-                } catch (error) {
-                    hideLoading();
-                    alert('解析JSON文件时出错: ' + error.message);
-                }
-            };
-            reader.onerror = function() {
-                hideLoading();
-                alert('读取文件时出错');
-            };
-            reader.readAsText(file);
-        });
+        // 获取随机颜色
+        function getRandomColor() {
+            const colors = [
+                '#3B82F6', '#10B981', '#8B5CF6', '#EC4899', '#F59E0B', 
+                '#14B8A6', '#6366F1', '#F43F5E', '#0EA5E9', '#84CC16'
+            ];
+            return colors[Math.floor(Math.random() * colors.length)];
+        }
         
-        // 加载并显示图
-        function loadGraph(graphData) {
-            if (!checkSigmaLoaded()) {
-                alert('Sigma.js库未正确加载，请刷新页面重试');
-                return;
-            }
-            
-            currentGraph = graphData;
-            
-            // 清空现有图
-            const container = document.getElementById('sigma-container');
-            while (container.firstChild) {
-                container.removeChild(container.firstChild);
-            }
-            
-            // 创建新的Sigma实例
-            try {
-                sigmaInstance = new Sigma({
-                    graph: graphData,
-                    container: container,
-                    settings: {
-                        defaultNodeColor: '#3B82F6',
-                        defaultEdgeColor: '#999',
-                        edgeColor: 'default',
-                        enableEdgeHovering: true,
-                        edgeHoverColor: 'edge',
-                        defaultEdgeHoverColor: '#FF4136',
-                        edgeHoverSizeRatio: 1,
-                        edgeHoverExtremities: true,
-                        defaultLabelSize: 12,
-                        labelThreshold: 8,
-                        zoomingRatio: 1.1,
-                        minNodeSize: 1,
-                        maxNodeSize: 10,
-                        minEdgeSize: 0.5,
-                        maxEdgeSize: 2,
-                        sideMargin: 0.1
-                    }
-                });
-            } catch (error) {
-                hideLoading();
-                alert('初始化图形时出错: ' + error.message);
-                return;
-            }
-            
-            // 更新统计信息
-            document.getElementById('node-count').textContent = graphData.nodes.length;
-            document.getElementById('edge-count').textContent = graphData.edges.length;
-            document.getElementById('avg-degree').textContent = 
-                (graphData.edges.length * 2 / graphData.nodes.length).toFixed(1);
-            
-            // 节点悬停提示
-            const tooltip = document.getElementById('tooltip');
-            
-            sigmaInstance.graph.nodes().forEach(function(node) {
-                node.originalColor = node.color;
-            });
-            
-            sigmaInstance.graph.edges().forEach(function(edge) {
-                edge.originalColor = edge.color;
-            });
-            
-            // 节点悬停事件
-            sigmaInstance.bind('overNode', function(e) {
-                const node = e.data.node;
-                tooltip.style.display = 'block';
-                tooltip.style.left = (e.data.renderedPosition.x + 10) + 'px';
-                tooltip.style.top = (e.data.renderedPosition.y + 10) + 'px';
-                
-                // 构建提示内容
-                let tooltipContent = `<div class="font-bold mb-1">${node.label || node.id}</div>`;
-                
-                // 添加节点属性
-                for (const [key, value] of Object.entries(node)) {
-                    if (key !== 'id' && key !== 'label' && key !== 'x' && key !== 'y' && key !== 'size' && key !== 'color' && key !== 'originalColor') {
-                        tooltipContent += `<div>${key}: ${value}</div>`;
-                    }
-                }
-                
-                tooltip.innerHTML = tooltipContent;
-                
-                // 高亮节点
-                node.color = '#FF4136';
-                sigmaInstance.refresh();
-            });
-            
-            sigmaInstance.bind('outNode', function() {
-                tooltip.style.display = 'none';
-                
-                // 恢复节点颜色
-                sigmaInstance.graph.nodes().forEach(function(node) {
-                    node.color = node.originalColor;
-                });
-                sigmaInstance.refresh();
-            });
-            
-            // 节点大小控制
-            document.getElementById('node-size').addEventListener('input', function() {
-                const size = parseFloat(this.value);
-                sigmaInstance.graph.nodes().forEach(function(node) {
-                    node.size = size;
-                });
-                sigmaInstance.refresh();
-            });
-            
-            // 边透明度控制
-            document.getElementById('edge-opacity').addEventListener('input', function() {
-                const opacity = parseFloat(this.value);
-                sigmaInstance.graph.edges().forEach(function(edge) {
-                    edge.color = `rgba(153, 153, 153, ${opacity})`;
-                });
-                sigmaInstance.refresh();
-            });
-            
-            // 重置视图
-            document.getElementById('reset-view').addEventListener('click', function() {
-                sigmaInstance.refresh();
-                sigmaInstance.startForceAtlas2();
-                setTimeout(() => {
-                    sigmaInstance.stopForceAtlas2();
-                }, 2000);
-            });
-            
-            // 启动力导向布局
-            sigmaInstance.startForceAtlas2();
-            setTimeout(() => {
-                sigmaInstance.stopForceAtlas2();
-                hideLoading();
-            }, 2000);
+        // 获取随机情感（实际应用中应从数据中获取或使用情感分析库）
+        function getRandomSentiment() {
+            const rand = Math.random();
+            if (rand < 0.2) return 'negative';
+            if (rand < 0.8) return 'neutral';
+            return 'positive';
         }
     </script>
 </body>
