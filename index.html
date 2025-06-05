@@ -100,6 +100,12 @@
                         <div class="bg-gray-50 rounded-lg shadow-inner p-2 relative overflow-hidden" id="graph-container">
                             <div id="sigma-container" class="w-full h-full"></div>
                             <div id="tooltip" class="absolute bg-dark/80 text-white p-2 rounded-md text-sm hidden z-10"></div>
+                            <div id="loading-indicator" class="absolute inset-0 flex items-center justify-center bg-white/80 hidden">
+                                <div class="flex flex-col items-center">
+                                    <div class="w-16 h-16 border-4 border-primary border-t-transparent rounded-full animate-spin"></div>
+                                    <p class="mt-4 text-primary font-medium">加载中...</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -181,25 +187,66 @@
         let sigmaInstance;
         let currentGraph = null;
         
+        // 检查Sigma.js是否已加载
+        function checkSigmaLoaded() {
+            return typeof Sigma !== 'undefined';
+        }
+        
+        // 等待Sigma.js加载完成
+        function waitForSigma(callback) {
+            if (checkSigmaLoaded()) {
+                callback();
+            } else {
+                setTimeout(() => waitForSigma(callback), 100);
+            }
+        }
+        
+        // 显示加载指示器
+        function showLoading() {
+            document.getElementById('loading-indicator').classList.remove('hidden');
+        }
+        
+        // 隐藏加载指示器
+        function hideLoading() {
+            document.getElementById('loading-indicator').classList.add('hidden');
+        }
+        
         // 文件上传处理
         document.getElementById('file-upload').addEventListener('change', function(e) {
             const file = e.target.files[0];
             if (!file) return;
             
+            showLoading();
+            
             const reader = new FileReader();
             reader.onload = function(event) {
                 try {
                     const data = JSON.parse(event.target.result);
-                    loadGraph(data);
+                    
+                    // 确保Sigma.js已加载
+                    waitForSigma(() => {
+                        loadGraph(data);
+                        hideLoading();
+                    });
                 } catch (error) {
+                    hideLoading();
                     alert('解析JSON文件时出错: ' + error.message);
                 }
+            };
+            reader.onerror = function() {
+                hideLoading();
+                alert('读取文件时出错');
             };
             reader.readAsText(file);
         });
         
         // 加载并显示图
         function loadGraph(graphData) {
+            if (!checkSigmaLoaded()) {
+                alert('Sigma.js库未正确加载，请刷新页面重试');
+                return;
+            }
+            
             currentGraph = graphData;
             
             // 清空现有图
@@ -209,28 +256,34 @@
             }
             
             // 创建新的Sigma实例
-            sigmaInstance = new sigma({
-                graph: graphData,
-                container: container,
-                settings: {
-                    defaultNodeColor: '#3B82F6',
-                    defaultEdgeColor: '#999',
-                    edgeColor: 'default',
-                    enableEdgeHovering: true,
-                    edgeHoverColor: 'edge',
-                    defaultEdgeHoverColor: '#FF4136',
-                    edgeHoverSizeRatio: 1,
-                    edgeHoverExtremities: true,
-                    defaultLabelSize: 12,
-                    labelThreshold: 8,
-                    zoomingRatio: 1.1,
-                    minNodeSize: 1,
-                    maxNodeSize: 10,
-                    minEdgeSize: 0.5,
-                    maxEdgeSize: 2,
-                    sideMargin: 0.1
-                }
-            });
+            try {
+                sigmaInstance = new Sigma({
+                    graph: graphData,
+                    container: container,
+                    settings: {
+                        defaultNodeColor: '#3B82F6',
+                        defaultEdgeColor: '#999',
+                        edgeColor: 'default',
+                        enableEdgeHovering: true,
+                        edgeHoverColor: 'edge',
+                        defaultEdgeHoverColor: '#FF4136',
+                        edgeHoverSizeRatio: 1,
+                        edgeHoverExtremities: true,
+                        defaultLabelSize: 12,
+                        labelThreshold: 8,
+                        zoomingRatio: 1.1,
+                        minNodeSize: 1,
+                        maxNodeSize: 10,
+                        minEdgeSize: 0.5,
+                        maxEdgeSize: 2,
+                        sideMargin: 0.1
+                    }
+                });
+            } catch (error) {
+                hideLoading();
+                alert('初始化图形时出错: ' + error.message);
+                return;
+            }
             
             // 更新统计信息
             document.getElementById('node-count').textContent = graphData.nodes.length;
@@ -314,22 +367,9 @@
             sigmaInstance.startForceAtlas2();
             setTimeout(() => {
                 sigmaInstance.stopForceAtlas2();
+                hideLoading();
             }, 2000);
         }
-        
-        // 默认加载示例数据（如果你有示例数据的话）
-        // 如果没有，可以注释掉下面的代码，让用户先上传数据
-        /*
-        fetch('https://raw.githubusercontent.com/jacomyal/sigma.js/master/examples/data/arctic.json')
-           .then(response => response.json())
-           .then(data => {
-                loadGraph(data);
-            })
-           .catch(error => {
-                console.error('加载示例数据失败:', error);
-                alert('请上传你的Gephi JSON数据文件');
-            });
-        */
     </script>
 </body>
 </html>
